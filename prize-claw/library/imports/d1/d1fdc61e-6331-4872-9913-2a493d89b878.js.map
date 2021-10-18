@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "phone",
+    "balance",
+    "avatar",
+    "nickname",
+    "starsNum",
+    "update",
+    "window",
+    "_main",
+    "api",
+    "getUserInfo",
+    "then",
+    "res",
+    "data",
+    "ok",
+    "r",
+    "profileImg",
+    "game",
+    "updateStars",
+    "score",
+    "getComponent",
+    "cc",
+    "Label",
+    "string"
+  ],
+  "mappings": ";;;;;kBAAe;AACXA,WAAO,IADI;AAEXC,aAAS,CAFE;AAGXC,YAAQ,IAHG;AAIXC,cAAU,IAJC;AAKXC,cAAU,CALC;;AAOXC,UAPW,oBAOF;AAAA;;AAELC,eAAOC,KAAP,CAAaC,GAAb,CAAiBC,WAAjB,GACCC,IADD,CACM,eAAO;AACT,gBAAIC,IAAIC,IAAJ,CAASC,EAAb,EAAiB;AACb,sBAAKV,QAAL,GAAgBQ,IAAIC,IAAJ,CAASE,CAAT,CAAWX,QAA3B;AACA,sBAAKF,OAAL,GAAeU,IAAIC,IAAJ,CAASE,CAAT,CAAWb,OAA1B;AACA,sBAAKD,KAAL,GAAaW,IAAIC,IAAJ,CAASE,CAAT,CAAWd,KAAxB;AACA,sBAAKE,MAAL,GAAcS,IAAIC,IAAJ,CAASE,CAAT,CAAWC,UAAzB;AACA,sBAAKX,QAAL,GAAgBO,IAAIC,IAAJ,CAASE,CAAT,CAAWV,QAA3B;;AAEAE,uBAAOC,KAAP,CAAaS,IAAb,CAAkBC,WAAlB;;AAEAX,uBAAOC,KAAP,CAAaS,IAAb,CAAkBE,KAAlB,CAAwBC,YAAxB,CAAqCC,GAAGC,KAAxC,EACKC,MADL,GACc,MAAKrB,OADnB;AAEH;AACJ,SAdD;AAgBH;AAzBU,C",
+  "file": "unknown",
+  "sourcesContent": [
+    "export default {\r\n    phone: null,\r\n    balance: 0,\r\n    avatar: null,\r\n    nickname: null,\r\n    starsNum: 0,\r\n\r\n    update() {\r\n\r\n        window._main.api.getUserInfo()\r\n        .then(res => {\r\n            if (res.data.ok) {\r\n                this.nickname = res.data.r.nickname\r\n                this.balance = res.data.r.balance\r\n                this.phone = res.data.r.phone\r\n                this.avatar = res.data.r.profileImg\r\n                this.starsNum = res.data.r.starsNum\r\n\r\n                window._main.game.updateStars()\r\n\r\n                window._main.game.score.getComponent(cc.Label)\r\n                    .string = this.balance\r\n            }\r\n        })\r\n\r\n    }\r\n}\r\n"
+  ]
+}

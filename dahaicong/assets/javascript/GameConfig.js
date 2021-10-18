@@ -1,0 +1,31 @@
+var GameConfig={
+    IS_DAOJU:true,//是否为道具
+    BOX_RECT:null,//道具的包围盒
+    IS_TOUCH:false,//是否拿到道具点击
+    KILL_NUMBER:0,//击杀虫子数
+    TARGET_NUMBER:20,//目标害虫数
+    IS_OVER:false,//游戏是否结束
+    LEVEL_NUMBER:1,//关卡数
+    KILLWARM:false,//杀虫剂蓄力
+    isclickkill:false,//是否点击击杀
+    INSECTICIDE:false,//喷杀虫剂
+    COLLECTENERGY_NUMBER:50,//聚集能量杀虫剂数
+    SCENCE_UNLOCK:true,//每个场景只解锁一次
+    Game_NUMBER:0,//关卡解锁数
+    //还原
+    resore:function(){
+        this.IS_DAOJU=true;
+        this.BOX_RECT=null;
+        this. IS_TOUCH=false;//是否拿到道具点击
+        this.KILL_NUMBER=0;//击杀虫子数
+        this.TARGET_NUMBER=20;//目标害虫数
+        this.IS_OVER=false;//游戏是否结束
+        this.LEVEL_NUMBER=1;//关卡数
+        this.KILLWARM=false;//杀虫剂蓄力
+        this.isclickkill=false;//是否点击击杀
+        this.INSECTICIDE=false;//喷杀虫剂
+        this.SCENCE_UNLOCK=true;//每个场景只解锁一次
+        this.COLLECTENERGY_NUMBER=50;//聚集能量杀虫剂数
+    },
+}
+module.exports=GameConfig;

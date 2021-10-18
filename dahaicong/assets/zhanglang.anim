@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "zhanglang",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.36666666666666664,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "fcf5d070-c6cf-446e-b14a-dc999ef6c9b9"
+            }
+          },
+          {
+            "frame": 0.11666666666666667,
+            "value": {
+              "__uuid__": "f8cfffc1-e386-4c10-82db-3d0930aeed0b"
+            }
+          },
+          {
+            "frame": 0.23333333333333334,
+            "value": {
+              "__uuid__": "b7d818b3-4962-4961-b4f5-cd7e647e255d"
+            }
+          },
+          {
+            "frame": 0.35,
+            "value": {
+              "__uuid__": "0e49c4ad-edd5-4a10-ab81-02f8bacd5b54"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
