@@ -1,0 +1,86 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 1,
+      "y": 24,
+      "width": 1679,
+      "height": 973,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 445,
+                "type": "panel",
+                "width": 260
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 444,
+                "type": "panel",
+                "width": 260
+              }
+            ],
+            "height": 891,
+            "type": "dock-v",
+            "width": 260
+          },
+          {
+            "active": 1,
+            "children": [
+              "console",
+              "scene"
+            ],
+            "height": 891,
+            "type": "panel",
+            "width": 688
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector",
+              "cocos-services"
+            ],
+            "height": 891,
+            "type": "panel",
+            "width": 727
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "console",
+        "inspector",
+        "cocos-services",
+        "scene"
+      ]
+    }
+  },
+  "panels": {
+    "project-settings": {
+      "x": 560,
+      "y": 226,
+      "width": 584,
+      "height": 548
+    },
+    "builder": {
+      "x": 590,
+      "y": 126,
+      "width": 654,
+      "height": 722
+    }
+  }
+}

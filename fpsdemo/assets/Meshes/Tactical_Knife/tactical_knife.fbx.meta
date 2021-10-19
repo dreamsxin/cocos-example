@@ -1,0 +1,76 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "82ae01db-3ad2-4d0e-b621-7cccc32d666f",
+  "files": [],
+  "subMetas": {
+    "95669": {
+      "importer": "gltf-mesh",
+      "uuid": "82ae01db-3ad2-4d0e-b621-7cccc32d666f@95669",
+      "displayName": "",
+      "id": "95669",
+      "name": "tactical_knife.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "59a6d": {
+      "importer": "gltf-material",
+      "uuid": "82ae01db-3ad2-4d0e-b621-7cccc32d666f@59a6d",
+      "displayName": "",
+      "id": "59a6d",
+      "name": "Guns Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d0a35": {
+      "importer": "gltf-scene",
+      "uuid": "82ae01db-3ad2-4d0e-b621-7cccc32d666f@d0a35",
+      "displayName": "",
+      "id": "d0a35",
+      "name": "tactical_knife.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "82ae01db-3ad2-4d0e-b621-7cccc32d666f@d0a35",
+    "assetFinder": {
+      "meshes": [
+        "82ae01db-3ad2-4d0e-b621-7cccc32d666f@95669"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "82ae01db-3ad2-4d0e-b621-7cccc32d666f@59a6d"
+      ],
+      "scenes": [
+        "82ae01db-3ad2-4d0e-b621-7cccc32d666f@d0a35"
+      ]
+    }
+  }
+}

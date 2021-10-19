@@ -1,0 +1,58 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7ac25b1d-aadf-4f22-8376-7925b648b63e",
+  "files": [],
+  "subMetas": {
+    "53155": {
+      "importer": "gltf-scene",
+      "uuid": "7ac25b1d-aadf-4f22-8376-7925b648b63e@53155",
+      "displayName": "",
+      "id": "53155",
+      "name": "ico_mesh.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "41ac8": {
+      "importer": "gltf-mesh",
+      "uuid": "7ac25b1d-aadf-4f22-8376-7925b648b63e@41ac8",
+      "displayName": "",
+      "id": "41ac8",
+      "name": "Cube.001.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "7ac25b1d-aadf-4f22-8376-7925b648b63e@53155",
+    "assetFinder": {
+      "meshes": [
+        "7ac25b1d-aadf-4f22-8376-7925b648b63e@41ac8"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "7ac25b1d-aadf-4f22-8376-7925b648b63e@53155"
+      ]
+    }
+  }
+}

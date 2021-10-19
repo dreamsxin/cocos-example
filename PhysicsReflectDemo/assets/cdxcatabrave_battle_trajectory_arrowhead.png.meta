@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "8ee6274f-faba-45ab-b9c9-24fdff934bb8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 42,
+  "height": 52,
+  "platformSettings": {},
+  "subMetas": {
+    "cdxcatabrave_battle_trajectory_arrowhead": {
+      "ver": "1.0.4",
+      "uuid": "636a1b14-d1b9-4844-897a-2ceb485ff3d6",
+      "rawTextureUuid": "8ee6274f-faba-45ab-b9c9-24fdff934bb8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 37,
+      "height": 48,
+      "rawWidth": 42,
+      "rawHeight": 52,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

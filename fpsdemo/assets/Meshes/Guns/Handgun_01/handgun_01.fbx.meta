@@ -1,0 +1,130 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a25527bd-65ee-4133-a244-5efede55831d",
+  "files": [],
+  "subMetas": {
+    "4d4a2": {
+      "importer": "gltf-mesh",
+      "uuid": "a25527bd-65ee-4133-a244-5efede55831d@4d4a2",
+      "displayName": "",
+      "id": "4d4a2",
+      "name": "handgun_01.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ad8f5": {
+      "importer": "gltf-mesh",
+      "uuid": "a25527bd-65ee-4133-a244-5efede55831d@ad8f5",
+      "displayName": "",
+      "id": "ad8f5",
+      "name": "handgun_01.004.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "287eb": {
+      "importer": "gltf-mesh",
+      "uuid": "a25527bd-65ee-4133-a244-5efede55831d@287eb",
+      "displayName": "",
+      "id": "287eb",
+      "name": "handgun_01.002.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f904a": {
+      "importer": "gltf-mesh",
+      "uuid": "a25527bd-65ee-4133-a244-5efede55831d@f904a",
+      "displayName": "",
+      "id": "f904a",
+      "name": "handgun_01.003.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "59a6d": {
+      "importer": "gltf-material",
+      "uuid": "a25527bd-65ee-4133-a244-5efede55831d@59a6d",
+      "displayName": "",
+      "id": "59a6d",
+      "name": "Guns Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "00d43": {
+      "importer": "gltf-scene",
+      "uuid": "a25527bd-65ee-4133-a244-5efede55831d@00d43",
+      "displayName": "",
+      "id": "00d43",
+      "name": "handgun_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "a25527bd-65ee-4133-a244-5efede55831d@00d43",
+    "assetFinder": {
+      "meshes": [
+        "a25527bd-65ee-4133-a244-5efede55831d@4d4a2",
+        "a25527bd-65ee-4133-a244-5efede55831d@ad8f5",
+        "a25527bd-65ee-4133-a244-5efede55831d@287eb",
+        "a25527bd-65ee-4133-a244-5efede55831d@f904a"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "a25527bd-65ee-4133-a244-5efede55831d@59a6d"
+      ],
+      "scenes": [
+        "a25527bd-65ee-4133-a244-5efede55831d@00d43"
+      ]
+    }
+  }
+}

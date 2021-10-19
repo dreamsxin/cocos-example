@@ -1,0 +1,35 @@
+{
+  "__version__": "1.0.1",
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Platform"
+      },
+      {
+        "index": 2,
+        "name": "Actor"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 4,
+      "2": 2
+    }
+  },
+  "general": {
+    "designResolution": {
+      "fitHeight": true
+    }
+  },
+  "layer": [
+    {
+      "name": "canvas_18",
+      "value": 262144
+    },
+    {
+      "name": "canvas_19",
+      "value": 524288
+    }
+  ]
+}

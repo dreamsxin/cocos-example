@@ -1,0 +1,850 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f",
+  "files": [],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 33
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "79421": {
+      "importer": "gltf-mesh",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@79421",
+      "displayName": "",
+      "id": "79421",
+      "name": "assault_rifle_1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "83222": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@83222",
+      "displayName": "",
+      "id": "83222",
+      "name": "take_out_weapon.animation",
+      "userData": {
+        "gltfIndex": 14,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.375
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8d95": {
+      "importer": "gltf-mesh",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@c8d95",
+      "displayName": "",
+      "id": "c8d95",
+      "name": "arms.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c708b": {
+      "importer": "gltf-mesh",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@c708b",
+      "displayName": "",
+      "id": "c708b",
+      "name": "big_bullet.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "53f03": {
+      "importer": "gltf-mesh",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@53f03",
+      "displayName": "",
+      "id": "53f03",
+      "name": "Cube.000.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f4268": {
+      "importer": "gltf-mesh",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@f4268",
+      "displayName": "",
+      "id": "f4268",
+      "name": "knife.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1f586": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@1f586",
+      "displayName": "",
+      "id": "1f586",
+      "name": "idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.9583333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5274f": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@5274f",
+      "displayName": "",
+      "id": "5274f",
+      "name": "aim_fire.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.25
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "095ac": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@095ac",
+      "displayName": "",
+      "id": "095ac",
+      "name": "aim_fire_pose.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7e34c": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@7e34c",
+      "displayName": "",
+      "id": "7e34c",
+      "name": "aim_in.animation",
+      "userData": {
+        "gltfIndex": 3,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.2916666567325592
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eb209": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@eb209",
+      "displayName": "",
+      "id": "eb209",
+      "name": "aim_out.animation",
+      "userData": {
+        "gltfIndex": 4,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.375
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "aa33e": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@aa33e",
+      "displayName": "",
+      "id": "aa33e",
+      "name": "fire.animation",
+      "userData": {
+        "gltfIndex": 5,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8333333134651184
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ff35": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@6ff35",
+      "displayName": "",
+      "id": "6ff35",
+      "name": "grenade_throw.animation",
+      "userData": {
+        "gltfIndex": 6,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.125
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6a173": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@6a173",
+      "displayName": "",
+      "id": "6a173",
+      "name": "holster_weapon.animation",
+      "userData": {
+        "gltfIndex": 7,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.4166666567325592
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "720ce": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@720ce",
+      "displayName": "",
+      "id": "720ce",
+      "name": "inspect_weapon.animation",
+      "userData": {
+        "gltfIndex": 8,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4.291666507720947
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "989ec": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@989ec",
+      "displayName": "",
+      "id": "989ec",
+      "name": "knife_attack_1.animation",
+      "userData": {
+        "gltfIndex": 9,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.4583332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5bb48": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@5bb48",
+      "displayName": "",
+      "id": "5bb48",
+      "name": "knife_attack_2.animation",
+      "userData": {
+        "gltfIndex": 10,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9583333134651184
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e18af": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@e18af",
+      "displayName": "",
+      "id": "e18af",
+      "name": "reload_ammo_left.animation",
+      "userData": {
+        "gltfIndex": 11,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.125
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8b56b": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@8b56b",
+      "displayName": "",
+      "id": "8b56b",
+      "name": "reload_out_of_ammo.animation",
+      "userData": {
+        "gltfIndex": 12,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf5ee": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@cf5ee",
+      "displayName": "",
+      "id": "cf5ee",
+      "name": "run.animation",
+      "userData": {
+        "gltfIndex": 13,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7916666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7f3dc": {
+      "importer": "gltf-animation",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@7f3dc",
+      "displayName": "",
+      "id": "7f3dc",
+      "name": "walk.animation",
+      "userData": {
+        "gltfIndex": 15,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7916666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 33
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "75ee4": {
+      "importer": "gltf-skeleton",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@75ee4",
+      "displayName": "",
+      "id": "75ee4",
+      "name": "UnnamedSkeleton-2.skeleton",
+      "userData": {
+        "gltfIndex": 2,
+        "jointsLength": 33
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a72ab": {
+      "importer": "gltf-skeleton",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@a72ab",
+      "displayName": "",
+      "id": "a72ab",
+      "name": "UnnamedSkeleton-3.skeleton",
+      "userData": {
+        "gltfIndex": 3,
+        "jointsLength": 33
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2224c": {
+      "importer": "gltf-skeleton",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@2224c",
+      "displayName": "",
+      "id": "2224c",
+      "name": "UnnamedSkeleton-4.skeleton",
+      "userData": {
+        "gltfIndex": 4,
+        "jointsLength": 33
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d7d7": {
+      "importer": "gltf-material",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@7d7d7",
+      "displayName": "",
+      "id": "7d7d7",
+      "name": "Arms Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "59a6d": {
+      "importer": "gltf-material",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@59a6d",
+      "displayName": "",
+      "id": "59a6d",
+      "name": "Guns Material.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "51feb": {
+      "importer": "gltf-scene",
+      "uuid": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@51feb",
+      "displayName": "",
+      "id": "51feb",
+      "name": "arms_assault_rifle_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Armature|_idle@assault_rifle_01",
+        "duration": 1.9583333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle",
+            "from": 0,
+            "to": 1.9583333730697632,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|aim_fire@assault_rifle_01",
+        "duration": 0.25,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "aim_fire",
+            "from": 0,
+            "to": 0.25,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|aim_fire_pose@assault_rifle_01",
+        "duration": 0,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "aim_fire_pose",
+            "from": 0,
+            "to": 0,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|aim_in@assault_rifle_01",
+        "duration": 0.2916666567325592,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "aim_in",
+            "from": 0,
+            "to": 0.2916666567325592,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|aim_out@assault_rifle_01",
+        "duration": 0.375,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "aim_out",
+            "from": 0,
+            "to": 0.375,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|fire@assault_rifle_01",
+        "duration": 0.8333333134651184,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "fire",
+            "from": 0,
+            "to": 0.8333333134651184,
+            "wrapMode": 1
+          }
+        ]
+      },
+      {
+        "name": "Armature|grenade_throw@assault_rifle_01",
+        "duration": 1.125,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "grenade_throw",
+            "from": 0,
+            "to": 1.125,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|holster_weapon@assault_rifle_01",
+        "duration": 0.4166666567325592,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "holster_weapon",
+            "from": 0,
+            "to": 0.4166666567325592,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|inspect_weapon@assault_rifle_01",
+        "duration": 4.291666507720947,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "inspect_weapon",
+            "from": 0,
+            "to": 4.291666507720947,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|knife_attack_1@assault_rifle_01",
+        "duration": 2.4583332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "knife_attack_1",
+            "from": 0,
+            "to": 2.4583332538604736,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|knife_attack_2@assault_rifle_01",
+        "duration": 0.9583333134651184,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "knife_attack_2",
+            "from": 0,
+            "to": 0.9583333134651184,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|reload_ammo_left@assault_rifle_01",
+        "duration": 2.125,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "reload_ammo_left",
+            "from": 0,
+            "to": 2.125,
+            "wrapMode": 0
+          }
+        ]
+      },
+      {
+        "name": "Armature|reload_out_of_ammo@assault_rifle_01",
+        "duration": 3,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "reload_out_of_ammo",
+            "from": 0,
+            "to": 3,
+            "wrapMode": 0
+          }
+        ]
+      },
+      {
+        "name": "Armature|run@assault_rifle_01",
+        "duration": 0.7916666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "run",
+            "from": 0,
+            "to": 0.7916666865348816,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Armature|take_out_weapon@assault_rifle_01",
+        "duration": 1.375,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "take_out_weapon",
+            "from": 0,
+            "to": 1.375,
+            "wrapMode": 1
+          }
+        ]
+      },
+      {
+        "name": "Armature|walk@assault_rifle_01",
+        "duration": 0.7916666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk",
+            "from": 0,
+            "to": 0.7916666865348816,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "100f6579-e66c-4d31-b9d1-0fbbc111a63f@51feb",
+    "assetFinder": {
+      "meshes": [
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@c8d95",
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@79421",
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@c708b",
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@53f03",
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@f4268"
+      ],
+      "skeletons": [
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@30732",
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@f1394",
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@75ee4",
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@a72ab",
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@2224c"
+      ],
+      "textures": [],
+      "materials": [
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@7d7d7",
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@59a6d"
+      ],
+      "scenes": [
+        "100f6579-e66c-4d31-b9d1-0fbbc111a63f@51feb"
+      ]
+    }
+  }
+}
