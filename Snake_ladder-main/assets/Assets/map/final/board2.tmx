@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="480" tileheight="480" infinite="0" nextlayerid="4" nextobjectid="29">
+ <tileset firstgid="1" source="dice.tsx"/>
+ <tileset firstgid="7" source="bg1.tsx"/>
+ <tileset firstgid="23" source="bg2.tsx"/>
+ <tileset firstgid="24" source="bg4.tsx"/>
+ <layer id="1" name="MAIN" width="12" height="12" locked="1">
+  <data encoding="csv">
+6,24,24,24,24,24,24,24,24,24,24,6,
+24,7,23,7,23,7,23,7,23,7,23,24,
+24,23,7,23,7,23,7,23,7,23,7,24,
+24,7,23,7,23,7,23,7,23,7,23,24,
+24,23,7,23,7,23,7,23,7,23,7,24,
+24,7,23,7,23,7,23,7,23,7,23,24,
+24,23,7,23,7,23,7,23,7,23,7,24,
+24,7,23,7,23,7,23,7,23,7,23,24,
+24,23,7,23,7,23,7,23,7,23,7,24,
+24,7,23,7,23,7,23,7,23,7,23,24,
+24,23,7,23,7,23,7,23,7,23,7,24,
+6,24,24,24,24,24,24,24,24,24,24,6
+</data>
+ </layer>
+</map>

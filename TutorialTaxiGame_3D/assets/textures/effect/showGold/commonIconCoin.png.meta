@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "45be0367-e3d0-4068-8c74-e1fc78fc639b",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "45be0367-e3d0-4068-8c74-e1fc78fc639b@6c48a",
+      "displayName": "commonIconCoin",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "45be0367-e3d0-4068-8c74-e1fc78fc639b"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "45be0367-e3d0-4068-8c74-e1fc78fc639b@6c48a"
+  }
+}

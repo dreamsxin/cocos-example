@@ -1,0 +1,124 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "26ba8db0-c9a5-4395-b91d-a11a5807cd42",
+  "files": [],
+  "subMetas": {
+    "87c0b": {
+      "importer": "gltf-mesh",
+      "uuid": "26ba8db0-c9a5-4395-b91d-a11a5807cd42@87c0b",
+      "displayName": "",
+      "id": "87c0b",
+      "name": "Crate-04_case.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7b9d9": {
+      "importer": "gltf-mesh",
+      "uuid": "26ba8db0-c9a5-4395-b91d-a11a5807cd42@7b9d9",
+      "displayName": "",
+      "id": "7b9d9",
+      "name": "Crate-04_cover.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6e70c": {
+      "importer": "texture",
+      "uuid": "26ba8db0-c9a5-4395-b91d-a11a5807cd42@6e70c",
+      "displayName": "",
+      "id": "6e70c",
+      "name": "Map #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Free Wooden Crates/diffuse.tga"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d90a4": {
+      "importer": "gltf-material",
+      "uuid": "26ba8db0-c9a5-4395-b91d-a11a5807cd42@d90a4",
+      "displayName": "",
+      "id": "d90a4",
+      "name": "01 - Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6b305": {
+      "importer": "gltf-scene",
+      "uuid": "26ba8db0-c9a5-4395-b91d-a11a5807cd42@6b305",
+      "displayName": "",
+      "id": "6b305",
+      "name": "Crate-04.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #1",
+        "uri": "db://assets/Free Wooden Crates/diffuse.tga"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "26ba8db0-c9a5-4395-b91d-a11a5807cd42@6b305",
+    "assetFinder": {
+      "meshes": [
+        "26ba8db0-c9a5-4395-b91d-a11a5807cd42@87c0b",
+        "26ba8db0-c9a5-4395-b91d-a11a5807cd42@7b9d9"
+      ],
+      "skeletons": [],
+      "textures": [
+        "26ba8db0-c9a5-4395-b91d-a11a5807cd42@6e70c"
+      ],
+      "materials": [
+        "26ba8db0-c9a5-4395-b91d-a11a5807cd42@d90a4"
+      ],
+      "scenes": [
+        "26ba8db0-c9a5-4395-b91d-a11a5807cd42@6b305"
+      ]
+    }
+  }
+}

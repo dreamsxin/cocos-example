@@ -1,0 +1,53 @@
+{
+"skeleton": { "hash": "U+wVKxlXnKsjq6g+L7IuYsqfk5o", "spine": "3.6.53", "width": 170, "height": 135 },
+"bones": [
+	{ "name": "Layer12", "x": -25, "y": 27.5, "transform": "noScale" }
+],
+"slots": [
+	{ "name": "Layer12", "bone": "Layer12", "attachment": "yaobaiqi0001" }
+],
+"skins": {
+	"default": {
+		"Layer12": {
+			"yaobaiqi0001": { "width": 170, "height": 135 },
+			"yaobaiqi0002": { "width": 170, "height": 135 },
+			"yaobaiqi0003": { "width": 170, "height": 135 },
+			"yaobaiqi0004": { "width": 170, "height": 135 }
+		}
+	}
+},
+"animations": {
+	"Animation1": {
+		"slots": {
+			"Layer12": {
+				"attachment": [
+					{ "time": 0, "name": "yaobaiqi0001" },
+					{ "time": 0.0833, "name": "yaobaiqi0002" },
+					{ "time": 0.1667, "name": "yaobaiqi0003" },
+					{ "time": 0.25, "name": "yaobaiqi0004" },
+					{ "time": 0.3333, "name": "yaobaiqi0001" },
+					{ "time": 0.4167, "name": "yaobaiqi0002" },
+					{ "time": 0.5, "name": "yaobaiqi0003" },
+					{ "time": 0.5833, "name": "yaobaiqi0004" },
+					{ "time": 0.6667, "name": "yaobaiqi0001" },
+					{ "time": 0.75, "name": "yaobaiqi0002" },
+					{ "time": 0.8333, "name": "yaobaiqi0003" },
+					{ "time": 0.9167, "name": "yaobaiqi0004" },
+					{ "time": 1, "name": "yaobaiqi0001" },
+					{ "time": 1.0833, "name": "yaobaiqi0002" },
+					{ "time": 1.1667, "name": "yaobaiqi0003" },
+					{ "time": 1.25, "name": "yaobaiqi0004" },
+					{ "time": 1.3333, "name": "yaobaiqi0001" },
+					{ "time": 1.4167, "name": "yaobaiqi0002" },
+					{ "time": 1.5, "name": "yaobaiqi0003" },
+					{ "time": 1.5833, "name": "yaobaiqi0004" },
+					{ "time": 1.6667, "name": "yaobaiqi0001" },
+					{ "time": 1.75, "name": "yaobaiqi0002" },
+					{ "time": 1.8333, "name": "yaobaiqi0003" },
+					{ "time": 1.9167, "name": "yaobaiqi0004" }
+				]
+			}
+		}
+	}
+}
+}

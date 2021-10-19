@@ -1,0 +1,80 @@
+{
+"skeleton": { "hash": "jKfkwXVsDEeBuHXAkV70ZIuVsWY", "spine": "3.6.53", "width": 190, "height": 143 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Layer10", "parent": "root", "x": 1.35, "y": -0.33, "transform": "noScale" },
+	{ "name": "Layer11", "parent": "root", "x": 1.35, "y": 1.67, "transform": "noScale" },
+	{ "name": "Layer12", "parent": "root", "x": 4.88, "y": -5.94, "transform": "noScale" }
+],
+"slots": [
+	{ "name": "Layer10", "bone": "Layer10", "attachment": "yanwujiong/jiong" },
+	{ "name": "Layer11", "bone": "Layer11", "attachment": "yanwujiong/zhengchang" },
+	{ "name": "Layer12", "bone": "Layer12", "attachment": "yanwujiong/yanwu0001" }
+],
+"skins": {
+	"default": {
+		"Layer10": {
+			"yanwujiong/jiong": { "width": 86, "height": 86 }
+		},
+		"Layer11": {
+			"yanwujiong/zhengchang": { "width": 86, "height": 91 }
+		},
+		"Layer12": {
+			"yanwujiong/yanwu0001": { "width": 190, "height": 143 },
+			"yanwujiong/yanwu0002": { "width": 190, "height": 143 },
+			"yanwujiong/yanwu0003": { "width": 190, "height": 143 },
+			"yanwujiong/yanwu0004": { "width": 190, "height": 143 },
+			"yanwujiong/yanwu0005": { "width": 190, "height": 143 },
+			"yanwujiong/yanwu0006": { "width": 190, "height": 143 },
+			"yanwujiong/yanwu0007": { "width": 190, "height": 143 },
+			"yanwujiong/yanwu0008": { "width": 190, "height": 143 }
+		}
+	}
+},
+"animations": {
+	"Animation1": {
+		"slots": {
+			"Layer10": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2, "name": "yanwujiong/jiong" },
+					{ "time": 0.8667, "name": null },
+					{ "time": 1.0667, "name": "yanwujiong/jiong" }
+				]
+			},
+			"Layer11": {
+				"attachment": [
+					{ "time": 0, "name": "yanwujiong/zhengchang" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.8667, "name": "yanwujiong/zhengchang" },
+					{ "time": 1.0667, "name": null }
+				]
+			},
+			"Layer12": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1167, "name": "yanwujiong/yanwu0001" },
+					{ "time": 0.2, "name": "yanwujiong/yanwu0002" },
+					{ "time": 0.2833, "name": "yanwujiong/yanwu0003" },
+					{ "time": 0.3667, "name": "yanwujiong/yanwu0004" },
+					{ "time": 0.45, "name": "yanwujiong/yanwu0005" },
+					{ "time": 0.5333, "name": "yanwujiong/yanwu0006" },
+					{ "time": 0.6167, "name": "yanwujiong/yanwu0007" },
+					{ "time": 0.6998, "name": "yanwujiong/yanwu0008" },
+					{ "time": 0.7831, "name": null },
+					{ "time": 0.8667, "name": null },
+					{ "time": 0.9833, "name": "yanwujiong/yanwu0001" },
+					{ "time": 1.0667, "name": "yanwujiong/yanwu0002" },
+					{ "time": 1.15, "name": "yanwujiong/yanwu0003" },
+					{ "time": 1.2333, "name": "yanwujiong/yanwu0004" },
+					{ "time": 1.3167, "name": "yanwujiong/yanwu0005" },
+					{ "time": 1.4, "name": "yanwujiong/yanwu0006" },
+					{ "time": 1.4833, "name": "yanwujiong/yanwu0007" },
+					{ "time": 1.5665, "name": "yanwujiong/yanwu0008" },
+					{ "time": 1.6498, "name": null }
+				]
+			}
+		}
+	}
+}
+}

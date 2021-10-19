@@ -1,0 +1,34 @@
+{
+  "__type__": "cc.TiledMapAsset",
+  "_name": "board",
+  "_objFlags": 0,
+  "_native": "",
+  "tmxXmlStr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<map version=\"1.5\" tiledversion=\"1.7.2\" orientation=\"orthogonal\" renderorder=\"right-down\" width=\"12\" height=\"12\" tilewidth=\"32\" tileheight=\"32\" infinite=\"0\" nextlayerid=\"2\" nextobjectid=\"1\">\n <tileset firstgid=\"1\" source=\"dice.tsx\"/>\n <layer id=\"1\" name=\"Tile Layer 1\" width=\"12\" height=\"12\">\n  <data encoding=\"csv\">\n6,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0,\n0,0,0,0,0,0,0,0,0,0,0,0\n</data>\n </layer>\n</map>\n",
+  "tsxFiles": [
+    {
+      "__uuid__": "b0ad511d-4130-4c42-99c0-c89abcf1c605",
+      "__expectedType__": "cc.TextAsset"
+    }
+  ],
+  "tsxFileNames": [
+    "dice.tsx"
+  ],
+  "spriteFrames": [
+    {
+      "__uuid__": "59d3aeb5-8b44-4ff8-8a59-c7149aea6aeb@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    }
+  ],
+  "imageLayerSpriteFrame": [],
+  "imageLayerSpriteFrameNames": [],
+  "spriteFrameNames": [
+    "pngwing.com (3).png"
+  ],
+  "spriteFrameSizes": [
+    {
+      "__type__": "cc.Size",
+      "width": 1441,
+      "height": 1031
+    }
+  ]
+}

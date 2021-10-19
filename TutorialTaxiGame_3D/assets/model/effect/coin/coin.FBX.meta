@@ -1,0 +1,123 @@
+{
+  "ver": "1.3.21",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "42714a91-3d66-491e-8500-d797afd15ef0",
+  "files": [],
+  "subMetas": {
+    "46193": {
+      "importer": "gltf-embeded-image",
+      "uuid": "42714a91-3d66-491e-8500-d797afd15ef0@46193",
+      "displayName": "",
+      "id": "46193",
+      "name": "coin.jpg.image",
+      "ver": "1.0.2",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "c6160": {
+      "importer": "gltf-mesh",
+      "uuid": "42714a91-3d66-491e-8500-d797afd15ef0@c6160",
+      "displayName": "",
+      "id": "c6160",
+      "name": "Cylinder001.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "a96a6": {
+      "importer": "texture",
+      "uuid": "42714a91-3d66-491e-8500-d797afd15ef0@a96a6",
+      "displayName": "",
+      "id": "a96a6",
+      "name": "贴图 #1.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "42714a91-3d66-491e-8500-d797afd15ef0@46193"
+      }
+    },
+    "9d093": {
+      "importer": "gltf-material",
+      "uuid": "42714a91-3d66-491e-8500-d797afd15ef0@9d093",
+      "displayName": "",
+      "id": "9d093",
+      "name": "Material #25.material",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "8038b": {
+      "importer": "gltf-scene",
+      "uuid": "42714a91-3d66-491e-8500-d797afd15ef0@8038b",
+      "displayName": "",
+      "id": "8038b",
+      "name": "coin.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "coin.jpg",
+        "uri": "42714a91-3d66-491e-8500-d797afd15ef0@46193"
+      }
+    ],
+    "redirect": "42714a91-3d66-491e-8500-d797afd15ef0@8038b",
+    "assetFinder": {
+      "meshes": [
+        "42714a91-3d66-491e-8500-d797afd15ef0@c6160"
+      ],
+      "skeletons": [],
+      "textures": [
+        "42714a91-3d66-491e-8500-d797afd15ef0@a96a6"
+      ],
+      "materials": [
+        "42714a91-3d66-491e-8500-d797afd15ef0@9d093"
+      ],
+      "scenes": [
+        "42714a91-3d66-491e-8500-d797afd15ef0@8038b"
+      ]
+    }
+  }
+}

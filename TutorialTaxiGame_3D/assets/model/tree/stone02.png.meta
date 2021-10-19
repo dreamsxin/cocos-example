@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "5dcb53f0-f76e-419a-9218-0a51a3f251a1",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "5dcb53f0-f76e-419a-9218-0a51a3f251a1@6c48a",
+      "displayName": "stone02",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5dcb53f0-f76e-419a-9218-0a51a3f251a1"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "5dcb53f0-f76e-419a-9218-0a51a3f251a1@6c48a"
+  }
+}

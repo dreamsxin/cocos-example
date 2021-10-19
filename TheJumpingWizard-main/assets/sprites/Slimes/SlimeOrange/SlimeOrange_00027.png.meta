@@ -1,0 +1,74 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "ad9fd90a-cc80-4b22-bf3b-d2f5e49c7805",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "ad9fd90a-cc80-4b22-bf3b-d2f5e49c7805@6c48a",
+      "displayName": "SlimeOrange_00027",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "ad9fd90a-cc80-4b22-bf3b-d2f5e49c7805",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "ad9fd90a-cc80-4b22-bf3b-d2f5e49c7805@f9941",
+      "displayName": "SlimeOrange_00027",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 9,
+        "offsetY": 16.5,
+        "trimX": 36,
+        "trimY": 46,
+        "width": 456,
+        "height": 285,
+        "rawWidth": 510,
+        "rawHeight": 410,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ad9fd90a-cc80-4b22-bf3b-d2f5e49c7805@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "redirect": "ad9fd90a-cc80-4b22-bf3b-d2f5e49c7805@f9941"
+  }
+}

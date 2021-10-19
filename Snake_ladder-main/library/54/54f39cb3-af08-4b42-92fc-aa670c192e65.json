@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.TiledMapAsset",
+  "_name": "board2",
+  "_objFlags": 0,
+  "_native": "",
+  "tmxXmlStr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<map version=\"1.5\" tiledversion=\"1.7.2\" orientation=\"orthogonal\" renderorder=\"right-down\" width=\"12\" height=\"12\" tilewidth=\"480\" tileheight=\"480\" infinite=\"0\" nextlayerid=\"4\" nextobjectid=\"29\">\n <tileset firstgid=\"1\" source=\"dice.tsx\"/>\n <tileset firstgid=\"7\" source=\"bg1.tsx\"/>\n <tileset firstgid=\"23\" source=\"bg2.tsx\"/>\n <tileset firstgid=\"24\" source=\"bg4.tsx\"/>\n <layer id=\"1\" name=\"MAIN\" width=\"12\" height=\"12\" locked=\"1\">\n  <data encoding=\"csv\">\n6,24,24,24,24,24,24,24,24,24,24,6,\n24,7,23,7,23,7,23,7,23,7,23,24,\n24,23,7,23,7,23,7,23,7,23,7,24,\n24,7,23,7,23,7,23,7,23,7,23,24,\n24,23,7,23,7,23,7,23,7,23,7,24,\n24,7,23,7,23,7,23,7,23,7,23,24,\n24,23,7,23,7,23,7,23,7,23,7,24,\n24,7,23,7,23,7,23,7,23,7,23,24,\n24,23,7,23,7,23,7,23,7,23,7,24,\n24,7,23,7,23,7,23,7,23,7,23,24,\n24,23,7,23,7,23,7,23,7,23,7,24,\n6,24,24,24,24,24,24,24,24,24,24,6\n</data>\n </layer>\n</map>\n",
+  "tsxFiles": [
+    {
+      "__uuid__": "b0ad511d-4130-4c42-99c0-c89abcf1c605",
+      "__expectedType__": "cc.TextAsset"
+    },
+    {
+      "__uuid__": "cee9baaf-62bd-4d36-b608-c28a16648058",
+      "__expectedType__": "cc.TextAsset"
+    },
+    {
+      "__uuid__": "e6662217-5fab-4790-98dc-7b9c8c3a9b97",
+      "__expectedType__": "cc.TextAsset"
+    },
+    {
+      "__uuid__": "7f28f111-1bde-4bab-8303-5f1c7781b936",
+      "__expectedType__": "cc.TextAsset"
+    }
+  ],
+  "tsxFileNames": [
+    "dice.tsx",
+    "bg1.tsx",
+    "bg2.tsx",
+    "bg4.tsx"
+  ],
+  "spriteFrames": [
+    {
+      "__uuid__": "59d3aeb5-8b44-4ff8-8a59-c7149aea6aeb@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    {
+      "__uuid__": "8a225315-d5f7-48ea-b0da-93b5cb2f661a@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    {
+      "__uuid__": "1ffd0c90-575d-4568-b22e-deea288a735e@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    {
+      "__uuid__": "c205c1b8-250b-4aab-8088-0aaff6038fbd@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    }
+  ],
+  "imageLayerSpriteFrame": [],
+  "imageLayerSpriteFrameNames": [],
+  "spriteFrameNames": [
+    "pngwing.com (3).png",
+    "pngwing.com (5).png",
+    "pngwing.com (6).png",
+    "pngwing.com (8).png"
+  ],
+  "spriteFrameSizes": [
+    {
+      "__type__": "cc.Size",
+      "width": 1441,
+      "height": 1031
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "__type__": "cc.Size",
+      "width": 894,
+      "height": 894
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "020a04d9-0fcb-40be-af37-c6cb9795eba9",
+  "files": [
+    ".jpg",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "020a04d9-0fcb-40be-af37-c6cb9795eba9@6c48a",
+      "displayName": "coin",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "020a04d9-0fcb-40be-af37-c6cb9795eba9"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "020a04d9-0fcb-40be-af37-c6cb9795eba9@6c48a"
+  }
+}

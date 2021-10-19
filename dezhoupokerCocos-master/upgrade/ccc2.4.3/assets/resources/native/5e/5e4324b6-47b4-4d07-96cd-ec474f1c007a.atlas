@@ -1,0 +1,62 @@
+
+caipiao.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball_purple
+  rotate: false
+  xy: 899, 173
+  size: 83, 83
+  orig: 85, 85
+  offset: 1, 1
+  index: -1
+ball_yellow
+  rotate: false
+  xy: 546, 120
+  size: 136, 136
+  orig: 138, 138
+  offset: 1, 1
+  index: -1
+bg
+  rotate: false
+  xy: 0, 36
+  size: 286, 220
+  orig: 288, 222
+  offset: 1, 1
+  index: -1
+bg2
+  rotate: false
+  xy: 288, 95
+  size: 256, 161
+  orig: 288, 222
+  offset: 12, 29
+  index: -1
+gold
+  rotate: false
+  xy: 789, 177
+  size: 108, 79
+  orig: 110, 81
+  offset: 1, 1
+  index: -1
+guang1
+  rotate: false
+  xy: 288, 39
+  size: 53, 54
+  orig: 57, 58
+  offset: 2, 2
+  index: -1
+p1
+  rotate: false
+  xy: 684, 135
+  size: 103, 121
+  orig: 105, 123
+  offset: 1, 1
+  index: -1
+p2
+  rotate: true
+  xy: 546, 0
+  size: 118, 112
+  orig: 120, 114
+  offset: 1, 1
+  index: -1

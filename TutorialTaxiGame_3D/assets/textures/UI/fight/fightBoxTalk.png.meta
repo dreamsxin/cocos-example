@@ -1,0 +1,73 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "15a0b2ff-011f-4aca-b0f4-ee711c98c653",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "15a0b2ff-011f-4aca-b0f4-ee711c98c653@6c48a",
+      "displayName": "fightBoxTalk",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "15a0b2ff-011f-4aca-b0f4-ee711c98c653"
+      }
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "15a0b2ff-011f-4aca-b0f4-ee711c98c653@f9941",
+      "displayName": "fightBoxTalk",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "ver": "1.0.8",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0.5,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 110,
+        "height": 109,
+        "rawWidth": 110,
+        "rawHeight": 110,
+        "borderTop": 25,
+        "borderBottom": 25,
+        "borderLeft": 25,
+        "borderRight": 25,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "15a0b2ff-011f-4aca-b0f4-ee711c98c653@6c48a",
+        "atlasUuid": ""
+      }
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "redirect": "15a0b2ff-011f-4aca-b0f4-ee711c98c653@f9941"
+  }
+}

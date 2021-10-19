@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "f6171a8f-42af-4f4d-a7ba-3b3b03bacd7e",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "f6171a8f-42af-4f4d-a7ba-3b3b03bacd7e@6c48a",
+      "displayName": "shopPoint02",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f6171a8f-42af-4f4d-a7ba-3b3b03bacd7e"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "f6171a8f-42af-4f4d-a7ba-3b3b03bacd7e@6c48a"
+  }
+}

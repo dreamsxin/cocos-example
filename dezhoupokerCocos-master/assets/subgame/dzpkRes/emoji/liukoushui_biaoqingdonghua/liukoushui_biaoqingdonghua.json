@@ -1,0 +1,45 @@
+{
+"skeleton": { "hash": "V7/INQ39WlyMEvFz0cFLhZHTILI", "spine": "3.6.53", "width": 92, "height": 160 },
+"bones": [
+	{ "name": "Layer21", "x": 1.33, "y": -25.33, "transform": "noScale" }
+],
+"slots": [
+	{ "name": "Layer21", "bone": "Layer21", "attachment": "liukoushui0001" }
+],
+"skins": {
+	"default": {
+		"Layer21": {
+			"liukoushui0001": { "width": 92, "height": 160 },
+			"liukoushui0002": { "width": 92, "height": 160 },
+			"liukoushui0003": { "width": 92, "height": 160 },
+			"liukoushui0004": { "width": 92, "height": 160 }
+		}
+	}
+},
+"animations": {
+	"Animation1": {
+		"slots": {
+			"Layer21": {
+				"attachment": [
+					{ "time": 0, "name": "liukoushui0001" },
+					{ "time": 0.1167, "name": "liukoushui0002" },
+					{ "time": 0.2333, "name": "liukoushui0003" },
+					{ "time": 0.35, "name": "liukoushui0004" },
+					{ "time": 0.4667, "name": "liukoushui0001" },
+					{ "time": 0.5833, "name": "liukoushui0002" },
+					{ "time": 0.7, "name": "liukoushui0003" },
+					{ "time": 0.8167, "name": "liukoushui0004" },
+					{ "time": 0.9333, "name": "liukoushui0001" },
+					{ "time": 1.05, "name": "liukoushui0002" },
+					{ "time": 1.1667, "name": "liukoushui0003" },
+					{ "time": 1.2833, "name": "liukoushui0004" },
+					{ "time": 1.4, "name": "liukoushui0001" },
+					{ "time": 1.5167, "name": "liukoushui0002" },
+					{ "time": 1.6333, "name": "liukoushui0003" },
+					{ "time": 1.75, "name": "liukoushui0004" }
+				]
+			}
+		}
+	}
+}
+}

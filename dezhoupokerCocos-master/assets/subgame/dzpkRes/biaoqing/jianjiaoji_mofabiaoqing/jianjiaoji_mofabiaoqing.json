@@ -1,0 +1,131 @@
+{
+"skeleton": { "hash": "/QgJXNdgNA/QKOVXv8CdbrxpZuQ", "spine": "3.6.53", "width": 209, "height": 229 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Layer25", "parent": "root", "length": 146, "rotation": 90, "x": -0.42, "y": -52.33, "transform": "noScale" },
+	{ "name": "Layer27", "parent": "root", "length": 166, "rotation": 88.28, "x": -4.75, "y": -56.66, "transform": "noScale" },
+	{ "name": "Layer29", "parent": "root", "x": 6.25, "y": 17.34, "transform": "noScale" }
+],
+"slots": [
+	{ "name": "Layer25", "bone": "Layer25", "attachment": "jianjiaojiputongzhuangtia" },
+	{ "name": "Layer27", "bone": "Layer27", "attachment": "beizhuazhuzhuantai/jianjiaoji20001" },
+	{ "name": "Layer29", "bone": "Layer29", "attachment": "bianhuayanwu/bianhuayanwu0001" }
+],
+"skins": {
+	"default": {
+		"Layer25": {
+			"jianjiaojiputongzhuangtia": { "x": 65, "y": -1.67, "rotation": -90, "width": 59, "height": 170 }
+		},
+		"Layer27": {
+			"beizhuazhuzhuantai/jianjiaoji20001": { "x": 75.37, "y": -11.08, "rotation": -88.28, "width": 123, "height": 210 },
+			"beizhuazhuzhuantai/jianjiaoji20002": { "x": 75.37, "y": -11.08, "rotation": -88.28, "width": 123, "height": 210 },
+			"beizhuazhuzhuantai/jianjiaoji20003": { "x": 75.37, "y": -11.08, "rotation": -88.28, "width": 123, "height": 210 },
+			"beizhuazhuzhuantai/jianjiaoji20004": { "x": 75.37, "y": -11.08, "rotation": -88.28, "width": 123, "height": 210 },
+			"beizhuazhuzhuantai/jianjiaoji20005": { "x": 75.37, "y": -11.08, "rotation": -88.28, "width": 123, "height": 210 },
+			"beizhuazhuzhuantai/jianjiaoji20006": { "x": 75.37, "y": -11.08, "rotation": -88.28, "width": 123, "height": 210 }
+		},
+		"Layer29": {
+			"bianhuayanwu/bianhuayanwu0001": { "x": 1.67, "y": 30, "width": 209, "height": 190 },
+			"bianhuayanwu/bianhuayanwu0002": { "x": 1.67, "y": 30, "width": 209, "height": 190 },
+			"bianhuayanwu/bianhuayanwu0003": { "x": 1.67, "y": 30, "width": 209, "height": 190 },
+			"bianhuayanwu/bianhuayanwu0004": { "x": 1.67, "y": 30, "width": 209, "height": 190 },
+			"bianhuayanwu/bianhuayanwu0005": { "x": 1.67, "y": 30, "width": 209, "height": 190 },
+			"bianhuayanwu/bianhuayanwu0006": { "x": 1.67, "y": 30, "width": 209, "height": 190 },
+			"bianhuayanwu/bianhuayanwu0007": { "x": 1.67, "y": 30, "width": 209, "height": 190 },
+			"bianhuayanwu/bianhuayanwu0008": { "x": 1.67, "y": 30, "width": 209, "height": 190 }
+		}
+	}
+},
+"animations": {
+	"Animation1": {
+		"slots": {
+			"Layer27": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Layer29": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Layer25": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3667, "x": 0.98, "y": 1.02 },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Animation2": {
+		"slots": {
+			"Layer25": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"Layer27": {
+				"attachment": [
+					{ "time": 0, "name": "beizhuazhuzhuantai/jianjiaoji20001" },
+					{ "time": 0.0333, "name": "beizhuazhuzhuantai/jianjiaoji20002" },
+					{ "time": 0.0667, "name": "beizhuazhuzhuantai/jianjiaoji20003" },
+					{ "time": 0.1, "name": "beizhuazhuzhuantai/jianjiaoji20004" },
+					{ "time": 0.1333, "name": "beizhuazhuzhuantai/jianjiaoji20005" },
+					{ "time": 0.1665, "name": "beizhuazhuzhuantai/jianjiaoji20006" },
+					{ "time": 0.1998, "name": "beizhuazhuzhuantai/jianjiaoji20005" },
+					{ "time": 0.2331, "name": "beizhuazhuzhuantai/jianjiaoji20004" },
+					{ "time": 0.2664, "name": "beizhuazhuzhuantai/jianjiaoji20003" },
+					{ "time": 0.2997, "name": "beizhuazhuzhuantai/jianjiaoji20002" },
+					{ "time": 0.333, "name": "beizhuazhuzhuantai/jianjiaoji20001" },
+					{ "time": 0.3663, "name": "beizhuazhuzhuantai/jianjiaoji20002" },
+					{ "time": 0.3997, "name": "beizhuazhuzhuantai/jianjiaoji20003" },
+					{ "time": 0.433, "name": "beizhuazhuzhuantai/jianjiaoji20004" },
+					{ "time": 0.4663, "name": "beizhuazhuzhuantai/jianjiaoji20005" },
+					{ "time": 0.4995, "name": "beizhuazhuzhuantai/jianjiaoji20006" },
+					{ "time": 0.5328, "name": "beizhuazhuzhuantai/jianjiaoji20005" },
+					{ "time": 0.5661, "name": "beizhuazhuzhuantai/jianjiaoji20004" },
+					{ "time": 0.5994, "name": "beizhuazhuzhuantai/jianjiaoji20003" },
+					{ "time": 0.6327, "name": "beizhuazhuzhuantai/jianjiaoji20002" },
+					{ "time": 0.666, "name": "beizhuazhuzhuantai/jianjiaoji20001" },
+					{ "time": 0.6993, "name": "beizhuazhuzhuantai/jianjiaoji20002" },
+					{ "time": 0.7327, "name": "beizhuazhuzhuantai/jianjiaoji20003" },
+					{ "time": 0.766, "name": "beizhuazhuzhuantai/jianjiaoji20004" },
+					{ "time": 0.7993, "name": "beizhuazhuzhuantai/jianjiaoji20005" },
+					{ "time": 0.8325, "name": "beizhuazhuzhuantai/jianjiaoji20006" },
+					{ "time": 0.8658, "name": "beizhuazhuzhuantai/jianjiaoji20005" },
+					{ "time": 0.8991, "name": "beizhuazhuzhuantai/jianjiaoji20004" },
+					{ "time": 0.9324, "name": "beizhuazhuzhuantai/jianjiaoji20003" },
+					{ "time": 0.9657, "name": "beizhuazhuzhuantai/jianjiaoji20002" },
+					{ "time": 0.999, "name": "beizhuazhuzhuantai/jianjiaoji20001" },
+					{ "time": 1.0323, "name": "beizhuazhuzhuantai/jianjiaoji20002" },
+					{ "time": 1.0657, "name": "beizhuazhuzhuantai/jianjiaoji20003" },
+					{ "time": 1.099, "name": "beizhuazhuzhuantai/jianjiaoji20004" },
+					{ "time": 1.1323, "name": "beizhuazhuzhuantai/jianjiaoji20005" },
+					{ "time": 1.1655, "name": "beizhuazhuzhuantai/jianjiaoji20006" },
+					{ "time": 1.1988, "name": "beizhuazhuzhuantai/jianjiaoji20005" },
+					{ "time": 1.2321, "name": "beizhuazhuzhuantai/jianjiaoji20004" },
+					{ "time": 1.2654, "name": "beizhuazhuzhuantai/jianjiaoji20003" },
+					{ "time": 1.2987, "name": "beizhuazhuzhuantai/jianjiaoji20002" },
+					{ "time": 1.332, "name": "beizhuazhuzhuantai/jianjiaoji20001" }
+				]
+			},
+			"Layer29": {
+				"attachment": [
+					{ "time": 0, "name": "bianhuayanwu/bianhuayanwu0001" },
+					{ "time": 0.0333, "name": "bianhuayanwu/bianhuayanwu0002" },
+					{ "time": 0.0667, "name": "bianhuayanwu/bianhuayanwu0003" },
+					{ "time": 0.15, "name": "bianhuayanwu/bianhuayanwu0004" },
+					{ "time": 0.2333, "name": "bianhuayanwu/bianhuayanwu0005" },
+					{ "time": 0.3165, "name": "bianhuayanwu/bianhuayanwu0006" },
+					{ "time": 0.3998, "name": "bianhuayanwu/bianhuayanwu0007" },
+					{ "time": 0.4831, "name": "bianhuayanwu/bianhuayanwu0008" },
+					{ "time": 0.5498, "name": null }
+				]
+			}
+		}
+	}
+}
+}

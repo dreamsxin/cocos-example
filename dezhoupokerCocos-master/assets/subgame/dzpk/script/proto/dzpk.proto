@@ -1,0 +1,350 @@
+syntax = "proto3";
+
+package msg;
+
+// 消息ID
+enum MessageID {
+    MSG_Ping = 0;
+    MSG_Pong = 1;
+    MSG_Error_S2C = 2;
+    MSG_Login_C2S = 3;
+    MSG_Login_S2C = 4;
+    MSG_Logout_C2S = 5;
+    MSG_Logout_S2C = 6;
+    MSG_QuickStart_C2S = 7;
+    MSG_ChangeTable_C2S = 8;
+    MSG_JoinRoom_S2C = 9;
+    MSG_EnterRoom_S2C = 10;
+    MSG_NoticeJoin_S2C = 11;
+    MSG_LeaveRoom_C2S = 12;
+    MSG_LeaveRoom_S2C = 13;
+    MSG_SitDown_C2S = 14;
+    MSG_SitDown_S2C = 15;
+    MSG_StandUp_C2S = 16;
+    MSG_StandUp_S2C = 17;
+    MSG_PlayerAction_C2S = 18;
+    MSG_PlayerAction_S2C = 19;
+    MSG_PlayerActionChange_S2C = 20;
+    MSG_AddChips_C2S = 21;
+    MSG_AddChips_S2C = 22;
+    MSG_GameStepChange_S2C = 23;
+    MSG_ResultGameData_S2C = 24;
+    MSG_ReadyTime_S2C = 25;
+    MSG_SettleTime_S2C = 26;
+    MSG_PushCardTime_S2C = 27;
+    MSG_RoomStatus_C2S = 28;
+    MSG_RoomStatus_S2C = 29;
+    MSG_EmojiChat_C2S = 30;
+    MSG_EmojiChat_S2C = 31;
+    MSG_PiPeiPlayer_S2C = 32;
+    MSG_PiPeiData_S2C = 33;
+    MSG_SendActTimer_S2C = 34;
+    MSG_SendRoomData_S2C = 35;
+    MSG_WaitPlayerList_C2S = 36;
+    MSG_WaitPlayerList_S2C = 37;
+    MSG_ShowRoomInfo_C2S = 38;
+    MSG_ShowRoomInfo_S2C = 39;
+
+}
+
+message Ping {
+}
+
+message Pong {
+    int64 serverTime = 1; // 服务器时间戳
+}
+
+enum ErrorMsg {
+    SUCCESS = 0;
+
+    UserRepeatLogin = 101; // 重复链接登录
+    UserRemoteLogin = 102; // 重复用户登录
+
+    ChipsInsufficient = 103; // 玩家筹码不足
+    ChairAlreadyFull = 104; // 桌子位置已满
+    UserNotChangeTable = 105; // 玩家不能换桌
+    UserTimeOutFoldCard = 106; // 玩家超时弃牌
+    UserStandUpTimeOut = 107; // 玩家站起超时
+    UserInGameNotStandUp = 108; // 玩家正在游戏中,不能站起
+    UserInGameStandUpFold = 109; // 本局游戏正在进行,现在离开将不退还已下注的筹码,是否确定站起？
+}
+
+message Error_S2C {
+    ErrorMsg error = 1; // 错误消息
+    string data = 2; // 消息参数
+}
+
+message Login_C2S {
+    string Id = 1;
+    string PassWord = 2;
+    string Token = 3;
+}
+
+message PlayerInfo {
+    string Id = 1;
+    string nickName = 2;
+    string headImg = 3;
+    double account = 4;
+}
+
+message Login_S2C {
+    PlayerInfo playerInfo = 1;
+    bool backroom = 2;
+}
+
+message Logout_C2S {
+}
+
+message Logout_S2C {
+}
+
+// 牌型
+enum CardSuit {
+    XXX_Card = 0;
+    HighCard = 1; // 高牌
+    OnePair = 2; // 一对
+    TwoPairs = 3; // 两对
+    ThreeKind = 4; // 三条
+    Straight = 5; // 顺子
+    Flush = 6; // 同花
+    FullHouse = 7; // 葫芦
+    FourKind = 8; // 四条
+    StraightFlush = 9; // 同花顺
+    RoyalFlush = 10; // 皇家同花顺
+}
+
+// 游戏阶段
+enum GameStep {
+    Waiting = 0; // 等待牌局开始
+    PreFlop = 1; // 翻牌前，看手牌,下盲注
+    Flop = 2; // 翻牌圈，牌桌上发3张公牌
+    Turn = 3; // 转牌圈，牌桌上发第4张公共牌
+    River = 4; // 河牌圈，牌桌上发第5张公共牌
+    ShowDown = 5; // 摊开底牌，开牌比大小
+}
+
+// 玩家操作状态
+enum ActionStatus {
+    WAITING = 0; // 尚未表态
+    RAISE = 1; // 加注
+    CALL = 2; // 跟牌
+    CHECK = 3; // 让牌
+    FOLD = 4; // 弃牌
+    ALLIN = 5; // 全压
+}
+
+// 盲注类型
+enum BlindType {
+    No_Blind = 0; // 不是盲注
+    Small_Blind = 1; // 小盲注
+    Big_Blind = 2; // 大盲注
+}
+
+// 牌型数据
+message CardSuitData {
+    repeated int32 handCardKeys = 1; // 玩家手牌
+    repeated int32 publicCardKeys = 2; // 组成牌型的公牌
+    CardSuit suitPattern = 3; // 牌型
+}
+
+message PlayerData {
+    PlayerInfo playerInfo = 1;
+    int32 chair = 2; // 玩家座位号 (未入座给-1)
+    int32 standUPNum = 3; // 玩家站起局数
+    double chips = 4; // 玩家筹码
+    double roomChips = 5; // 玩家房间筹码
+    ActionStatus actionStatus = 6; // 玩家行动状态
+    int32 gameStep = 7; // 玩家当前游戏状态, 0 为未游戏状态,1为游戏中
+    double downBets = 8; // 玩家跟牌、加注最终下的的金额
+    double lunDownBets = 9; // 玩家每轮下注金额
+    double totalDownBet = 10; // 玩家下注总金额
+    repeated int32 handCards = 11; // 玩家手牌
+    CardSuitData cardSuitData = 12; // 玩家手牌和公牌能组成的牌型数据
+    double resultMoney = 13; // 本局结束结算的金额
+    BlindType blindType = 14; // 盲注类型
+    bool IsButton = 15; // 是否庄家
+    bool IsAllIn = 16; // 是否AllIn
+    bool IsWinner = 17; // 是否赢家
+    bool IsInGame = 18; // 是否在游戏中
+    bool IsStandUp = 19; // 玩家是否站起
+    bool IsLeaveR = 20; // 客户端是否离开房间
+    double timerCount = 21; // 玩家行动计时
+    double account = 22; // 玩家的总金额(每局更新)
+    double resultGetMoney = 23; // 玩家结算多出的金额
+}
+
+message RoomData {
+    string roomId = 1;
+    string cfgId = 2; // 房间设定
+    GameStep gameStep = 3; // 当前游戏阶段状态
+    double minRaise = 4; // 加注最小值（本轮水位）
+    double preChips = 5; // 房间上个玩家下注金额
+    string activeId = 6; // 当前正在行动的玩家Id
+    int32 banker = 7; // 庄家座位号
+    double bigBlind = 8; // 大盲注金额
+    double potMoney = 9; // 赌注池当前总共有多少钱
+    int32 isShowDown = 10; // 是否摊牌   // 0 摊牌,1 不摊牌
+    bool isHaveAllin = 11; // 是否有玩家ALLIN
+    repeated int32 publicCards = 12; // 桌面公牌
+    repeated PlayerData playerData = 13; // 房间玩家数据
+    repeated PlayerData AllPlayer = 14; // 房间所有玩家数据
+}
+
+message QuickStart_C2S {
+    string cfgId = 1;
+}
+
+message ChangeTable_C2S {
+
+}
+
+message JoinRoom_S2C {
+    RoomData roomData = 1;
+}
+
+message EnterRoom_S2C {
+    RoomData roomData = 1;
+}
+
+message NoticeJoin_S2C {
+    PlayerData playerData = 1;
+}
+
+message LeaveRoom_C2S {
+}
+
+message LeaveRoom_S2C {
+    PlayerData playerData = 1;
+}
+
+message SitDown_C2S {
+
+}
+
+message SitDown_S2C {
+    PlayerData playerData = 1;
+    RoomData roomData = 2;
+}
+
+message StandUp_C2S {
+
+}
+
+message StandUp_S2C {
+    PlayerData playerData = 1;
+}
+
+message PlayerAction_C2S {
+    double betAmount = 1;
+    ActionStatus action = 2;
+}
+
+message PlayerAction_S2C {
+    string Id = 1;
+    int32 chair = 2;
+    double chips = 3;
+    double downBet = 4; // 每轮总下注金额,用于客户端显示筹码底
+    double preChips = 5;
+    double potMoney = 6; // 底池
+    ActionStatus actionType = 7; // 下注状态
+}
+
+// 当前玩家行动变更
+message PlayerActionChange_S2C {
+    RoomData roomData = 1;
+}
+
+// 玩家添加筹码
+message AddChips_C2S {
+    double addChips = 1;
+    int32 sysBuyChips = 2;
+}
+
+message AddChips_S2C {
+    int32 chair = 1;
+    double addChips = 2; // 玩家添加筹码
+    double chips = 3; // 玩家现有筹码
+    double roomChips = 4; // 玩家房间金额
+    int32 sysBuyChips = 5; // 1 不是系统添加,2 金币不足自动添加,3...
+}
+
+// 阶段变更
+message GameStepChange_S2C {
+    RoomData roomData = 1;
+}
+
+// 游戏结算数据
+message ResultGameData_S2C {
+    RoomData roomData = 1;
+}
+
+// 游戏准备时间
+message ReadyTime_S2C {
+    int32 readyTime = 1;
+}
+
+// 游戏结算时间
+message SettleTime_S2C {
+    int32 settleTime = 1;
+}
+
+// 发牌时间
+message PushCardTime_S2C {
+    RoomData roomData = 1;
+}
+
+// 房间状态
+message RoomStatus_C2S {
+    string cfgId = 1;
+}
+
+message RoomStatus_S2C {
+    string cfgId = 1;
+    string RoomIdNow = 2;
+}
+
+// 表情发送
+message EmojiChat_C2S {
+    int32 actNum = 1;
+    int32 goalChair = 2;
+}
+
+// 表情发送
+message EmojiChat_S2C {
+    int32 actNum = 1;
+    int32 actChair = 2;
+    int32 goalChair = 3;
+}
+
+message PiPeiPlayer_S2C {
+
+}
+
+message PiPeiData_S2C {
+    RoomData roomData = 1;
+}
+
+message SendActTimer_S2C {
+    int32 actChair = 1;
+    double timer = 2;
+}
+
+message SendRoomData_S2C {
+    RoomData roomData = 1;
+}
+
+message WaitPlayerList_C2S {
+    int32 WaitStatus = 1;
+    string cfgId = 2;
+}
+
+message WaitPlayerList_S2C {
+    int32 WaitStatus = 1;
+}
+
+message ShowRoomInfo_C2S {
+}
+
+message ShowRoomInfo_S2C {
+    RoomData roomData = 1;
+}

@@ -1,0 +1,108 @@
+{
+  "ver": "1.3.21",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1a01dbfd-ac20-4ad1-a5ea-7592dec47721",
+  "files": [],
+  "subMetas": {
+    "50b92": {
+      "importer": "gltf-mesh",
+      "uuid": "1a01dbfd-ac20-4ad1-a5ea-7592dec47721@50b92",
+      "displayName": "",
+      "id": "50b92",
+      "name": "TS_FaGuangSuiPian_01.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "1cdc4": {
+      "importer": "gltf-embeded-image",
+      "uuid": "1a01dbfd-ac20-4ad1-a5ea-7592dec47721@1cdc4",
+      "displayName": "",
+      "id": "1cdc4",
+      "name": "贴图 #3.image",
+      "ver": "1.0.2",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "bfae8": {
+      "importer": "texture",
+      "uuid": "1a01dbfd-ac20-4ad1-a5ea-7592dec47721@bfae8",
+      "displayName": "",
+      "id": "bfae8",
+      "name": "贴图 #3.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1a01dbfd-ac20-4ad1-a5ea-7592dec47721@1cdc4"
+      }
+    },
+    "dea75": {
+      "importer": "gltf-scene",
+      "uuid": "1a01dbfd-ac20-4ad1-a5ea-7592dec47721@dea75",
+      "displayName": "",
+      "id": "dea75",
+      "name": "stone01.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #3",
+        "uri": "1a01dbfd-ac20-4ad1-a5ea-7592dec47721@1cdc4"
+      }
+    ],
+    "redirect": "1a01dbfd-ac20-4ad1-a5ea-7592dec47721@dea75",
+    "assetFinder": {
+      "meshes": [
+        "1a01dbfd-ac20-4ad1-a5ea-7592dec47721@50b92"
+      ],
+      "skeletons": [],
+      "textures": [
+        "1a01dbfd-ac20-4ad1-a5ea-7592dec47721@bfae8"
+      ],
+      "materials": [
+        "5db8f44e-2cf9-4cd9-b6f9-e35c6d093290"
+      ],
+      "scenes": [
+        "1a01dbfd-ac20-4ad1-a5ea-7592dec47721@dea75"
+      ]
+    },
+    "dumpMaterials": true
+  }
+}

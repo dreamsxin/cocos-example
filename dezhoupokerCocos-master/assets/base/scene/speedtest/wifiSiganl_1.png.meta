@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "ae5cd5c9-3028-47b5-9a5c-5840c09a03b4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 42,
+  "height": 33,
+  "platformSettings": {},
+  "subMetas": {
+    "wifiSiganl_1": {
+      "ver": "1.0.4",
+      "uuid": "7628308b-1b08-46c6-b2ff-371d1d8b4c7e",
+      "rawTextureUuid": "ae5cd5c9-3028-47b5-9a5c-5840c09a03b4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 42,
+      "height": 33,
+      "rawWidth": 42,
+      "rawHeight": 33,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

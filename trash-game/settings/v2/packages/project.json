@@ -1,0 +1,20 @@
+{
+  "__version__": "1.0.1",
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Wall"
+      },
+      {
+        "index": 2,
+        "name": "Object"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 6,
+      "2": 2
+    }
+  }
+}

@@ -1,0 +1,84 @@
+2021-10-19 14:30:52-log: [Package] menu@1.0.0 enable
+2021-10-19 14:30:52-log: [Package] profile@1.0.0 enable
+2021-10-19 14:30:52-log: [Package] messages@1.0.0 enable
+2021-10-19 14:30:52-log: [Package] program@1.0.0 enable
+2021-10-19 14:30:52-log: [Package] device@1.0.1 enable
+2021-10-19 14:30:52-log: [Package] ui-kit@1.0.1 enable
+2021-10-19 14:30:52-log: [Package] tester@1.0.0 enable
+2021-10-19 14:30:52-log: [Package] preferences@1.0.0 enable
+2021-10-19 14:30:53-log: Setup mods mgr.: 500.523ms
+2021-10-19 14:30:53-log: [Package] engine@1.0.5 enable
+2021-10-19 14:30:58-log: [Package] programming@1.0.0 enable
+2021-10-19 14:30:58-log: [Package] asset-db@1.0.0 enable
+2021-10-19 14:30:58-log: [Package] console@1.0.0 enable
+2021-10-19 14:30:58-log: [Package] scene@1.0.0 enable
+2021-10-19 14:30:58-log: [Package] project@1.0.1 enable
+2021-10-19 14:30:58-log: [Package] about@1.0.0 enable
+2021-10-19 14:30:58-log: [Package] server@1.0.0 enable
+2021-10-19 14:30:58-log: [Package] utils@1.0.0 enable
+2021-10-19 14:30:58-log: [Package] inspector@1.0.0 enable
+2021-10-19 14:30:58-log: [Package] hierarchy@1.0.0 enable
+2021-10-19 14:31:01-log: [Package] preview@1.0.1 enable
+2021-10-19 14:31:01-log: [Package] animator@1.0.0 enable
+2021-10-19 14:31:03-log: [Package] builder@1.2.9 enable
+2021-10-19 14:31:03-log: [Package] node-library@1.0.0 enable
+2021-10-19 14:31:03-log: [Package] shortcuts@1.0.1 enable
+2021-10-19 14:31:03-log: [Package] package-asset@1.0.0 enable
+2021-10-19 14:31:03-log: [Package] reference-image@1.0.0 enable
+2021-10-19 14:31:03-log: [Package] channel-upload-tools@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] runtime-dev-tools@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] alipay-mini-game@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] android@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] baidu-mini-game@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] bytedance-mini-game@1.0.1 enable
+2021-10-19 14:31:04-log: [Package] huawei-agc@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] ios@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] ios-app-clip@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] mac@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] native@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] ohos@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] web-desktop@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] web-mobile@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] wechatgame@1.0.1 enable
+2021-10-19 14:31:04-log: [Package] windows@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] xiaomi-quick-game@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] cocos-play@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] huawei-quick-game@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] link-sure@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] oppo-mini-game@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] qtt@1.0.0 enable
+2021-10-19 14:31:04-log: [Package] vivo-mini-game@1.0.0 enable
+2021-10-19 14:31:05-log: [Package] cocos-service@3.0.1 enable
+2021-10-19 14:31:05-log: [Package] importer@1.0.0 enable
+2021-10-19 14:31:06-log: [Package] extension@3.0.9 enable
+2021-10-19 14:31:06-log: [Package] im-plugin@3.0.6 enable
+2021-10-19 14:31:06-log: [Package] lightmap@1.0.3 enable
+2021-10-19 14:31:06-log: [Package] colyseus-sdk@0.14.0 enable
+2021-10-19 14:31:49-error: [Asset DB] color doesn't allow 1.
+2021-10-19 14:31:49-error: [Asset DB] color doesn't allow 2.
+2021-10-19 14:31:49-error: [Asset DB] color doesn't allow 3.
+2021-10-19 14:31:49-error: [Asset DB] color doesn't allow 1.
+2021-10-19 14:31:49-error: [Asset DB] color doesn't allow 2.
+2021-10-19 14:31:49-error: [Asset DB] color doesn't allow 3.
+2021-10-19 14:31:49-error: [Asset DB] color doesn't allow 1.
+2021-10-19 14:31:49-error: [Asset DB] color doesn't allow 2.
+2021-10-19 14:31:49-error: [Asset DB] color doesn't allow 3.
+2021-10-19 14:31:52-warn: Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+2021-10-19 14:31:56-log: [Scene] begin init
+2021-10-19 14:31:56-log: [Scene] require engine end
+2021-10-19 14:31:56-log: [Scene] Serialize end
+2021-10-19 14:31:56-log: [Scene] configureStartup end
+2021-10-19 14:31:56-info: [Scene] WebGL2 device initialized.
+2021-10-19 14:31:56-log: [Scene] Cocos Creator v3.3.1
+2021-10-19 14:31:59-info: [Scene] Forward render pipeline initialized.
+2021-10-19 14:32:00-log: [Scene] openEngine end
+2021-10-19 14:32:00-log: [Scene] configureEngine end
+2021-10-19 14:33:15-info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2021-10-19 14:33:15-info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html

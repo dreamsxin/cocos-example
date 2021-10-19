@@ -1,0 +1,282 @@
+{
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\mainScene.scene": {
+    "time": 1634624740965.6392,
+    "uuid": "1f8b93e0-6c10-49b5-bf8a-d281498da9d2",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\makeObsctacles.scene": {
+    "time": 1634624740965.6392,
+    "uuid": "5dc931c5-9f07-4c09-ae9b-70e295c56fe3",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab": {
+    "time": 1634624656116.8477,
+    "uuid": "d1f8571b-7d1a-4025-8739-1852d93438d8",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\scripts": {
+    "time": 1634624656132.8472,
+    "uuid": "b1dd94e0-e003-4721-9006-c596abbd9fc0",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites": {
+    "time": 1634624656237.8872,
+    "uuid": "69ac8e86-a9e5-4371-8a03-c2b2ad26ea6d",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\LargeCactus1.prefab": {
+    "time": 1634624740965.6392,
+    "uuid": "2d6f378a-774a-467b-8f24-7249a9a7e30a",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\LargeCactus2.prefab": {
+    "time": 1634624740965.6392,
+    "uuid": "97091076-8884-4a06-a33a-979950efbc60",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\LargeCactus3.prefab": {
+    "time": 1634624740966.639,
+    "uuid": "d3a1dafd-3f01-4ac7-ac4e-38c47b307de9",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\SmallCactus1.prefab": {
+    "time": 1634624740983.6394,
+    "uuid": "7444a0d5-f222-4263-8496-5138f372568a",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\SmallCactus2.prefab": {
+    "time": 1634624740984.6423,
+    "uuid": "2c7187eb-6476-4077-880a-6df17f7b11f1",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\SmallCactus3.prefab": {
+    "time": 1634624740987.6394,
+    "uuid": "4dfa9326-0c41-4aa2-9191-0a8f69f5750d",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\scripts\\dino.ts": {
+    "time": 1631193224000,
+    "uuid": "94097d74-5ab8-4601-9f4a-275a3b413717",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\scripts\\gamePlay.ts": {
+    "time": 1631193224000,
+    "uuid": "db0a6452-9d2f-49c7-9c5d-ff496309c8b3",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Bird": {
+    "time": 1634624656173.8486,
+    "uuid": "936ad260-93f5-4af8-a61e-434427116f6c",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus": {
+    "time": 1634624656212.892,
+    "uuid": "910ca29e-810a-4511-9069-47d55b31e217",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino": {
+    "time": 1634624656277.886,
+    "uuid": "94c810e9-d7b1-47f8-bad5-49b28388c2a2",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\ground.png": {
+    "time": 1631193224000,
+    "uuid": "f8c095ff-2829-4d17-b60f-0500e36fc3cd",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\lightBG.png": {
+    "time": 1631193224000,
+    "uuid": "bcf33ca1-c3d8-41cd-927f-a00c5da7f512",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Bird\\Bird1.png": {
+    "time": 1631193224000,
+    "uuid": "bf30bd10-9b94-49b8-8494-6d0b1905dc22",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Bird\\Bird2.png": {
+    "time": 1631193224000,
+    "uuid": "16efbbe8-c610-4076-ad62-0592606a0175",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\LargeCactus": {
+    "time": 1634624656206.8857,
+    "uuid": "298cf6cf-a6da-4a44-b06b-cecdb733868f",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\SmallCactus": {
+    "time": 1634624656231.8936,
+    "uuid": "652558f4-73b0-4a6a-b383-fbc946dbd495",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoDead.png": {
+    "time": 1631193224000,
+    "uuid": "1facda1c-491c-42b9-9f72-56b73a88ccc8",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoDuck1.png": {
+    "time": 1631193224000,
+    "uuid": "b010ba2b-4a35-45ba-b50b-4649cfc674cd",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoDuck2.png": {
+    "time": 1631193224000,
+    "uuid": "6881b955-ac11-403c-827b-e8b21be769ce",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoJump.png": {
+    "time": 1631193224000,
+    "uuid": "0f654b9a-7dcb-4631-a206-e40d93eaf29e",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoRun1.png": {
+    "time": 1631193224000,
+    "uuid": "7591eed4-2872-4c57-b00f-11246256b451",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoRun2.png": {
+    "time": 1631193224000,
+    "uuid": "52e33016-9e15-461d-baa6-aa7242520b5b",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoStart.png": {
+    "time": 1631193224000,
+    "uuid": "4a1664b8-3b11-4838-9cf2-e7792efa7ffd",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\LargeCactus\\LargeCactus1.png": {
+    "time": 1631193224000,
+    "uuid": "78a85c45-8dcb-4238-88af-d304990839c8",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\LargeCactus\\LargeCactus2.png": {
+    "time": 1631193224000,
+    "uuid": "cad9101e-e758-404c-aac1-3e7df51a5be4",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\LargeCactus\\LargeCactus3.png": {
+    "time": 1631193224000,
+    "uuid": "3a5151e3-c1f6-4e6d-9f4c-bb0f422ef30a",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\SmallCactus\\SmallCactus1.png": {
+    "time": 1631193224000,
+    "uuid": "ac463007-0e9f-4c9b-a1ed-98dec84ea2fd",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\SmallCactus\\SmallCactus2.png": {
+    "time": 1631193224000,
+    "uuid": "487d4880-5493-4ce6-be6d-b05eb3634467",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\SmallCactus\\SmallCactus3.png": {
+    "time": 1631193224000,
+    "uuid": "c7a45356-ad7a-4697-bee5-6521a9a5e2d5",
+    "missing": false
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\scripts.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\mainScene.scene.meta": {
+    "time": 1634624740970.6404
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\makeObsctacles.scene.meta": {
+    "time": 1634624740971.639
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\LargeCactus2.prefab.meta": {
+    "time": 1634624740974.6404
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\LargeCactus3.prefab.meta": {
+    "time": 1634624740978.6445
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\LargeCactus1.prefab.meta": {
+    "time": 1634624740980.6458
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\scripts\\dino.ts.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Bird.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\scripts\\gamePlay.ts.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\SmallCactus2.prefab.meta": {
+    "time": 1634624740997.641
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\SmallCactus1.prefab.meta": {
+    "time": 1634624741000.6414
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\prefab\\SmallCactus3.prefab.meta": {
+    "time": 1634624741004.643
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\LargeCactus.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\SmallCactus.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\lightBG.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\ground.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Bird\\Bird2.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Bird\\Bird1.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoDead.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoDuck1.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoJump.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoDuck2.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoRun1.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoRun2.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Dino\\DinoStart.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\LargeCactus\\LargeCactus1.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\LargeCactus\\LargeCactus2.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\LargeCactus\\LargeCactus3.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\SmallCactus\\SmallCactus1.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\SmallCactus\\SmallCactus3.png.meta": {
+    "time": 1631193224000
+  },
+  "D:\\workspace\\cocos-example\\dinoChrome-main\\assets\\sprites\\Cactus\\SmallCactus\\SmallCactus2.png.meta": {
+    "time": 1631193224000
+  }
+}

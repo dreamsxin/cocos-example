@@ -1,0 +1,22 @@
+{
+  "name": "hqq",
+  "version": "0.0.1",
+  "description": "我的拓展包",
+  "author": "burt",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/hqq": {
+      "message": "hqq:open"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "我的拓展包",
+    "resizable ": false,
+    "width": 1000,
+    "min-width": 500,
+    "height": 600,
+    "min-height": 220
+  }
+}

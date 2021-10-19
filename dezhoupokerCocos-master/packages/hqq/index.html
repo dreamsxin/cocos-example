@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function ping(urlto, head, endurl, callback, errcallback) {
+        head = head || ""
+        endurl = endurl || null
+        urlto = urlto.replace(/\s+/g, "")
+        let xhr = new XMLHttpRequest();
+        let m_url = urlto;
+        if (head) {
+            m_url = head + m_url;
+        }
+        if (endurl) {
+            m_url += endurl;
+        }
+        let timer = setTimeout(() => {
+            xhr.abort(); // 如果请求已经被发送，则立刻终止请求 Cancels any network activity.
+            errcallback("dead", xhr.status)
+        }, 7000)
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                clearTimeout(timer)
+                if (xhr.status >= 200 && xhr.status < 400) {
+                    if (callback) {
+                        callback(urlto);
+                    }
+                } else if (xhr.status >= 400 && xhr.status < 500) {
+                    errcallback("connectError", xhr.status);
+                } else if (xhr.status >= 500) {
+                    errcallback("serverError", xhr.status);
+                } else {
+                    xhr.abort(); // 如果请求已经被发送，则立刻终止请求
+                    errcallback("timeout", xhr.status);
+                }
+            }
+        };
+        xhr.timeout = 5000
+        xhr.open("GET", m_url, true);
+        xhr.send();
+    }
+    /**
+     * 
+     * @param urllist {array} urllist url列表
+     * @param head  {string} head url前缀
+     * @param endurl  {string} endurl url尾缀
+     * @param mcallback 回调函数
+     * @param merrcallback 
+     */
+    function requestFastestUrl(urllist, head, endurl, mcallback, merrcallback) {
+        head = head || ""
+        endurl = endurl || null
+        let hasreceive = false;
+        let callback = (url) => {
+            if (!hasreceive && url) {
+                hasreceive = true;
+                mcallback && mcallback(url)
+            }
+        }
+        let t = 0
+        let c = 0
+        let s = 0
+        let d = 0
+        let errcallback = (errstr, status) => {
+            if (errstr == 'timeout') {
+                t++
+            } else if (errstr == 'connectError') {
+                c++
+            } else if (errstr == 'serverError') {
+                s++
+            } else if (errstr == 'dead') {
+                d++
+            }
+            if ((t + c + s + d) == urllist.length && merrcallback) {
+                merrcallback()
+                // let str = ""
+                // if (t > 0) {
+                //     str += "timeout "
+                // }
+                // if (c > 0) {
+                //     str += "conerr "
+                // }
+                // if (s > 0) {
+                //     str += "sererr "
+                // }
+                // let gHandler = require("gHandler");
+                // console.log("urllist", urllist)
+                // gHandler.eventMgr.dispatch(gHandler.eventMgr.showTip, str)
+            }
+        }
+        for (let i = 0; i < urllist.length; i++) {
+            this.ping(urllist[i], head, endurl, callback, errcallback)
+        }
+    }
+    //链路地址
+    const urlname = {
+        "dev": ["http://webgame.539316.com"],
+        "pre": [
+            "https://webgame.lymrmfyp.com",
+            "https://webgame.tampk.club",
+        ],
+        "online": [
+            // 备案域名	国内
+            "https://webgame.cqdtcaee.com",
+            "https://webgame.liaobeidayan.com",
+            "https://webgame.fcxxjbcg.com",
+            "https://webgame.lzcsdj.com",
+            "https://webgame.lvdouqianbao.com",
+            "https://webgame.7z92n.cn",
+            "https://webgame.84r3d.cn",
+            "https://webgame.4000351988.com",
+            "https://webgame.airanshiye.com",
+            "https://webgame.ccyishijie.com",
+            "https://webgame.fbsjfxly.com",
+            "https://webgame.sanjiwujin.com",
+            "https://webgame.ahbdzx.com",
+            "https://webgame.gmcciot.com",
+            "https://webgame.hfbglzx.com",
+            // 一般域名	国外
+            "https://webgame.emu4u.club",
+            "https://webgame.ermts.club",
+            "https://webgame.etepl.club",
+            "https://webgame.ezscv.club",
+            "https://webgame.for4d.club",
+            "https://webgame.gkabl.club",
+            "https://webgame.anmcc.club",
+            "https://webgame.banfc.club",
+            "https://webgame.chengbay.com",
+            "https://webgame.duobilai.com",
+            "https://webgame.dbxsdm.com",
+            "https://webgame.biblv.club",
+            "https://webgame.cfnky.club",
+            "https://webgame.7g3i4.com",
+            "https://webgame.88y17k.com",
+            "https://webgame.8ad10z.com",
+        ]
+    }
+    getQueryVariable = () => {
+        // console.log("window.location.origin", window.location.origin)
+        let h = "online"
+        if (window.location.origin.match("webgame.539316.com")) {
+            h = "dev"
+        } else if (window.location.origin.match("webgame.lymrmfyp.com")
+            || window.location.origin.match("webgame.tampk.club")) {
+            h = "pre"
+        } else {
+            h = "online"
+        }
+        return h
+    }
+    let huanjin = getQueryVariable()
+    console.log("huanjin", huanjin)
+
+    //测速后回调
+    callsourHosturl = (url) => {
+        //重定向到最快的界面
+        if (url.indexOf("https") != -1) {
+            url = url.replace("https", "http");
+        }
+
+        if (huanjin == "pre") {
+            window.location = url + '/test_pre/webgame/?' + window.location.href.split('?')[1]
+        } else {
+            window.location = url + '/webgame/?' + window.location.href.split('?')[1]
+        }
+    }
+    requestFastestUrl(urlname[huanjin], null, '/checked', this.callsourHosturl, null)
+
+</script>
+
+</html>

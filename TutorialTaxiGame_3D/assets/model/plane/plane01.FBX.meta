@@ -1,0 +1,108 @@
+{
+  "ver": "1.3.21",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d7abbf79-49d6-4157-8111-6bf4911d6ede",
+  "files": [],
+  "subMetas": {
+    "f620b": {
+      "importer": "gltf-mesh",
+      "uuid": "d7abbf79-49d6-4157-8111-6bf4911d6ede@f620b",
+      "displayName": "",
+      "id": "f620b",
+      "name": "Plane011.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "ad0ee": {
+      "importer": "gltf-embeded-image",
+      "uuid": "d7abbf79-49d6-4157-8111-6bf4911d6ede@ad0ee",
+      "displayName": "",
+      "id": "ad0ee",
+      "name": "plane01.jpg.image",
+      "ver": "1.0.2",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "59f96": {
+      "importer": "texture",
+      "uuid": "d7abbf79-49d6-4157-8111-6bf4911d6ede@59f96",
+      "displayName": "",
+      "id": "59f96",
+      "name": "贴图 #2.texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d7abbf79-49d6-4157-8111-6bf4911d6ede@ad0ee"
+      }
+    },
+    "c13c3": {
+      "importer": "gltf-scene",
+      "uuid": "d7abbf79-49d6-4157-8111-6bf4911d6ede@c13c3",
+      "displayName": "",
+      "id": "c13c3",
+      "name": "plane01.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "plane01.jpg",
+        "uri": "d7abbf79-49d6-4157-8111-6bf4911d6ede@ad0ee"
+      }
+    ],
+    "redirect": "d7abbf79-49d6-4157-8111-6bf4911d6ede@c13c3",
+    "assetFinder": {
+      "meshes": [
+        "d7abbf79-49d6-4157-8111-6bf4911d6ede@f620b"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d7abbf79-49d6-4157-8111-6bf4911d6ede@59f96"
+      ],
+      "materials": [
+        "f0fb0caa-5a77-412f-b0c5-80ef4dee060d"
+      ],
+      "scenes": [
+        "d7abbf79-49d6-4157-8111-6bf4911d6ede@c13c3"
+      ]
+    },
+    "dumpMaterials": true
+  }
+}

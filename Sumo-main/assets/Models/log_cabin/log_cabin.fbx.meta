@@ -1,0 +1,130 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2be36225-afb4-472e-8e88-7c6e4ae0a4af",
+  "files": [],
+  "subMetas": {
+    "39557": {
+      "importer": "gltf-mesh",
+      "uuid": "2be36225-afb4-472e-8e88-7c6e4ae0a4af@39557",
+      "displayName": "",
+      "id": "39557",
+      "name": "cabin_window_left.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f05d6": {
+      "importer": "gltf-mesh",
+      "uuid": "2be36225-afb4-472e-8e88-7c6e4ae0a4af@f05d6",
+      "displayName": "",
+      "id": "f05d6",
+      "name": "cabin.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "456f4": {
+      "importer": "gltf-mesh",
+      "uuid": "2be36225-afb4-472e-8e88-7c6e4ae0a4af@456f4",
+      "displayName": "",
+      "id": "456f4",
+      "name": "cabin_door.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fc17d": {
+      "importer": "gltf-mesh",
+      "uuid": "2be36225-afb4-472e-8e88-7c6e4ae0a4af@fc17d",
+      "displayName": "",
+      "id": "fc17d",
+      "name": "cabin_window_right.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6cc65": {
+      "importer": "gltf-material",
+      "uuid": "2be36225-afb4-472e-8e88-7c6e4ae0a4af@6cc65",
+      "displayName": "",
+      "id": "6cc65",
+      "name": "cabin.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "26ce2": {
+      "importer": "gltf-scene",
+      "uuid": "2be36225-afb4-472e-8e88-7c6e4ae0a4af@26ce2",
+      "displayName": "",
+      "id": "26ce2",
+      "name": "log_cabin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "2be36225-afb4-472e-8e88-7c6e4ae0a4af@26ce2",
+    "assetFinder": {
+      "meshes": [
+        "2be36225-afb4-472e-8e88-7c6e4ae0a4af@f05d6",
+        "2be36225-afb4-472e-8e88-7c6e4ae0a4af@456f4",
+        "2be36225-afb4-472e-8e88-7c6e4ae0a4af@fc17d",
+        "2be36225-afb4-472e-8e88-7c6e4ae0a4af@39557"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "2be36225-afb4-472e-8e88-7c6e4ae0a4af@6cc65"
+      ],
+      "scenes": [
+        "2be36225-afb4-472e-8e88-7c6e4ae0a4af@26ce2"
+      ]
+    }
+  }
+}

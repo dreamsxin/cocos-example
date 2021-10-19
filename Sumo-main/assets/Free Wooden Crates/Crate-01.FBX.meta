@@ -1,0 +1,106 @@
+{
+  "ver": "2.1.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bf668b54-559d-49a0-8724-7f93244be136",
+  "files": [],
+  "subMetas": {
+    "0cb7c": {
+      "importer": "gltf-mesh",
+      "uuid": "bf668b54-559d-49a0-8724-7f93244be136@0cb7c",
+      "displayName": "",
+      "id": "0cb7c",
+      "name": "Crate-01.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6e70c": {
+      "importer": "texture",
+      "uuid": "bf668b54-559d-49a0-8724-7f93244be136@6e70c",
+      "displayName": "",
+      "id": "6e70c",
+      "name": "Map #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Free Wooden Crates/diffuse.tga"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d90a4": {
+      "importer": "gltf-material",
+      "uuid": "bf668b54-559d-49a0-8724-7f93244be136@d90a4",
+      "displayName": "",
+      "id": "d90a4",
+      "name": "01 - Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8487c": {
+      "importer": "gltf-scene",
+      "uuid": "bf668b54-559d-49a0-8724-7f93244be136@8487c",
+      "displayName": "",
+      "id": "8487c",
+      "name": "Crate-01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #1",
+        "uri": "db://assets/Free Wooden Crates/diffuse.tga"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "bf668b54-559d-49a0-8724-7f93244be136@8487c",
+    "assetFinder": {
+      "meshes": [
+        "bf668b54-559d-49a0-8724-7f93244be136@0cb7c"
+      ],
+      "skeletons": [],
+      "textures": [
+        "bf668b54-559d-49a0-8724-7f93244be136@6e70c"
+      ],
+      "materials": [
+        "bf668b54-559d-49a0-8724-7f93244be136@d90a4"
+      ],
+      "scenes": [
+        "bf668b54-559d-49a0-8724-7f93244be136@8487c"
+      ]
+    }
+  }
+}

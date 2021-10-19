@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "bg",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tileset version=\"1.5\" tiledversion=\"1.7.2\" name=\"bg\" tilewidth=\"32\" tileheight=\"32\" tilecount=\"216\" columns=\"18\">\n <image source=\"6806962_preview.png\" width=\"576\" height=\"386\"/>\n <tile id=\"76\">\n  <animation>\n   <frame tileid=\"130\" duration=\"100\"/>\n   <frame tileid=\"148\" duration=\"100\"/>\n   <frame tileid=\"166\" duration=\"100\"/>\n   <frame tileid=\"184\" duration=\"100\"/>\n  </animation>\n </tile>\n <tile id=\"184\">\n  <animation>\n   <frame tileid=\"184\" duration=\"100\"/>\n   <frame tileid=\"166\" duration=\"100\"/>\n   <frame tileid=\"148\" duration=\"100\"/>\n   <frame tileid=\"130\" duration=\"100\"/>\n  </animation>\n </tile>\n</tileset>\n"
+}
