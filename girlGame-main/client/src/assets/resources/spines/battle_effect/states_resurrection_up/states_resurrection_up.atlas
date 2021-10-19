@@ -1,0 +1,41 @@
+
+states_resurrection_up.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: false
+  xy: 2, 224
+  size: 337, 277
+  orig: 337, 277
+  offset: 0, 0
+  index: -1
+light02
+  rotate: true
+  xy: 2, 37
+  size: 185, 184
+  orig: 185, 184
+  offset: 0, 0
+  index: -1
+lightline01
+  rotate: false
+  xy: 428, 129
+  size: 52, 372
+  orig: 52, 372
+  offset: 0, 0
+  index: -1
+lightline02
+  rotate: true
+  xy: 2, 2
+  size: 33, 230
+  orig: 33, 230
+  offset: 0, 0
+  index: -1
+ring01
+  rotate: true
+  xy: 341, 190
+  size: 311, 85
+  orig: 311, 85
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,26 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "DrawerOpen",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 0,
+          "curve": "quartInOut"
+        },
+        {
+          "frame": 1,
+          "value": 260
+        }
+      ]
+    }
+  },
+  "events": []
+}

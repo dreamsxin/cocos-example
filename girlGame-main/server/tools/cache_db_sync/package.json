@@ -1,0 +1,26 @@
+{
+  "name": "cache_db_sync",
+  "version": "1.0.0",
+  "description": "cache to mq to db sync tools.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "export NODE_ENV='development' && node index.js",
+    "build": "export NODE_ENV='production' && node index.js",
+    "start": "pm2 start ecosystem.config.js --only dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "cache",
+    "db",
+    "mq",
+    "sync",
+    "tools"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "mysql2": "^2.2.5"
+  }
+}

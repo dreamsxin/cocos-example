@@ -1,0 +1,75 @@
+{
+    "host": "0.0.0.0",
+    "port": 8090,
+    "timezone": "Asia/Shanghai",
+    "workerId": 1,
+    "datacenterId": 1,
+    "maxPayload": 0, 
+    "keepAlive": 180,
+    "token": {
+        "secretKey": "_5#y2LF4Q8nxzec]/",
+        "expiresIn": "2h"
+    },
+    "protoPath": "./protos",
+    "staticDataPath": "./datas",
+    "cron": {
+        "enabled": true
+    },
+    "hotPatch": {
+        "enabled": true,
+        "dirs": [
+            "./app/scripts",
+            "./datas"
+        ]
+    },
+    "log": {
+        "level": "debug",
+        "fileMode": false,
+        "options": {
+            "flags": "a",
+            "encoding": "utf8"
+        },
+        "outFile": "./logs/game.log",
+        "errFile": "./logs/game.err.log"
+    },
+    "cache": {
+        "enabled": true,
+        "redis": {
+            "host": "127.0.0.1",
+            "port": 12001,
+            "pass": "yaoshi2020"
+        }
+    },
+    "db": {
+        "enabled": true,
+        "mysql": {
+            "host": "127.0.0.1",
+            "port": 3306,
+            "user": "root",
+            "password": "yaoshi2020",
+            "database": "gamedb",
+            "connectionLimit": 10
+        } 
+    },
+    "mq": {
+        "enabled": true,
+        "sync": {
+            "tag": "sync",
+            "hosts": ["amqp://yaoshi:yaoshi2020@127.0.0.1:5672"],
+            "exchangeName": "game.sync.topic",
+            "exchangeType": "topic",
+            "routingKey": "game.sync.topic001.cool",
+            "bindingKey": "game.sync.#",
+            "durable": true,
+            "persistent": true,
+            "mandatory": true,
+            "queueName": "MQ_topic_game_sync",
+            "limit": {
+                "enabled": false,
+                "count": 1,
+                "flag": false
+            },
+            "exclusive": false
+        }
+    }
+}

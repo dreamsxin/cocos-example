@@ -1,0 +1,228 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "powerup",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.6666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "1": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 1.0833333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.3,
+                "y": 1.3
+              }
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.0833333333333333,
+              "value": 255,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.8333333333333334,
+              "value": 0
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 20
+            }
+          ]
+        }
+      },
+      "2": {
+        "props": {
+          "scale": [
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 1.25,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.3,
+                "y": 1.3
+              }
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.25,
+              "value": 255,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 1,
+              "value": 25
+            },
+            {
+              "frame": 1.5,
+              "value": 45
+            }
+          ]
+        }
+      },
+      "3": {
+        "props": {
+          "scale": [
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 1.4166666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.3,
+                "y": 1.3
+              }
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.4166666666666667,
+              "value": 255,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 1.1666666666666667,
+              "value": 50
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": 70
+            }
+          ]
+        }
+      },
+      "L": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 255
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": -50,
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 50
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

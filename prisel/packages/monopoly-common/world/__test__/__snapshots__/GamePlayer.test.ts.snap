@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GamePlayer serialize 1`] = `
+Object {
+  "character": 1,
+  "collectibles": Array [
+    Object {
+      "description": "activate when entering jail",
+      "id": "mocked_id_0",
+      "name": "get out of jail free",
+      "type": 1,
+    },
+  ],
+  "id": "123",
+  "money": 100,
+  "owning": Array [
+    "property1",
+    "property2",
+  ],
+  "pathTile": "tile1",
+  "rolled": true,
+}
+`;

@@ -1,0 +1,1 @@
+for /f "delims=" %%a in ('dir /b /s *.jpg *.png') do echo;%%~na >>A2将导出的文件名拷贝到accessorie的sheet文件整理.txt

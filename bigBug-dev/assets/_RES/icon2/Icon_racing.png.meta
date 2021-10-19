@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "ba06d075-8f76-471a-a9e3-68bfab5816a2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 128,
+  "height": 128,
+  "platformSettings": {},
+  "subMetas": {
+    "Icon_racing": {
+      "ver": "1.0.4",
+      "uuid": "9e5e7394-33f3-476e-ae5a-3136360df099",
+      "rawTextureUuid": "ba06d075-8f76-471a-a9e3-68bfab5816a2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 13,
+      "trimY": 15,
+      "width": 101,
+      "height": 97,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

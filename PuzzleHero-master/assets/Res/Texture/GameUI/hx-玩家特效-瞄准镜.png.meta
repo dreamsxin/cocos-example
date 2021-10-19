@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "84a456ec-c8c7-4454-b414-3f7fdbcd751d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "hx-玩家特效-瞄准镜": {
+      "ver": "1.0.4",
+      "uuid": "ae676f93-f620-46e1-ab22-e5a051014e6b",
+      "rawTextureUuid": "84a456ec-c8c7-4454-b414-3f7fdbcd751d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 133,
+      "height": 135,
+      "rawWidth": 135,
+      "rawHeight": 136,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

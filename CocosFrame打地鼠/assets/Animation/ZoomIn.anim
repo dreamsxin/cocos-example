@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ZoomIn",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "arrow1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -10,
+                10,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                -20,
+                20,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "arrow2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                10,
+                10,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                20,
+                20,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "arrow3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -10,
+                -10,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                -20,
+                -20,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "arrow4": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                10,
+                -10,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                20,
+                -20,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

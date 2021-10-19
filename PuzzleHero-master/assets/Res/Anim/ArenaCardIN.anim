@@ -1,0 +1,45 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ArenaCardIN",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "H1": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 600,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": -155
+            }
+          ]
+        }
+      },
+      "H2": {
+        "props": {
+          "x": [
+            {
+              "frame": 0.08333333333333333,
+              "value": 910,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 155
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

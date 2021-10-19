@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "cfea823f-d972-4401-ad4d-3da0c8938a43",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "死神技能1": {
+      "ver": "1.0.4",
+      "uuid": "6094d09f-a455-4733-a26e-242e8a1298c3",
+      "rawTextureUuid": "cfea823f-d972-4401-ad4d-3da0c8938a43",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0.5,
+      "trimX": 11,
+      "trimY": 10,
+      "width": 40,
+      "height": 40,
+      "rawWidth": 61,
+      "rawHeight": 61,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

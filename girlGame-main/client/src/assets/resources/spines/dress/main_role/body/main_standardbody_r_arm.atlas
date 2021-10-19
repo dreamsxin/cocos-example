@@ -1,0 +1,27 @@
+
+main_standardbody_r_arm.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+R_hand
+  rotate: false
+  xy: 209, 149
+  size: 107, 96
+  orig: 107, 96
+  offset: 0, 0
+  index: -1
+R_lowarm
+  rotate: false
+  xy: 2, 2
+  size: 129, 243
+  orig: 129, 243
+  offset: 0, 0
+  index: -1
+R_uparm
+  rotate: false
+  xy: 133, 31
+  size: 74, 214
+  orig: 74, 214
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+main_standardbody.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_hand
+  rotate: false
+  xy: 1680, 381
+  size: 79, 115
+  orig: 79, 115
+  offset: 0, 0
+  index: -1
+L_lowarm
+  rotate: false
+  xy: 1444, 263
+  size: 130, 233
+  orig: 130, 233
+  offset: 0, 0
+  index: -1
+L_uparm
+  rotate: false
+  xy: 1576, 270
+  size: 102, 226
+  orig: 102, 226
+  offset: 0, 0
+  index: -1
+R_hand
+  rotate: false
+  xy: 1313, 155
+  size: 107, 96
+  orig: 107, 96
+  offset: 0, 0
+  index: -1
+R_lowarm
+  rotate: false
+  xy: 1313, 253
+  size: 129, 243
+  orig: 129, 243
+  offset: 0, 0
+  index: -1
+R_uparm
+  rotate: true
+  xy: 2, 2
+  size: 74, 214
+  orig: 74, 214
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 78
+  size: 418, 1309
+  orig: 418, 1309
+  offset: 0, 0
+  index: -1

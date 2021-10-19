@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.Material",
+  "_name": "yinxinye",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "829a282c-b049-4019-bd38-5ace8d8a6417"
+  },
+  "_techniqueIndex": 1,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "tintColor": {
+          "__type__": "cc.Color",
+          "r": 135,
+          "g": 135,
+          "b": 135,
+          "a": 138
+        },
+        "mainTexture": {
+          "__uuid__": "7ec44c92-3477-4c96-a87b-f0e7efa50a11"
+        }
+      },
+      "defines": {}
+    }
+  }
+}

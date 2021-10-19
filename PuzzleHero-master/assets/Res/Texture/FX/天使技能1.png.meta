@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "b876c1de-5f38-40c7-a7a6-79c991f592c3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "天使技能1": {
+      "ver": "1.0.4",
+      "uuid": "b4a9568d-26d7-4386-8250-d2a4ccf53217",
+      "rawTextureUuid": "b876c1de-5f38-40c7-a7a6-79c991f592c3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 17,
+      "trimY": 18,
+      "width": 67,
+      "height": 29,
+      "rawWidth": 101,
+      "rawHeight": 65,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

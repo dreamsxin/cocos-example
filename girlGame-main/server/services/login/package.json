@@ -1,0 +1,35 @@
+{
+  "name": "artorias_login",
+  "version": "1.0.0",
+  "description": "Http server with node for game to login.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "dev": "export NODE_ENV='development' && node index.js",
+    "build": "export NODE_ENV='production' && node index.js",
+    "start": "pm2 start ecosystem.config.js --only login",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "login",
+    "game"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.31",
+    "mysql2": "^2.2.5",
+    "node-snowflake": "0.0.1",
+    "redis": "^3.0.2",
+    "validator": "^13.1.17"
+  }
+}

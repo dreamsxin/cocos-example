@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "78b1b278-6d25-4ef4-9dc8-fc4f19915348",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 128,
+  "height": 128,
+  "platformSettings": {},
+  "subMetas": {
+    "Icon_Bicycle": {
+      "ver": "1.0.4",
+      "uuid": "a1d4ceec-ba9f-4496-b3a4-d85bb5ba1320",
+      "rawTextureUuid": "78b1b278-6d25-4ef4-9dc8-fc4f19915348",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 8,
+      "trimY": 27,
+      "width": 111,
+      "height": 73,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

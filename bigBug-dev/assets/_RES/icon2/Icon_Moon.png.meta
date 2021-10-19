@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "1a37a300-ebef-4094-ae55-ec009ca3b3a4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 128,
+  "height": 128,
+  "platformSettings": {},
+  "subMetas": {
+    "Icon_Moon": {
+      "ver": "1.0.4",
+      "uuid": "1cd62284-81b7-4b91-a425-166ad3273559",
+      "rawTextureUuid": "1a37a300-ebef-4094-ae55-ec009ca3b3a4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 22,
+      "trimY": 22,
+      "width": 84,
+      "height": 84,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,48 @@
+
+states_dot_heal.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crosslight
+  rotate: false
+  xy: 393, 437
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+eff01
+  rotate: false
+  xy: 2, 2
+  size: 16, 180
+  orig: 16, 180
+  offset: 0, 0
+  index: -1
+lightstar
+  rotate: false
+  xy: 297, 240
+  size: 30, 138
+  orig: 30, 138
+  offset: 0, 0
+  index: -1
+ring01
+  rotate: false
+  xy: 2, 184
+  size: 293, 290
+  orig: 293, 290
+  offset: 0, 0
+  index: -1
+ring02
+  rotate: false
+  xy: 297, 380
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
+ring03
+  rotate: false
+  xy: 20, 88
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1

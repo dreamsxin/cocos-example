@@ -1,0 +1,149 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "StoryChapter",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 4.833333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "node_bg": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.65,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "yun_0": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -218.512,
+                -67.739,
+                0
+              ]
+            },
+            {
+              "frame": 0.5166666666666667,
+              "value": [
+                -116.631,
+                -67.739,
+                0
+              ]
+            },
+            {
+              "frame": 0.65,
+              "value": [
+                -93.557,
+                -67.739,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.15,
+              "value": 0
+            },
+            {
+              "frame": 0.8,
+              "value": 160
+            }
+          ]
+        }
+      },
+      "yun_1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                348.358,
+                240,
+                0
+              ]
+            },
+            {
+              "frame": 0.5166666666666667,
+              "value": [
+                210.818,
+                240,
+                0
+              ]
+            },
+            {
+              "frame": 0.65,
+              "value": [
+                195,
+                240,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.15,
+              "value": 0
+            },
+            {
+              "frame": 0.8,
+              "value": 160
+            }
+          ]
+        }
+      },
+      "index": {
+        "props": {
+          "height": [
+            {
+              "frame": 0.8166666666666667,
+              "value": 1
+            },
+            {
+              "frame": 1.8833333333333333,
+              "value": 150
+            }
+          ]
+        }
+      },
+      "name": {
+        "props": {
+          "height": [
+            {
+              "frame": 1.85,
+              "value": 1
+            },
+            {
+              "frame": 3,
+              "value": 200
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 3.5833333333333335,
+          "value": 255
+        },
+        {
+          "frame": 4.833333333333333,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

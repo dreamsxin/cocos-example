@@ -1,0 +1,77 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "AutoR2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.25,
+          "value": -360
+        }
+      ],
+      "color": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 90,
+            "b": 90,
+            "a": 255
+          }
+        },
+        {
+          "frame": 0.06666666666666667,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 150,
+            "g": 255,
+            "b": 150,
+            "a": 255
+          }
+        },
+        {
+          "frame": 0.13333333333333333,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 100,
+            "g": 168,
+            "b": 255,
+            "a": 255
+          }
+        },
+        {
+          "frame": 0.2,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 184,
+            "b": 0,
+            "a": 255
+          }
+        },
+        {
+          "frame": 0.25,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 90,
+            "b": 90,
+            "a": 255
+          }
+        }
+      ]
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,39 @@
+{
+  "__version__": "1.0.1",
+  "layer": [
+    {
+      "name": "Character",
+      "value": 1
+    },
+    {
+      "name": "Ground",
+      "value": 2
+    },
+    {
+      "name": "Collection",
+      "value": 4
+    }
+  ],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Character"
+      },
+      {
+        "index": 2,
+        "name": "Collection"
+      },
+      {
+        "index": 3,
+        "name": "Ground"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 12,
+      "2": 2,
+      "3": 2
+    }
+  }
+}

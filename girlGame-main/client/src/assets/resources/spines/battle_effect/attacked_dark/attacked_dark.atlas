@@ -1,0 +1,55 @@
+
+attacked_dark.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud01
+  rotate: false
+  xy: 715, 40
+  size: 168, 160
+  orig: 168, 160
+  offset: 0, 0
+  index: -1
+cloud02
+  rotate: true
+  xy: 359, 2
+  size: 151, 144
+  orig: 151, 144
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 127
+  size: 355, 383
+  orig: 355, 383
+  offset: 0, 0
+  index: -1
+particle
+  rotate: false
+  xy: 715, 202
+  size: 291, 308
+  orig: 291, 308
+  offset: 0, 0
+  index: -1
+shock
+  rotate: true
+  xy: 505, 18
+  size: 135, 191
+  orig: 135, 191
+  offset: 0, 0
+  index: -1
+starlight
+  rotate: false
+  xy: 359, 155
+  size: 354, 355
+  orig: 354, 355
+  offset: 0, 0
+  index: -1
+twistglow
+  rotate: false
+  xy: 2, 28
+  size: 110, 97
+  orig: 110, 97
+  offset: 0, 0
+  index: -1

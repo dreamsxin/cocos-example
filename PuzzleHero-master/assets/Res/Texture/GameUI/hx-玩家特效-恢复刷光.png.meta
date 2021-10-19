@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "4f947c36-7522-4e7c-8a8c-96eeccfd2b2e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "hx-玩家特效-恢复刷光": {
+      "ver": "1.0.4",
+      "uuid": "c1502fa8-dc41-47e9-900a-0e5e00e6bbf2",
+      "rawTextureUuid": "4f947c36-7522-4e7c-8a8c-96eeccfd2b2e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -3,
+      "offsetY": 3,
+      "trimX": 4,
+      "trimY": 0,
+      "width": 126,
+      "height": 246,
+      "rawWidth": 140,
+      "rawHeight": 252,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

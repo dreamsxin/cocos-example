@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "6c8642d9-14a0-4e38-85ca-3bc967fed0e0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "子弹13-碎片": {
+      "ver": "1.0.4",
+      "uuid": "5a9db145-ab54-4604-bf92-3d9b1fc58d86",
+      "rawTextureUuid": "6c8642d9-14a0-4e38-85ca-3bc967fed0e0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 15,
+      "height": 11,
+      "rawWidth": 15,
+      "rawHeight": 11,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

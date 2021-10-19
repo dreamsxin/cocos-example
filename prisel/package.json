@@ -1,0 +1,82 @@
+{
+    "name": "prisel-mono",
+    "version": "0.0.0",
+    "private": true,
+    "description": "Online prisel game",
+    "homepage": "https://github.com/SeawolvesAtCali/prisel#readme",
+    "bugs": {
+        "url": "https://github.com/SeawolvesAtCali/prisel/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SeawolvesAtCali/prisel.git"
+    },
+    "license": "MIT",
+    "author": "",
+    "scripts": {
+        "automation": "node common/scripts/install-run-rush.js automation --verbose",
+        "install": "node common/scripts/install-run-rush.js install",
+        "build": "node common/scripts/install-run-rush.js rebuild --verbose",
+        "build:tic-tac-toe": "node common/scripts/install-run-rush.js build --to @prisel/tic-tac-toe-client",
+        "clean": "node common/scripts/install-run-rush.js clean",
+        "deploy:server": "cd packages/tic-tac-toe && node ../../common/scripts/install-run-rushx.js start",
+        "fix": "node common/scripts/install-run-rush.js fix",
+        "lint": "node common/scripts/install-run-rush.js lint",
+        "prepublishOnly": "npm ci && npm run build && npm run lint",
+        "publish": "echo no implemented",
+        "start:debugger": "cd packages/react && node ../../common/scripts/install-run-rushx.js start",
+        "start:map-creator": "cd packages/map-creator && node ../../common/scripts/install-run-rushx.js start",
+        "start:monopoly-server": "cd packages/monopoly && node ../../common/scripts/install-run-rushx.js start",
+        "start:server": "cd packages/server && node ../../common/scripts/install-run-rushx.js start",
+        "start:tic-tac-toe-client": "cd packages/tic-tac-toe-client && node ../../common/scripts/install-run-rushx.js start",
+        "start:tic-tac-toe-server": "cd packages/tic-tac-toe && node ../../common/scripts/install-run-rushx.js start",
+        "test": "node common/scripts/install-run-rush.js test --verbose"
+    },
+    "prettier": {
+        "arrowParens": "always",
+        "printWidth": 100,
+        "proseWrap": "always",
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "all"
+    },
+    "eslintConfig": {
+        "env": {
+            "jest": true
+        },
+        "parser": "babel-eslint",
+        "extends": [
+            "airbnb-base",
+            "plugin:prettier/recommended"
+        ],
+        "rules": {
+            "class-methods-use-this": "off",
+            "global-require": "off",
+            "no-case-declarations": "off",
+            "no-console": "off",
+            "no-param-reassign": "off",
+            "no-plusplus": "off",
+            "no-unused-expressions": [
+                "error",
+                {
+                    "allowShortCircuit": true
+                }
+            ],
+            "no-unused-vars": [
+                "error",
+                {
+                    "vars": "local",
+                    "args": "none",
+                    "varsIgnorePattern": "debug"
+                }
+            ],
+            "import/no-dynamic-require": "off",
+            "import/no-extraneous-dependencies": [
+                "error",
+                {
+                    "devDependencies": true
+                }
+            ]
+        }
+    }
+}

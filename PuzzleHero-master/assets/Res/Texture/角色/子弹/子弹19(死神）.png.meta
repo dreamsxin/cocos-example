@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "2f4e733c-0f02-4a97-b8a4-edcfd1e1b97e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "子弹19(死神）": {
+      "ver": "1.0.4",
+      "uuid": "abf9722e-a5bf-4d37-a915-9cc558ab058d",
+      "rawTextureUuid": "2f4e733c-0f02-4a97-b8a4-edcfd1e1b97e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 4,
+      "trimY": 0,
+      "width": 18,
+      "height": 50,
+      "rawWidth": 25,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

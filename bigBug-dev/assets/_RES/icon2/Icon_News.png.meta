@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "e338dea3-bfda-47a7-a0d7-f40a29e27977",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 128,
+  "height": 128,
+  "platformSettings": {},
+  "subMetas": {
+    "Icon_News": {
+      "ver": "1.0.4",
+      "uuid": "f742ea0d-a921-4267-b65f-eac937d6d267",
+      "rawTextureUuid": "e338dea3-bfda-47a7-a0d7-f40a29e27977",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 20,
+      "trimY": 20,
+      "width": 88,
+      "height": 88,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

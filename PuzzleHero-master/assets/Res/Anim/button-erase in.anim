@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "button-erase in",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.25,
+          "value": 255
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": 117.391,
+          "curve": "cubicOut"
+        },
+        {
+          "frame": 0.25,
+          "value": 134.898,
+          "curve": "cubicIn"
+        },
+        {
+          "frame": 0.5,
+          "value": 117.391
+        }
+      ]
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,104 @@
+
+mozhanshi_jin.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball
+  rotate: false
+  xy: 745, 211
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 422, 158
+  size: 93, 178
+  orig: 93, 178
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 602, 159
+  size: 92, 108
+  orig: 92, 108
+  offset: 0, 0
+  index: -1
+fr_hair_01
+  rotate: false
+  xy: 553, 111
+  size: 35, 45
+  orig: 35, 45
+  offset: 0, 0
+  index: -1
+fr_hair_02
+  rotate: false
+  xy: 712, 199
+  size: 31, 52
+  orig: 31, 52
+  offset: 0, 0
+  index: -1
+fr_hair_03
+  rotate: true
+  xy: 2, 33
+  size: 30, 67
+  orig: 30, 67
+  offset: 0, 0
+  index: -1
+fr_hair_04
+  rotate: false
+  xy: 514, 110
+  size: 37, 46
+  orig: 37, 46
+  offset: 0, 0
+  index: -1
+fr_hair_05
+  rotate: true
+  xy: 207, 65
+  size: 15, 38
+  orig: 15, 38
+  offset: 0, 0
+  index: -1
+fr_hair_06
+  rotate: false
+  xy: 2, 2
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+fr_hair_07
+  rotate: false
+  xy: 71, 40
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: false
+  xy: 422, 91
+  size: 90, 65
+  orig: 90, 65
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 712, 181
+  size: 30, 16
+  orig: 30, 16
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: true
+  xy: 207, 82
+  size: 169, 213
+  orig: 169, 213
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 2, 65
+  size: 203, 186
+  orig: 203, 186
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,210 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "CFhit",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.55,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "B": {
+        "props": {
+          "y": [
+            {
+              "frame": 0.18333333333333332,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.35,
+              "value": 3
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 3,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.55,
+              "value": 0
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.18333333333333332,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.35,
+              "value": 19
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 19,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.55,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "B/RH": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0.18333333333333332,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.35,
+              "value": 120
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 120,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.55,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "B/LH": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0.18333333333333332,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.35,
+              "value": 50
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 50
+            },
+            {
+              "frame": 0.55,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "B/H": {
+        "props": {
+          "y": [
+            {
+              "frame": 0.18333333333333332,
+              "value": 23.045,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.35,
+              "value": 25
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 25,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.55,
+              "value": 23.045
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.18333333333333332,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.35,
+              "value": 9
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 9,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.55,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "RF": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0.18333333333333332,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.35,
+              "value": 26
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 26,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.55,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.18333333333333332,
+              "value": [
+                11,
+                -6,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.35,
+              "value": [
+                14.986,
+                3.111,
+                0
+              ]
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": [
+                14.986,
+                3.111,
+                0
+              ],
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.55,
+              "value": [
+                11,
+                -6,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

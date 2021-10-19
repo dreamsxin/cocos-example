@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "b00d8ec8-974f-4d05-a914-f2d654088706",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "子弹24(虚空领主）": {
+      "ver": "1.0.4",
+      "uuid": "d4f7ba9c-f365-47a9-b166-32f8bd0b3d4e",
+      "rawTextureUuid": "b00d8ec8-974f-4d05-a914-f2d654088706",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 4,
+      "trimY": 0,
+      "width": 18,
+      "height": 50,
+      "rawWidth": 25,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

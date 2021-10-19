@@ -1,0 +1,53 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "carflow2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "light": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 200
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 200
+            }
+          ]
+        }
+      },
+      "car": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -70,
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 1,
+              "value": -50,
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 2,
+              "value": -70
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

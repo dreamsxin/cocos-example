@@ -1,0 +1,311 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "chouka_zise",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.8666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "baiguang": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.65,
+              "value": [
+                -368.285,
+                -390.131,
+                0
+              ]
+            },
+            {
+              "frame": 1.5833333333333333,
+              "value": [
+                1273.639,
+                1637.476,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "guang02": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0.9333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.354,
+                "y": 0.354
+              }
+            },
+            {
+              "frame": 1.3166666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 4.147,
+                "y": 4.147
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.9333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 1.0333333333333334,
+              "value": 255
+            },
+            {
+              "frame": 1.45,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "guangmang01": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.327,
+                "y": 0.327
+              }
+            },
+            {
+              "frame": 0.8166666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.327,
+                "y": 0.327
+              }
+            },
+            {
+              "frame": 1.5833333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 2.5
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.8166666666666667,
+              "value": 0
+            },
+            {
+              "frame": 1.0166666666666666,
+              "value": 0
+            },
+            {
+              "frame": 1.0666666666666667,
+              "value": 255
+            },
+            {
+              "frame": 1.25,
+              "value": 255
+            },
+            {
+              "frame": 1.4833333333333334,
+              "value": 255
+            },
+            {
+              "frame": 1.8666666666666667,
+              "value": 0
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": -538.446
+            },
+            {
+              "frame": 1,
+              "value": -538.446
+            },
+            {
+              "frame": 1.8666666666666667,
+              "value": -386.243
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                377.936,
+                652.18,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "explosive02": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0.5166666666666667,
+              "value": 160.707
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": -0.8479999999999999
+            },
+            {
+              "frame": 1.8666666666666667,
+              "value": 160.707
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0.5166666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 3.354,
+                "y": 3.354
+              }
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.514,
+                "y": 0.514
+              }
+            },
+            {
+              "frame": 1.8666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 3.354,
+                "y": 3.354
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.9333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 1.0333333333333334,
+              "value": 249
+            },
+            {
+              "frame": 1.3833333333333333,
+              "value": 252
+            },
+            {
+              "frame": 1.4333333333333333,
+              "value": 252
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": 255
+            },
+            {
+              "frame": 1.8666666666666667,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "New Particle": {
+        "props": {
+          "active": [
+            {
+              "frame": 1.0666666666666667,
+              "value": false
+            },
+            {
+              "frame": 1.1,
+              "value": true
+            }
+          ]
+        },
+        "comps": {
+          "cc.ParticleSystem": {
+            "playOnLoad": [
+              {
+                "frame": 1.1,
+                "value": true
+              }
+            ]
+          }
+        }
+      },
+      "wujiaoxing": {
+        "props": {
+          "active": [
+            {
+              "frame": 0.95,
+              "value": false
+            },
+            {
+              "frame": 0.9833333333333333,
+              "value": true
+            }
+          ]
+        },
+        "comps": {
+          "cc.ParticleSystem": {
+            "playOnLoad": [
+              {
+                "frame": 0.9833333333333333,
+                "value": true
+              }
+            ]
+          }
+        }
+      },
+      "ziseguangmang": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0.9333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.431,
+                "y": 0.431
+              }
+            },
+            {
+              "frame": 1.85,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 9.73,
+                "y": 9.73
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.9333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 1.05,
+              "value": 99
+            },
+            {
+              "frame": 1.3,
+              "value": 58
+            },
+            {
+              "frame": 1.85,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

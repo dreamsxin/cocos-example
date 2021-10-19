@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "206ed75e-7ba1-4f77-8249-0bc70fa2a09f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 256,
+  "platformSettings": {},
+  "subMetas": {
+    "shot_attack_mozhanshi_yuan": {
+      "ver": "1.0.4",
+      "uuid": "e8bc4662-1d8b-48b4-8b2a-63488b072516",
+      "rawTextureUuid": "206ed75e-7ba1-4f77-8249-0bc70fa2a09f",
+      "trimType": "auto",
+      "trimThreshold": 0,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1024,
+      "height": 256,
+      "rawWidth": 1024,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

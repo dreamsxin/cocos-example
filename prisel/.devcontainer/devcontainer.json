@@ -1,0 +1,31 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.112.0/containers/typescript-node-10
+{
+    "name": "Node.js 10 & TypeScript",
+    "dockerFile": "Dockerfile",
+    "workspaceFolder": "/workspace",
+    // consistency is only effective on Mac and ignored by other host
+    // environment.
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
+    // using name volumne to for node_modules to allow fast write access. This
+    // also mean that host will not be able to call things inside node_modules
+    // (no lerna), only container can.
+    "mounts": [
+        "source=prisel-node_modules,target=/workspace/node_modules,type=volume"
+    ],
+    // forward container port 3000 (websocke port for monopoly) to host port 3000
+    "forwardPorts": [
+        3000
+    ], // default ws port
+    "postCreateCommand": "sudo chown node node_modules && npm ci",
+    // Set *default* container specific settings.json values on container create.
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    // Add the IDs of extensions you want installed when the container is created.
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.vscode-typescript-tslint-plugin"
+    ],
+    "remoteUser": "node"
+}

@@ -1,0 +1,55 @@
+
+ready_skill1_fire.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+firepice01
+  rotate: false
+  xy: 629, 376
+  size: 90, 114
+  orig: 90, 114
+  offset: 0, 0
+  index: -1
+firepice02
+  rotate: false
+  xy: 629, 273
+  size: 90, 101
+  orig: 90, 101
+  offset: 0, 0
+  index: -1
+firepice03
+  rotate: true
+  xy: 2, 2
+  size: 86, 114
+  orig: 86, 114
+  offset: 0, 0
+  index: -1
+firepice04
+  rotate: false
+  xy: 721, 414
+  size: 67, 76
+  orig: 67, 76
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 340, 206
+  size: 287, 284
+  orig: 287, 284
+  offset: 0, 0
+  index: -1
+shockring
+  rotate: true
+  xy: 2, 90
+  size: 62, 250
+  orig: 62, 250
+  offset: 0, 0
+  index: -1
+starlight
+  rotate: false
+  xy: 2, 154
+  size: 336, 336
+  orig: 336, 336
+  offset: 0, 0
+  index: -1

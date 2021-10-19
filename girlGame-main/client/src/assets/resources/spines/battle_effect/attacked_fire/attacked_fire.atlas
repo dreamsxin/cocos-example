@@ -1,0 +1,34 @@
+
+attacked_fire.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 34
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+particle01
+  rotate: false
+  xy: 220, 177
+  size: 68, 73
+  orig: 68, 73
+  offset: 0, 0
+  index: -1
+particle02
+  rotate: true
+  xy: 2, 2
+  size: 30, 102
+  orig: 30, 102
+  offset: 0, 0
+  index: -1
+particle03
+  rotate: false
+  xy: 220, 132
+  size: 32, 43
+  orig: 32, 43
+  offset: 0, 0
+  index: -1

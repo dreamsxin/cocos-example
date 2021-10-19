@@ -1,0 +1,202 @@
+
+ready_skill2_darkbreath.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+breathbar1
+  rotate: true
+  xy: 1888, 370
+  size: 40, 104
+  orig: 40, 104
+  offset: 0, 0
+  index: -1
+breathbar2
+  rotate: false
+  xy: 402, 99
+  size: 262, 104
+  orig: 262, 104
+  offset: 0, 0
+  index: -1
+breathline01
+  rotate: false
+  xy: 962, 34
+  size: 169, 43
+  orig: 169, 43
+  offset: 0, 0
+  index: -1
+breathline02
+  rotate: false
+  xy: 962, 79
+  size: 188, 43
+  orig: 188, 43
+  offset: 0, 0
+  index: -1
+breathline03
+  rotate: false
+  xy: 1805, 76
+  size: 154, 38
+  orig: 154, 38
+  offset: 0, 0
+  index: -1
+breathline04
+  rotate: false
+  xy: 969, 204
+  size: 260, 39
+  orig: 260, 39
+  offset: 0, 0
+  index: -1
+breathspark01
+  rotate: true
+  xy: 1250, 11
+  size: 235, 262
+  orig: 235, 262
+  offset: 0, 0
+  index: -1
+breathspark02
+  rotate: true
+  xy: 1529, 128
+  size: 212, 284
+  orig: 212, 284
+  offset: 0, 0
+  index: -1
+breathspark03
+  rotate: true
+  xy: 687, 17
+  size: 225, 273
+  orig: 225, 273
+  offset: 0, 0
+  index: -1
+breathwave01
+  rotate: false
+  xy: 2, 80
+  size: 363, 31
+  orig: 363, 31
+  offset: 0, 0
+  index: -1
+breathwave02
+  rotate: false
+  xy: 2, 39
+  size: 265, 39
+  orig: 265, 39
+  offset: 0, 0
+  index: -1
+breathwave03
+  rotate: false
+  xy: 2, 27
+  size: 233, 10
+  orig: 233, 10
+  offset: 0, 0
+  index: -1
+breathwave04
+  rotate: false
+  xy: 962, 3
+  size: 146, 29
+  orig: 146, 29
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 1250, 248
+  size: 262, 277
+  orig: 262, 277
+  offset: 0, 0
+  index: -1
+lightning01-1
+  rotate: false
+  xy: 1888, 412
+  size: 104, 98
+  orig: 104, 98
+  offset: 0, 0
+  index: -1
+lightning01-2
+  rotate: false
+  xy: 1733, 49
+  size: 70, 77
+  orig: 70, 77
+  offset: 0, 0
+  index: -1
+lightning01-3
+  rotate: false
+  xy: 1170, 137
+  size: 59, 65
+  orig: 59, 65
+  offset: 0, 0
+  index: -1
+lightning02-1
+  rotate: true
+  xy: 1815, 116
+  size: 224, 108
+  orig: 224, 108
+  offset: 0, 0
+  index: -1
+lightning02-2
+  rotate: false
+  xy: 1514, 32
+  size: 217, 94
+  orig: 217, 94
+  offset: 0, 0
+  index: -1
+lightning02-3
+  rotate: false
+  xy: 962, 124
+  size: 206, 78
+  orig: 206, 78
+  offset: 0, 0
+  index: -1
+lightning03-1
+  rotate: false
+  xy: 1805, 2
+  size: 66, 72
+  orig: 66, 72
+  offset: 0, 0
+  index: -1
+lightning03-2
+  rotate: true
+  xy: 1994, 449
+  size: 61, 47
+  orig: 61, 47
+  offset: 0, 0
+  index: -1
+lightning03-3
+  rotate: false
+  xy: 269, 42
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+mcircle
+  rotate: true
+  xy: 1529, 342
+  size: 168, 357
+  orig: 168, 357
+  offset: 0, 0
+  index: -1
+particle01
+  rotate: false
+  xy: 402, 205
+  size: 283, 305
+  orig: 283, 305
+  offset: 0, 0
+  index: -1
+particle02
+  rotate: false
+  xy: 687, 244
+  size: 280, 266
+  orig: 280, 266
+  offset: 0, 0
+  index: -1
+particle03
+  rotate: true
+  xy: 969, 245
+  size: 265, 279
+  orig: 265, 279
+  offset: 0, 0
+  index: -1
+starlight
+  rotate: false
+  xy: 2, 113
+  size: 398, 397
+  orig: 398, 397
+  offset: 0, 0
+  index: -1

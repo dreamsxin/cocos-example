@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "7123ea0a-f2f5-4c8a-86cc-6317c9e66b7f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "子弹25(盾墙大锤）": {
+      "ver": "1.0.4",
+      "uuid": "d4fad995-e385-4579-b540-5cd2f4bce6f8",
+      "rawTextureUuid": "7123ea0a-f2f5-4c8a-86cc-6317c9e66b7f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 4,
+      "trimY": 0,
+      "width": 18,
+      "height": 50,
+      "rawWidth": 25,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

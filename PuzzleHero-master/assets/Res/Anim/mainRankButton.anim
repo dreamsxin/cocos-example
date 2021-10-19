@@ -1,0 +1,146 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "mainRankButton",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 6.016666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "light": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                93.649,
+                -41.351,
+                0
+              ],
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1,
+              "value": [
+                -1.867,
+                -94.521,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 2,
+              "value": [
+                -97.383,
+                -42.069,
+                0
+              ],
+              "curve": "constant"
+            },
+            {
+              "frame": 3,
+              "value": [
+                -116.774,
+                80.02,
+                0
+              ],
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": [
+                -1.149,
+                136.755,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 5,
+              "value": [
+                110.885,
+                80.02,
+                0
+              ]
+            },
+            {
+              "frame": 6.016666666666667,
+              "value": [
+                110.885,
+                80.02,
+                0
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 5,
+              "value": 720
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

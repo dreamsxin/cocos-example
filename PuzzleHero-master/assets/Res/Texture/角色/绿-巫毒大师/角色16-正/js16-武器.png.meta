@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "46c46f19-80b3-4104-98d7-cd2f6b15ea5f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "js16-武器": {
+      "ver": "1.0.4",
+      "uuid": "bc4a8b4f-32d8-48a8-84b6-5d29cf268095",
+      "rawTextureUuid": "46c46f19-80b3-4104-98d7-cd2f6b15ea5f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 15,
+      "height": 38,
+      "rawWidth": 15,
+      "rawHeight": 38,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

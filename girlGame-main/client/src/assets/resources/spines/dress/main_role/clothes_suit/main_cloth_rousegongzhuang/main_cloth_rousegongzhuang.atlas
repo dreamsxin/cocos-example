@@ -1,0 +1,34 @@
+
+main_cloth_rousegongzhuang.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cloth
+  rotate: true
+  xy: 2, 415
+  size: 491, 1211
+  orig: 491, 1211
+  offset: 0, 0
+  index: -1
+L_piaodai
+  rotate: true
+  xy: 2, 234
+  size: 179, 809
+  orig: 179, 809
+  offset: 0, 0
+  index: -1
+R_piaodai
+  rotate: true
+  xy: 1215, 540
+  size: 366, 831
+  orig: 366, 831
+  offset: 0, 0
+  index: -1
+cloth_L_xiuzi
+  rotate: true
+  xy: 2, 2
+  size: 230, 431
+  orig: 230, 431
+  offset: 0, 0
+  index: -1

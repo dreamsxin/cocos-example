@@ -1,0 +1,54 @@
+{
+    "systemSetting": {
+        "musicVolume": 1,
+        "musicMute": false,
+        "soundVolume": 1,
+        "soundMute": false,
+        "aiDelay": 0.5
+    },
+    "localUserInfo": {
+        "id": 1000001,
+        "name": "无名大侠",
+        "gender": 0,
+        "birthYear": 0,
+        "age": 0,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 0
+    },
+    "huolongSetting": {
+        "playerNum": 4,
+        "campNum": 2,
+        "groupNum": 3,
+        "lastCardsNum": 6,
+        "startLevel": 3,
+        "endLevel": 1,
+        "jokerAfterEndLevel": false,
+        "thresholdsLevels": [
+            11,
+            1
+        ],
+        "isLastConstantMain": true,
+        "mainColorGetWay": 1,
+        "lastCardsScoreDouble": false,
+        "fullScore": 120,
+        "fullScoreGotMain": true,
+        "lastCardsGotMain": false,
+        "noHalfScroreAddUpgrade": 0,
+        "noScoreAddUpgrade": 0,
+        "joker1AddUpgrade": 3,
+        "joker2AddUpgrade": 2,
+        "haveJokerBaseUpgrade": 0,
+        "noJokerBaseUpgrade": 1,
+        "noLastCardsBaseUpgrade": 0,
+        "downgradeByJoker1": false,
+        "downgradeByJoker2": false,
+        "downgradeByMainCP": true,
+        "downgradeByUnMainCP": true,
+        "downgradeByMain2": false,
+        "downgradeByUnMain2": false,
+        "recordThisMatch": false,
+        "firstRoundGiveCardsDelay": 0.1,
+        "aroundOverDelay": 2
+    }
+}

@@ -1,0 +1,66 @@
+{
+	"host": "0.0.0.0",
+    "port": 8080,
+    "timezone": "Asia/Shanghai",
+    "datacenterId": 0,
+    "workerId": 0,
+    "ssl": {
+        "enabled": false,
+        "key": "",
+        "cert": ""
+    },
+    "token": {
+        "secretKey": "_5#y2LF4Q8nxzec]/",
+        "expiresIn": "2h"
+    },
+    "log": {
+        "level": "debug",
+        "fileMode": false,
+        "options": {
+            "flags": "a",
+            "encoding": "utf8"
+        },
+        "outFile": "./logs/login.log",
+        "errFile": "./logs/login.err.log"
+    },
+    "cache": {
+        "enabled": true,
+        "redis": {
+            "host": "127.0.0.1",
+            "port": 11001,
+            "pass": "yaoshi2020"
+        }
+    },
+    "db": {
+        "enabled": true,
+        "mysql": {
+            "host": "127.0.0.1",
+            "port": 3306,
+            "user": "root",
+            "password": "yaoshi2020",
+            "database": "logindb",
+            "connectionLimit": 10
+        } 
+    },
+    "mq": {
+        "enabled": true,
+        "sync": {
+            "tag": "sync",
+            "hosts": ["amqp://yaoshi:yaoshi2020@127.0.0.1:5672"],
+            "exchangeName": "login.sync.topic",
+            "exchangeType": "topic",
+            "routingKey": "login.sync.topic001.cool",
+            "bindingKey": "login.sync.#",
+            "durable": true,
+            "persistent": true,
+            "mandatory": true,
+            "queueName": "MQ_topic_login_sync",
+            "limit": {
+                "enabled": false,
+                "count": 1,
+                "flag": false
+            },
+            "exclusive": false
+        }
+    }
+}

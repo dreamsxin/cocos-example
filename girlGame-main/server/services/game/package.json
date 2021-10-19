@@ -1,0 +1,32 @@
+{
+  "name": "zhimeng_game",
+  "version": "1.0.0",
+  "description": "game server for zhimeng.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "export NODE_ENV='development' && node index.js",
+    "build": "export NODE_ENV='production' && node index.js",
+    "start": "pm2 start ecosystem.config.js --only game",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "server"
+  ],
+  "author": "",
+  "license": "",
+  "devDependencies": {},
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "bluebird": "^3.7.2",
+    "cron": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.31",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "node-snowflake": "0.0.1",
+    "redis": "^3.0.2",
+    "ws": "^7.2.3"
+  }
+}

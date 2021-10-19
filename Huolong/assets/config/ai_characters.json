@@ -1,0 +1,372 @@
+[
+    {
+        "id": 1001,
+        "name": "陈乔恩",
+        "gender": 2,
+        "birthYear": 1979,
+        "age": 0,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 20,
+        "copyright": true,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 1002,
+        "name": "赵奕欢",
+        "gender": 2,
+        "birthYear": 1987,
+        "age": 0,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 1,
+        "copyright": true,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 1003,
+        "name": "鹿晗",
+        "gender": 1,
+        "birthYear": 1990,
+        "age": 0,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 2,
+        "copyright": true,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 1004,
+        "name": "周杰伦",
+        "gender": 1,
+        "birthYear": 1979,
+        "age": 0,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 3,
+        "copyright": true,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 2001,
+        "name": "金克斯",
+        "gender": 2,
+        "birthYear": 0,
+        "age": 21,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 4,
+        "copyright": false,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 2002,
+        "name": "李青",
+        "gender": 1,
+        "birthYear": 0,
+        "age": 0,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 5,
+        "copyright": false,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 2101,
+        "name": "春日野穹",
+        "gender": 2,
+        "birthYear": 0,
+        "age": 16,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 11,
+        "copyright": false,
+        "baseWeight": 200,
+        "friendOthersRate": {
+            "0": 0,
+            "2102": 1
+        },
+        "enemyOthersRate": {
+            "0": 1,
+            "2102": 0
+        }
+    },
+    {
+        "id": 2102,
+        "name": "春日野悠",
+        "gender": 1,
+        "birthYear": 0,
+        "age": 16,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 10,
+        "copyright": false,
+        "baseWeight": 50,
+        "friendOthersRate": {
+            "0": 0.5,
+            "2101": 1
+        },
+        "enemyOthersRate": {
+            "0": 0.5,
+            "2101": 0
+        }
+    },
+    {
+        "id": 2201,
+        "name": "慕容紫英",
+        "gender": 1,
+        "birthYear": 0,
+        "age": 20,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 16,
+        "copyright": false,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 3001,
+        "name": "犬夜叉",
+        "gender": 1,
+        "birthYear": 0,
+        "age": 200,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 6,
+        "copyright": false,
+        "baseWeight": 30,
+        "friendOthersRate": {
+            "0": 0.7,
+            "3002": 1
+        },
+        "enemyOthersRate": {
+            "0": 0.7,
+            "3002": 0.1
+        }
+    },
+    {
+        "id": 3002,
+        "name": "桔梗",
+        "gender": 2,
+        "birthYear": 0,
+        "age": 18,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 7,
+        "copyright": false,
+        "baseWeight": 30,
+        "friendOthersRate": {
+            "0": 0.6,
+            "3002": 0.95
+        },
+        "enemyOthersRate": {
+            "0": 0.6,
+            "3002": 0.95
+        }
+    },
+    {
+        "id": 3003,
+        "name": "路飞",
+        "gender": 1,
+        "birthYear": 0,
+        "age": 17,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 8,
+        "copyright": false,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 3004,
+        "name": "月野兔",
+        "gender": 2,
+        "birthYear": 0,
+        "age": 15,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 9,
+        "copyright": false,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 4001,
+        "name": "圣女贞德",
+        "gender": 2,
+        "birthYear": 0,
+        "age": 16,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 12,
+        "copyright": false,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 4002,
+        "name": "爱因斯坦",
+        "gender": 1,
+        "birthYear": 0,
+        "age": 75,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 13,
+        "copyright": false,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 5001,
+        "name": "令狐冲",
+        "gender": 1,
+        "birthYear": 0,
+        "age": 24,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 14,
+        "copyright": false,
+        "baseWeight": 20,
+        "friendOthersRate": {
+            "0": 0.9,
+            "5002": 1
+        },
+        "enemyOthersRate": {
+            "0": 0.9
+        }
+    },
+    {
+        "id": 5002,
+        "name": "任盈盈",
+        "gender": 2,
+        "birthYear": 0,
+        "age": 22,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 15,
+        "copyright": false,
+        "baseWeight": 50,
+        "friendOthersRate": {
+            "0": 0.6,
+            "5001": 1
+        },
+        "enemyOthersRate": {
+            "0": 0.6
+        }
+    },
+    {
+        "id": 5003,
+        "name": "江小鱼",
+        "gender": 1,
+        "birthYear": 0,
+        "age": 19,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 17,
+        "copyright": false,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 6001,
+        "name": "吕布",
+        "gender": 1,
+        "birthYear": 0,
+        "age": 35,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 18,
+        "copyright": false,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    },
+    {
+        "id": 6002,
+        "name": "关羽",
+        "gender": 1,
+        "birthYear": 0,
+        "age": 36,
+        "imageType": 1,
+        "imageUrl": "",
+        "imageId": 19,
+        "copyright": false,
+        "baseWeight": 10,
+        "friendOthersRate": {
+            "0": 1
+        },
+        "enemyOthersRate": {
+            "0": 1
+        }
+    }
+]

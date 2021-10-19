@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "1dc0e21d-44c6-48c7-be23-548686a6ab9e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2015,
+  "height": 2015,
+  "platformSettings": {},
+  "subMetas": {
+    "保卫西瓜2": {
+      "ver": "1.0.4",
+      "uuid": "ef86ee02-ccac-4412-a43f-f29dc4626678",
+      "rawTextureUuid": "1dc0e21d-44c6-48c7-be23-548686a6ab9e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 9.5,
+      "offsetY": 234,
+      "trimX": 194,
+      "trimY": 54,
+      "width": 1646,
+      "height": 1439,
+      "rawWidth": 2015,
+      "rawHeight": 2015,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

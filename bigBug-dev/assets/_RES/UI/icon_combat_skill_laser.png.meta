@@ -1,0 +1,45 @@
+{
+  "ver": "2.3.5",
+  "uuid": "ea8a9e4d-33e1-418c-b774-c6825ca584d5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 128,
+  "height": 128,
+  "platformSettings": {
+    "default": {
+      "formats": [
+        {
+          "name": "png",
+          "quality": 99
+        }
+      ]
+    }
+  },
+  "subMetas": {
+    "icon_combat_skill_laser": {
+      "ver": "1.0.4",
+      "uuid": "f128fee4-e783-4537-8c66-da41a662f9b0",
+      "rawTextureUuid": "ea8a9e4d-33e1-418c-b774-c6825ca584d5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 1,
+      "trimX": 6,
+      "trimY": 5,
+      "width": 114,
+      "height": 116,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

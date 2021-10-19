@@ -1,0 +1,32 @@
+{
+    "clusterMode": false,
+    "host": "127.0.0.1",
+    "port": 8888,
+    "maxPayload": 0, 
+    "keepAlive": 180,
+    "secretKey": "_5#y2LF4Q8zec]/",
+    "protoPath": "./protos",
+    "staticDataPath": "./datas",
+    "workerId": 1,
+    "datacenterId": 1,
+    "log": {
+        "level": "debug",
+        "fileMode": true,
+        "outFile": "./logs/game.log",
+        "errFile": "./logs/game.log"
+    },
+    "cache": {
+        "mode": "",
+        "redis": {
+            "host": "127.0.0.1",
+            "port": 6379,
+            "pass": ""
+        }
+    },
+    "db": {
+        "mode": "mongo",
+        "mongo": {
+
+        }
+    }
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package prisel;
+option csharp_namespace = "Prisel.Protobuf";
+
+enum PacketType {
+  DEFAULT = 0;
+  REQUEST = 1;
+  RESPONSE = 2;
+}

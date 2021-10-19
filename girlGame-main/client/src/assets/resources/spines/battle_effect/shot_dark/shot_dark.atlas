@@ -1,0 +1,27 @@
+
+shot_dark.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow01
+  rotate: true
+  xy: 2, 2
+  size: 100, 142
+  orig: 100, 142
+  offset: 0, 0
+  index: -1
+arrow02
+  rotate: false
+  xy: 146, 35
+  size: 193, 67
+  orig: 193, 67
+  offset: 0, 0
+  index: -1
+arrow03
+  rotate: false
+  xy: 146, 2
+  size: 201, 31
+  orig: 201, 31
+  offset: 0, 0
+  index: -1

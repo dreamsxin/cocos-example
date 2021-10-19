@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "unlocking",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "Mask/Lgiht": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 155
+            },
+            {
+              "frame": 0.5,
+              "value": -155,
+              "curve": "constant"
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 155
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": -155,
+              "curve": "constant"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 155
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": -155
+            }
+          ]
+        }
+      },
+      "zjm-（主界面）宝箱倒计时/zjm-（主界面）宝箱倒计时-指针": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": -360
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

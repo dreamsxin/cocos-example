@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "81422cca-738c-45d5-9309-71aeb7a8897e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "hx-玩家回合提示框": {
+      "ver": "1.0.4",
+      "uuid": "2613e34a-17e4-4943-8b35-9488ae5bee07",
+      "rawTextureUuid": "81422cca-738c-45d5-9309-71aeb7a8897e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 110,
+      "height": 50,
+      "rawWidth": 110,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 37,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,20 @@
+
+states_shield.png
+size: 256,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: false
+  xy: 2, 2
+  size: 247, 279
+  orig: 247, 279
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 2, 283
+  size: 197, 442
+  orig: 197, 442
+  offset: 0, 0
+  index: -1

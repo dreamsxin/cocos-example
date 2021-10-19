@@ -1,0 +1,24 @@
+{
+  "__version__": "1.0.1",
+  "general": {
+    "designResolution": {
+      "width": 1920,
+      "height": 1080,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  },
+  "script": {
+    "loose": false
+  },
+  "layer": [
+    {
+      "name": "MAIN_2D",
+      "value": 1024
+    },
+    {
+      "name": "WECHAT_CANVAS_RENDERER",
+      "value": 16384
+    }
+  ]
+}

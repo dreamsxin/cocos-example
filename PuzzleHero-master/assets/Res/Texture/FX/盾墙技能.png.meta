@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "81f05830-9954-478b-8c2b-737b79bc109e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "盾墙技能": {
+      "ver": "1.0.4",
+      "uuid": "c1f6aadc-552a-42e5-b8c1-ee1b643ac0c1",
+      "rawTextureUuid": "81f05830-9954-478b-8c2b-737b79bc109e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 76,
+      "height": 88,
+      "rawWidth": 76,
+      "rawHeight": 88,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "318415c6-7ec5-4a6c-bb12-90a54ebcd0fe",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "闪电盔甲技能": {
+      "ver": "1.0.4",
+      "uuid": "17299dd3-90b1-4a36-8fb9-400820d50da2",
+      "rawTextureUuid": "318415c6-7ec5-4a6c-bb12-90a54ebcd0fe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 128,
+      "height": 128,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

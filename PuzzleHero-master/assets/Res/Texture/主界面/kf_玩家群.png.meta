@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "688a467b-ebf2-425a-b10a-7317091eb672",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "kf_玩家群": {
+      "ver": "1.0.4",
+      "uuid": "b8b83161-9a61-47d6-bb1c-7814d3b29e7e",
+      "rawTextureUuid": "688a467b-ebf2-425a-b10a-7317091eb672",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 2,
+      "width": 39,
+      "height": 36,
+      "rawWidth": 40,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

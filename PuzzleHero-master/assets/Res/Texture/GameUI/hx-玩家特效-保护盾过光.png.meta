@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "149f0145-762f-4d81-83c2-b445ec1ad653",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "hx-玩家特效-保护盾过光": {
+      "ver": "1.0.4",
+      "uuid": "09eee6d5-8323-44ba-857c-b75e6d47153c",
+      "rawTextureUuid": "149f0145-762f-4d81-83c2-b445ec1ad653",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 15.5,
+      "offsetY": 0,
+      "trimX": 31,
+      "trimY": 0,
+      "width": 126,
+      "height": 114,
+      "rawWidth": 157,
+      "rawHeight": 114,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

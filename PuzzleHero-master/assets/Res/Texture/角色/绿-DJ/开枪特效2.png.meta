@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "816c7901-355a-4116-97d8-a634fbf038c5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "开枪特效2": {
+      "ver": "1.0.4",
+      "uuid": "264317d4-a8a9-478d-8324-d1fd65270129",
+      "rawTextureUuid": "816c7901-355a-4116-97d8-a634fbf038c5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1,
+      "trimX": 0,
+      "trimY": 5,
+      "width": 50,
+      "height": 42,
+      "rawWidth": 50,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

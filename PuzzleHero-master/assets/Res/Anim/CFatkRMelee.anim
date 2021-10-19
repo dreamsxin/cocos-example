@@ -1,0 +1,368 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "CFatkRMelee",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "B": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.25,
+              "value": 21
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 21,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "B/RH": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                18.847,
+                24.241,
+                0
+              ],
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                8.967,
+                32.824,
+                0
+              ]
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": [
+                8.967,
+                32.824,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                18.925,
+                23.975,
+                0
+              ],
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                18.925,
+                23.975,
+                0
+              ],
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1,
+              "value": [
+                18.847,
+                24.241,
+                0
+              ]
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.25,
+              "value": 65.179
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 65.179,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 7.9670000000000005,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 7.9670000000000005,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "B/RH/WP/GF": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.08333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 0
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0.08333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.2,
+                "y": 1.2
+              }
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.2,
+                "y": 1.2
+              }
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 3,
+                "y": 3
+              }
+            }
+          ]
+        }
+      },
+      "B/LH": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.25,
+              "value": 30.403
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 30.403,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": -54.934999999999995,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": -54.934999999999995,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -18.847,
+                24.241,
+                0
+              ],
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                -17.729,
+                23.135,
+                0
+              ]
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": [
+                -17.729,
+                23.135,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                -11.822,
+                30.705,
+                0
+              ],
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                -11.822,
+                30.705,
+                0
+              ],
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1,
+              "value": [
+                -18.847,
+                24.241,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "B/H": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.25,
+              "value": 5.344000000000001
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 5.344000000000001
+            },
+            {
+              "frame": 0.5,
+              "value": 12.779,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 12.779,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "RF": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": 33
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 33
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                11,
+                -6,
+                0
+              ]
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": [
+                8.759,
+                -0.546,
+                0
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                14.362,
+                -7.121,
+                0
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                14.362,
+                -7.121,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                11,
+                -6,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

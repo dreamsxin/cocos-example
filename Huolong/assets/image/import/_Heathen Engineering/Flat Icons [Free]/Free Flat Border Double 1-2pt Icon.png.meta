@@ -1,0 +1,74 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "1f9a1f6c-7012-478b-b1bf-7327a198eeff",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "1f9a1f6c-7012-478b-b1bf-7327a198eeff@6c48a",
+      "displayName": "Free Flat Border Double 1-2pt Icon",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "1f9a1f6c-7012-478b-b1bf-7327a198eeff",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "1f9a1f6c-7012-478b-b1bf-7327a198eeff@f9941",
+      "displayName": "Free Flat Border Double 1-2pt Icon",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 16,
+        "height": 16,
+        "rawWidth": 16,
+        "rawHeight": 16,
+        "borderTop": 7,
+        "borderBottom": 7,
+        "borderLeft": 7,
+        "borderRight": 7,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1f9a1f6c-7012-478b-b1bf-7327a198eeff@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "redirect": "1f9a1f6c-7012-478b-b1bf-7327a198eeff@f9941"
+  }
+}

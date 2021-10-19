@@ -1,0 +1,51 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "T5",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 8,
+  "sample": 60,
+  "speed": 0.3,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "宣传图2": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -70,
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 4,
+              "value": 70,
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 8,
+              "value": -70
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": 37,
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 4,
+              "value": -37,
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 8,
+              "value": 37
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

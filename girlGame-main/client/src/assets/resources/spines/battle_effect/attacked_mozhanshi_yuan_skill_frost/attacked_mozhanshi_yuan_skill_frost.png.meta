@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "57a92f34-e905-47f2-8d24-d46f029d66b9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "attacked_mozhanshi_yuan_skill_frost": {
+      "ver": "1.0.4",
+      "uuid": "ba65050a-b695-4f6a-825f-801e5497b5c5",
+      "rawTextureUuid": "57a92f34-e905-47f2-8d24-d46f029d66b9",
+      "trimType": "auto",
+      "trimThreshold": 0,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 2048,
+      "height": 512,
+      "rawWidth": 2048,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

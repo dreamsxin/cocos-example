@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "905adc7f-b788-46e6-88ad-29c11f432242",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "子弹28(闪电盔甲）": {
+      "ver": "1.0.4",
+      "uuid": "e5d20210-2f1b-4059-823b-3c928498afaa",
+      "rawTextureUuid": "905adc7f-b788-46e6-88ad-29c11f432242",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 4,
+      "trimY": 0,
+      "width": 18,
+      "height": 50,
+      "rawWidth": 25,
+      "rawHeight": 50,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

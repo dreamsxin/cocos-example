@@ -1,0 +1,97 @@
+
+nvjianshi.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ba_cloth
+  rotate: false
+  xy: 1539, 131
+  size: 156, 114
+  orig: 156, 114
+  offset: 0, 0
+  index: -1
+ba_hair01
+  rotate: true
+  xy: 1347, 160
+  size: 85, 190
+  orig: 85, 190
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 279, 99
+  size: 146, 296
+  orig: 146, 296
+  offset: 0, 0
+  index: -1
+fr_hair01
+  rotate: true
+  xy: 577, 86
+  size: 48, 91
+  orig: 48, 91
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1152, 102
+  size: 143, 193
+  orig: 143, 193
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: false
+  xy: 906, 89
+  size: 244, 156
+  orig: 244, 156
+  offset: 0, 0
+  index: -1
+l_cloth
+  rotate: true
+  xy: 2, 2
+  size: 60, 267
+  orig: 60, 267
+  offset: 0, 0
+  index: -1
+mid_hair01
+  rotate: true
+  xy: 1697, 168
+  size: 77, 156
+  orig: 77, 156
+  offset: 0, 0
+  index: -1
+mid_hair02
+  rotate: true
+  xy: 1855, 196
+  size: 49, 103
+  orig: 49, 103
+  offset: 0, 0
+  index: -1
+mid_hair03
+  rotate: true
+  xy: 1960, 194
+  size: 51, 61
+  orig: 51, 61
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: true
+  xy: 1347, 111
+  size: 47, 142
+  orig: 47, 142
+  offset: 0, 0
+  index: -1
+r_cloth
+  rotate: true
+  xy: 2, 64
+  size: 181, 275
+  orig: 181, 275
+  offset: 0, 0
+  index: -1
+sword
+  rotate: false
+  xy: 577, 136
+  size: 327, 109
+  orig: 327, 109
+  offset: 0, 0
+  index: -1

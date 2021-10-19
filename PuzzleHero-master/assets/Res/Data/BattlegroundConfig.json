@@ -1,0 +1,416 @@
+[
+  {
+    "gid": "对应主界面和游戏中的场地编号",
+    "unlock": "解锁所需胜利场数",
+    "winCoin": "胜利奖励金币",
+    "chestDrop": "宝箱掉率",
+    "enemyAtk": "对手英雄增减效果",
+    "enemyHP": "对手基地增减效果",
+    "enmeyQ": "对手英雄池"
+  },
+  {
+    "gid": 0,
+    "unlock": 0,
+    "winCoin": 5,
+    "winScore":1,
+    "chestDrop": [
+      {
+        "id": 0,
+        "min": 1,
+        "max": 100
+      },
+      {
+        "id": 1,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "id": 2,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "id": 3,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "id": 4,
+        "min": 0,
+        "max": 0
+      }
+    ],
+    "enemyAtk": [
+      -3
+    ],
+    "enemyHP": [
+      -1
+    ],
+    "enmeyQ": [
+      0
+    ]
+  },
+  {
+    "gid": 1,
+    "unlock": 5,
+    "winCoin": 10,
+    "winScore":2,
+    "chestDrop": [
+      {
+        "id": 0,
+        "min": 1,
+        "max": 50
+      },
+      {
+        "id": 1,
+        "min": 51,
+        "max": 100
+      },
+      {
+        "id": 2,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "id": 3,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "id": 4,
+        "min": 0,
+        "max": 0
+      }
+    ],
+    "enemyAtk": [
+      -3,
+      -2
+    ],
+    "enemyHP": [
+      -1
+    ],
+    "enmeyQ": [
+      0,
+      1
+    ]
+  },
+  {
+    "gid": 2,
+    "unlock": 20,
+    "winCoin": 20,
+    "winScore":3,
+    "chestDrop": [
+      {
+        "id": 0,
+        "min": 1,
+        "max": 40
+      },
+      {
+        "id": 1,
+        "min": 41,
+        "max": 80
+      },
+      {
+        "id": 2,
+        "min": 81,
+        "max": 100
+      },
+      {
+        "id": 3,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "id": 4,
+        "min": 0,
+        "max": 0
+      }
+    ],
+    "enemyAtk": [
+      -2,
+      -1
+    ],
+    "enemyHP": [
+      -1,
+      0
+    ],
+    "enmeyQ": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "gid": 3,
+    "unlock": 50,
+    "winCoin": 25,
+    "winScore":5,
+    "chestDrop": [
+      {
+        "id": 0,
+        "min": 1,
+        "max": 30
+      },
+      {
+        "id": 1,
+        "min": 31,
+        "max": 60
+      },
+      {
+        "id": 2,
+        "min": 61,
+        "max": 95
+      },
+      {
+        "id": 3,
+        "min": 96,
+        "max": 100
+      },
+      {
+        "id": 4,
+        "min": 0,
+        "max": 0
+      }
+    ],
+    "enemyAtk": [
+      0
+    ],
+    "enemyHP": [
+      0
+    ],
+    "enmeyQ": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "gid": 4,
+    "unlock": 120,
+    "winCoin": 30,
+    "winScore":7,
+    "chestDrop": [
+      {
+        "id": 0,
+        "min": 1,
+        "max": 20
+      },
+      {
+        "id": 1,
+        "min": 21,
+        "max": 40
+      },
+      {
+        "id": 2,
+        "min": 41,
+        "max": 87
+      },
+      {
+        "id": 3,
+        "min": 88,
+        "max": 97
+      },
+      {
+        "id": 4,
+        "min": 98,
+        "max": 100
+      }
+    ],
+    "enemyAtk": [
+      0,
+      1
+    ],
+    "enemyHP": [
+      0,
+      1
+    ],
+    "enmeyQ": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "gid": 5,
+    "unlock": 200,
+    "winCoin": 40,
+    "winScore":10,
+    "chestDrop": [
+      {
+        "id": 0,
+        "min": 1,
+        "max": 13
+      },
+      {
+        "id": 1,
+        "min": 14,
+        "max": 26
+      },
+      {
+        "id": 2,
+        "min": 27,
+        "max": 76
+      },
+      {
+        "id": 3,
+        "min": 77,
+        "max": 96
+      },
+      {
+        "id": 4,
+        "min": 97,
+        "max": 100
+      }
+    ],
+    "enemyAtk": [
+      0,
+      1
+    ],
+    "enemyHP": [
+      0,
+      1
+    ],
+    "enmeyQ": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "gid": 6,
+    "unlock": 280,
+    "winCoin": 50,
+    "winScore":12,
+    "chestDrop": [
+      {
+        "id": 0,
+        "min": 1,
+        "max": 8
+      },
+      {
+        "id": 1,
+        "min": 9,
+        "max": 16
+      },
+      {
+        "id": 2,
+        "min": 17,
+        "max": 66
+      },
+      {
+        "id": 3,
+        "min": 67,
+        "max": 95
+      },
+      {
+        "id": 4,
+        "min": 96,
+        "max": 100
+      }
+    ],
+    "enemyAtk": [
+      0,
+      1
+    ],
+    "enemyHP": [
+      0,
+      1
+    ],
+    "enmeyQ": [
+      2,
+      3
+    ]
+  },
+  {
+    "gid": 7,
+    "unlock": 400,
+    "winCoin": 80,
+    "winScore":15,
+    "chestDrop": [
+      {
+        "id": 0,
+        "min": 1,
+        "max": 4
+      },
+      {
+        "id": 1,
+        "min": 5,
+        "max": 6
+      },
+      {
+        "id": 2,
+        "min": 7,
+        "max": 45
+      },
+      {
+        "id": 3,
+        "min": 46,
+        "max": 85
+      },
+      {
+        "id": 4,
+        "min": 86,
+        "max": 100
+      }
+    ],
+    "enemyAtk": [
+      0,
+      1
+    ],
+    "enemyHP": [
+      0,
+      1
+    ],
+    "enmeyQ": [
+      2,
+      3
+    ]
+  },
+  {
+    "gid": 8,
+    "unlock": 520,
+    "winCoin": 100,
+    "winScore":20,
+    "chestDrop": [
+      {
+        "id": 0,
+        "min": 1,
+        "max": 4
+      },
+      {
+        "id": 1,
+        "min": 5,
+        "max": 6
+      },
+      {
+        "id": 2,
+        "min": 7,
+        "max": 26
+      },
+      {
+        "id": 3,
+        "min": 27,
+        "max": 70
+      },
+      {
+        "id": 4,
+        "min": 71,
+        "max": 100
+      }
+    ],
+    "enemyAtk": [
+      0,
+      1
+    ],
+    "enemyHP": [
+      0,
+      1
+    ],
+    "enmeyQ": [
+      2,
+      3
+    ]
+  }
+]

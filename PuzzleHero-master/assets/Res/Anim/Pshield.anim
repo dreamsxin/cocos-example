@@ -1,0 +1,42 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Pshield",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "MASK/hx-玩家特效-保护盾过光": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -120
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 120,
+              "curve": "constant"
+            },
+            {
+              "frame": 0.35,
+              "value": -120
+            },
+            {
+              "frame": 0.6833333333333333,
+              "value": 120
+            },
+            {
+              "frame": 1.5,
+              "value": 120
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

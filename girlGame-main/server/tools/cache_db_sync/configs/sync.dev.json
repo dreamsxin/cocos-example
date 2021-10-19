@@ -1,0 +1,43 @@
+{
+    "log": {
+        "level": "debug",
+        "fileMode": false,
+        "options": {
+            "flags": "a",
+            "encoding": "utf8"
+        },
+        "outFile": "./logs/sync.log",
+        "errFile": "./logs/sync.err.log"
+    },
+    "db": {
+        "enabled": true,
+        "mysql": {
+            "host": "127.0.0.1",
+            "port": 3306,
+            "user": "root",
+            "password": "yaoshi2020",
+            "database": "logindb",
+            "connectionLimit": 10
+        } 
+    },
+    "mq": {
+        "enabled": true,
+        "rabbitmq": {
+            "hosts": ["amqp://yaoshi:yaoshi2020@127.0.0.1:5672"],
+            "exchangeName": "login.topic",
+            "exchangeType": "topic",
+            "routingKey": "login.topic001.cool",
+            "bindingKey": "login.#",
+            "durable": true,
+            "persistent": true,
+            "mandatory": true,
+            "queueName": "MQ_topic_login_sync",
+            "limit": {
+                "enabled": false,
+                "count": 1,
+                "flag": false
+            },
+            "exclusive": false
+        }
+    }
+}

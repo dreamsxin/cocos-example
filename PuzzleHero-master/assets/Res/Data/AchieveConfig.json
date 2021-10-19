@@ -1,0 +1,219 @@
+[
+    {
+        "id": 0,
+        "name": "战斗大师I",
+        "intro": "获得50场战斗胜利",
+        "amount": 50,
+        "bounes": 50
+    },
+    {
+        "id": 1,
+        "name": "战斗大师II",
+        "intro": "获得120场战斗胜利",
+        "amount": 120,
+        "bounes": 100
+    },
+    {
+        "id": 2,
+        "name": "战斗大师III",
+        "intro": "获得200场战斗胜利",
+        "amount": 200,
+        "bounes": 200
+    },
+    {
+        "id": 3,
+        "name": "五彩斑斓I",
+        "intro": "消除2000个方块",
+        "amount": 2000,
+        "bounes": 50
+    },
+    {
+        "id": 4,
+        "name": "五彩斑斓II",
+        "intro": "消除5000个方块",
+        "amount": 5000,
+        "bounes": 100
+    },
+    {
+        "id": 5,
+        "name": "五彩斑斓III",
+        "intro": "消除10000个方块",
+        "amount": 10000,
+        "bounes": 200
+    },
+    {
+        "id": 6,
+        "name": "势不可挡",
+        "intro": "连续获得5场胜利",
+        "amount": 5,
+        "bounes": 50
+    },
+    {
+        "id": 7,
+        "name": "无懈可击",
+        "intro": "连续获得8场胜利",
+        "amount": 8,
+        "bounes": 100
+    },
+    {
+        "id": 8,
+        "name": "超神传奇",
+        "intro": "连续获得10场胜利",
+        "amount": 10,
+        "bounes": 200
+    },
+    {
+        "id": 9,
+        "name": "藏宝阁I",
+        "intro": "开启25个任意宝箱",
+        "amount": 25,
+        "bounes": 50
+    },
+    {
+        "id": 10,
+        "name": "藏宝阁II",
+        "intro": "开启50个任意宝箱",
+        "amount": 50,
+        "bounes": 100
+    },
+    {
+        "id": 11,
+        "name": "藏宝阁III",
+        "intro": "开启100个任意宝箱",
+        "amount": 100,
+        "bounes": 200
+    },
+    {
+        "id": 12,
+        "name": "幸存者I",
+        "intro": "让你的英雄存活10个或更多的回合",
+        "amount": 10,
+        "bounes": 50
+    },
+    {
+        "id": 13,
+        "name": "幸存者II",
+        "intro": "让你的英雄存活13个或更多的回合",
+        "amount": 13,
+        "bounes": 100
+    },
+    {
+        "id": 14,
+        "name": "幸存者III",
+        "intro": "让你的英雄存活15个或更多的回合",
+        "amount": 15,
+        "bounes": 200
+    },
+    {
+        "id": 15,
+        "name": "完璧归赵I",
+        "intro": "在基地剩余血量50或更低的情况下击败对手",
+        "amount": 1,
+        "bounes": 50
+    },
+    {
+        "id": 16,
+        "name": "完璧归赵II",
+        "intro": "在基地剩余血量30或更低的情况下击败对手",
+        "amount": 1,
+        "bounes": 100
+    },
+    {
+        "id": 17,
+        "name": "完璧归赵III",
+        "intro": "在基地剩余血量10或更低的情况下击败对手",
+        "amount": 1,
+        "bounes": 200
+    },
+    {
+        "id": 18,
+        "name": "统御I",
+        "intro": "在基地剩余血量165或更高的情况下击败对手",
+        "amount": 165,
+        "bounes": 50
+    },
+    {
+        "id": 19,
+        "name": "统御II",
+        "intro": "在基地剩余血量180或更高的情况下击败对手",
+        "amount": 180,
+        "bounes": 100
+    },
+    {
+        "id": 20,
+        "name": "统御III",
+        "intro": "在基地剩余血量200或更高的情况下击败对手",
+        "amount": 200,
+        "bounes": 200
+    },
+    {
+        "id": 21,
+        "name": "成吨输出I",
+        "intro": "造成大于对手基地生命值50或者更多的伤害",
+        "amount": 50,
+        "bounes": 50
+    },
+    {
+        "id": 22,
+        "name": "成吨输出II",
+        "intro": "造成大于对手基地生命值75或者更多的伤害",
+        "amount": 75,
+        "bounes": 100
+    },
+    {
+        "id": 23,
+        "name": "成吨输出III",
+        "intro": "造成大于对手基地生命值120或者更多的伤害",
+        "amount": 120,
+        "bounes": 200
+    },
+    {
+        "id": 24,
+        "name": "新手",
+        "intro": "达到青铜之拳段位",
+        "amount": 1,
+        "bounes": 50
+    },
+    {
+        "id": 25,
+        "name": "学徒",
+        "intro": "达到白银之手段位",
+        "amount": 1,
+        "bounes": 50
+    },
+    {
+        "id": 26,
+        "name": "高手",
+        "intro": "达到胜利黄金段位",
+        "amount": 1,
+        "bounes": 50
+    },
+    {
+        "id": 27,
+        "name": "大师",
+        "intro": "达到闪耀铂金段位",
+        "amount": 1,
+        "bounes": 50
+    },
+    {
+        "id": 28,
+        "name": "统领",
+        "intro": "达到完美钻石段位",
+        "amount": 1,
+        "bounes": 100
+    },
+    {
+        "id": 29,
+        "name": "将军",
+        "intro": "达到无敌巅峰段位",
+        "amount": 1,
+        "bounes": 100
+    },
+    {
+        "id": 30,
+        "name": "王者",
+        "intro": "达到上帝之手段位",
+        "amount": 1,
+        "bounes": 200
+    }
+]

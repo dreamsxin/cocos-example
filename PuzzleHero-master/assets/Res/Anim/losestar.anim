@@ -1,0 +1,87 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "losestar",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.9166666666666666,
+          "value": 0,
+          "curve": "cubicOut"
+        },
+        {
+          "frame": 1.0833333333333333,
+          "value": 50,
+          "curve": "cubicIn"
+        },
+        {
+          "frame": 1.5,
+          "value": -853.704
+        }
+      ],
+      "color": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          }
+        },
+        {
+          "frame": 0.45,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 31,
+            "g": 31,
+            "b": 31,
+            "a": 255
+          }
+        }
+      ],
+      "scale": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1,
+            "y": 1
+          }
+        }
+      ],
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.9166666666666666,
+          "value": 0
+        },
+        {
+          "frame": 1.5,
+          "value": 360
+        }
+      ]
+    }
+  },
+  "events": []
+}

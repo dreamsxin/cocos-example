@@ -1,0 +1,908 @@
+//=================================================
+// 玩家
+//=================================================
+
+协议码：1001
+描述：玩家登陆
+请求参数：
+{
+    token: string // 登陆令牌
+}
+返回数据:
+{
+    player: {
+        info: {
+            player_id: string // 玩家ID
+            name: string // 玩家名称
+            head: string // 玩家头像
+            level: number // 玩家等级
+            exp: number // 玩家经验
+            diamind: number // 钻石
+            gold: number // 金币
+            vitality_val: number // 体力
+            battle_val: number // 战力
+            career_lv: number // 官阶
+            power_val: number // 权力
+            popularity_val: number // 人气
+            glamour_val: number // 魅力
+            title_id: number // 玩家头像
+            hair_id: number // 玩家发型ID
+            face_id: number // 玩家表情ID
+            body_id: number // 玩家身体ID
+        }
+    }
+    hero: {
+        info: [
+            {
+                hero_id: number
+                pos: number // 布阵位置
+                level: number // 等级
+                exp: number // 经验
+                star: number // 星级
+                step: number // 突破层级
+                type: number // 类型
+                occupation: number // 职业
+                occupation_lv: number // 职业级别
+                power: number // 战力
+                // 基础属性
+                attr_base_atk: number // 攻击
+                attr_base_def: number // 防御
+                attr_base_hp: number // 气血
+                attr_base_dex: number // 敏捷
+                attr_base_critical: number // 会心
+                attr_base_sta: number // 韧性
+                attr_base_acc: number // 命中
+                attr_base_eva: number // 闪避
+                // 突破属性
+                attr_step_atk: number
+                attr_step_def: number
+                attr_step_hp: number
+                attr_step_dex: number
+                attr_step_critical: number
+                attr_step_sta: number
+                attr_step_acc: number
+                attr_step_eva: number
+                // 升星属性
+                attr_evolution_atk: number
+                attr_evolution_def: number
+                attr_evolution_hp: number
+                attr_evolution_dex: number
+                attr_evolution_critical: number
+                attr_evolution_sta: number
+                attr_evolution_acc: number
+                attr_evolution_eva: number
+                lottype: number // 羁绊类型
+                skills: array // 技能列表
+            }
+        ]
+    }
+    item: {
+        info: [
+            {
+                id: number 道具ID
+                count: number 数量
+            }
+        ]
+    }
+    quest: {
+        info: [
+            {
+                id: number 副本ID
+                star: number 星级（0-3）
+            }
+        ]
+    }
+    starawards: { // 星级宝箱
+        info: [
+            {
+                id: number 章节ID
+                pos: number 星级宝箱位置
+            }
+        ]
+    }
+    clothes: {
+        hair: number // 发型
+        makeup: number // 妆容
+        topClothe: number // 上装 
+        bottomClothe: number // 下装
+        fullClothe: number // 上下套
+        headwear: number // 头饰
+        neckwear: number // 颈饰
+        ear: number //  耳饰
+        hang: number // 挂饰
+        handwear: number // 手饰 
+        handheld: number // 手持
+        sock: number //  袜子
+        shoe: number // 鞋子
+    }
+    wardrobes: { // 衣柜数据
+        info: [
+            {
+                id: number // 服饰ID
+                count: number // 数量
+            }
+        ]
+    }
+}
+
+---------------------------------------------------
+
+协议码：1002
+描述：玩家创角
+请求参数：
+{
+    token: string // 登陆令牌
+    name: string // 玩家名称
+}
+返回数据:
+{
+    player: {
+        info: {
+            player_id: string // 玩家ID
+            name: string // 玩家名称
+            head: string // 玩家头像
+            level: number // 玩家等级
+            exp: number // 玩家经验
+            diamind: number // 钻石
+            gold: number // 金币
+            vitality_val: number // 体力
+            battle_val: number // 战力
+            career_lv: number // 官阶
+            power_val: number // 权力
+            popularity_val: number // 人气
+            glamour_val: number // 魅力
+            title_id: number // 玩家头像
+            hair_id: number // 玩家发型ID
+            face_id: number // 玩家表情ID
+            body_id: number // 玩家身体ID
+        }
+    }
+    hero: {
+        info: [
+            {
+                hero_id: number
+                pos: number // 布阵位置
+                level: number // 等级
+                exp: number // 经验
+                star: number // 星级
+                step: number // 突破层级
+                type: number // 类型
+                occupation: number // 职业
+                occupation_lv: number // 职业级别
+                power: number // 战力
+                // 基础属性
+                attr_base_atk: number
+                attr_base_def: number
+                attr_base_hp: number
+                attr_base_dex: number
+                attr_base_critical: number
+                attr_base_sta: number
+                attr_base_acc: number
+                attr_base_eva: number
+                // 突破属性
+                attr_step_atk: number
+                attr_step_def: number
+                attr_step_hp: number
+                attr_step_dex: number
+                attr_step_critical: number
+                attr_step_sta: number
+                attr_step_acc: number
+                attr_step_eva: number
+                // 升星属性
+                attr_evolution_atk: number
+                attr_evolution_def: number
+                attr_evolution_hp: number
+                attr_evolution_dex: number
+                attr_evolution_critical: number
+                attr_evolution_sta: number
+                attr_evolution_acc: number
+                attr_evolution_eva: number
+                lottype: number // 羁绊类型
+                skills: array // 技能列表
+            }
+        ]
+    }
+    item: {
+        info: [
+            {
+                id: number 道具ID
+                count: number 数量
+            }
+        ]
+    }
+    quest: {
+        info: [
+            {
+                id: number 副本ID
+                star: number 星级（0-3）
+            }
+        ]
+    }
+    starawards: { // 星级宝箱
+        info: [
+            {
+                id: number 章节ID
+                pos: number 星级宝箱位置
+            }
+        ]
+    }
+    clothes: {
+        info: {
+            hair: number // 发型
+            makeup: number // 妆容
+            topClothe: number // 上装 
+            bottomClothe: number // 下装
+            fullClothe: number // 上下套
+            headwear: number // 头饰
+            neckwear: number // 颈饰
+            ear: number //  耳饰
+            hang: number // 挂饰
+            handwear: number // 手饰 
+            handheld: number // 手持
+            sock: number //  袜子
+            shoe: number // 鞋子
+        }
+    }
+    wardrobes: { // 衣柜数据
+        info: [
+            {
+                id: number // 服饰ID
+                count: number // 数量
+            }
+        ]
+    }
+}
+
+---------------------------------------------------
+
+协议码：1003
+描述：玩家设置着装
+请求参数：
+{
+    hair: number // 发型
+    makeup: number // 妆容
+    topClothe: number // 上装 
+    bottomClothe: number // 下装
+    fullClothe: number // 上下套
+    headwear: number // 头饰
+    neckwear: number // 颈饰
+    ear: number //  耳饰
+    hang: number // 挂饰
+    handwear: number // 手饰 
+    handheld: number // 手持
+    sock: number //  袜子
+    shoe: number // 鞋子
+}
+返回数据:
+{
+    clothes: {
+        info: {
+            hair: number // 发型
+            makeup: number // 妆容
+            topClothe: number // 上装 
+            bottomClothe: number // 下装
+            fullClothe: number // 上下套
+            headwear: number // 头饰
+            neckwear: number // 颈饰
+            ear: number //  耳饰
+            hang: number // 挂饰
+            handwear: number // 手饰 
+            handheld: number // 手持
+            sock: number //  袜子
+            shoe: number // 鞋子
+        }
+    }
+}
+
+//=================================================
+// 关卡
+//=================================================
+
+协议码: 1050
+描述：PVE战斗
+请求参数：
+{
+    questId: number // 副本ID
+}
+返回数据：
+{
+    battle: {
+        data: {
+            playRecord: Object // 战报
+            battleIndex: Array // 战斗索引数据
+        }
+        result: {
+            win: boolean // 输赢
+            reward: [
+                {
+                    id: number // 道具ID（含货币ID等）
+                    count: number // 数量
+                }
+            ]
+        }
+    }    
+    quest: {
+        info: [
+            {
+                id: number // 副本ID
+                star: number // 星级（0-3）
+                curStar: number // 当前评星
+                isFirst: boolean // 是否首次
+            }
+        ]
+    }
+    player: {
+        info: {...}
+    }
+    item: {
+        info: [...]
+    }
+}
+
+---------------------------------------------------
+
+协议码: 1051
+描述：副本剧情（已读完记录）
+请求参数：
+{
+    questId: number // 副本ID
+}
+返回数据：
+{
+    quest: {
+        info: [
+            {
+                id: number // 副本ID
+                star: number // 星级（0-3）
+                curStar: number // 当前评星
+                isFirst: boolean // 是否首次
+            }
+        ]
+    }
+}
+
+---------------------------------------------------
+
+协议码：1052
+描述：副本配装
+请求参数：
+{
+    questId: number 配装副本ID
+    clothes: {
+        hair: number // 发型
+        makeup: number // 妆容
+        topClothe: number // 上装 
+        bottomClothe: number // 下装
+        fullClothe: number // 上下套
+        headwear: number // 头饰
+        neckwear: number // 颈饰
+        ear: number //  耳饰
+        hang: number // 挂饰
+        handwear: number // 手饰 
+        handheld: number // 手持
+        sock: number //  袜子
+        shoe: number // 鞋子
+    }
+}
+返回数据:
+{
+    quest: {
+        info: [
+            {
+                id: number // 副本ID
+                star: number // 星级（0-3）
+                curStar: number // 当前评星
+                isFirst: boolean // 是否首次
+            }
+        ]
+        result: {
+            score: number // 总评分
+            styles: [
+                {
+                    id: number // 风格ID
+                    score: number // 风格评分
+                }
+            ]
+            reward: [
+                {
+                    id: number // 道具ID（含货币ID等）
+                    count: number // 数量
+                }
+            ]
+        }
+    }
+}
+
+---------------------------------------------------
+
+协议码：1053
+描述：副本星级宝箱
+请求参数：
+{
+    chapterId: number // 章节ID
+    pos: number // 宝箱位置（1-3）
+}
+返回数据:
+{
+    item: {
+        reward: [
+            {
+                id: number // 道具ID（含货币ID等）
+                count: number // 数量
+            }
+        ]
+    }
+    starawards: {
+        info: [
+            {
+                id: number // 章节ID
+                pos: number // 宝箱位置
+            }
+        ]
+    }
+}
+
+//=================================================
+// 随从
+//=================================================
+
+协议码: 1102
+描述：随从升级
+请求参数：
+{
+    heroId: number // 随从ID
+    state: number // 升级（一键升级）状态：0 升级，1 一键升级
+}
+返回数据：
+{
+    hero: {
+        info: [
+            {
+                hero_id: number
+                pos: number // 布阵位置
+                level: number // 等级
+                exp: number // 经验
+                star: number // 星级
+                step: number // 突破层级
+                type: number // 类型
+                occupation: number // 职业
+                occupation_lv: number // 职业级别
+                power: number // 战力
+                // 基础属性
+                attr_base_atk: number
+                attr_base_def: number
+                attr_base_hp: number
+                attr_base_dex: number
+                attr_base_critical: number
+                attr_base_sta: number
+                attr_base_acc: number
+                attr_base_eva: number
+                // 突破属性
+                attr_step_atk: number
+                attr_step_def: number
+                attr_step_hp: number
+                attr_step_dex: number
+                attr_step_critical: number
+                attr_step_sta: number
+                attr_step_acc: number
+                attr_step_eva: number
+                // 升星属性
+                attr_evolution_atk: number
+                attr_evolution_def: number
+                attr_evolution_hp: number
+                attr_evolution_dex: number
+                attr_evolution_critical: number
+                attr_evolution_sta: number
+                attr_evolution_acc: number
+                attr_evolution_eva: number
+                lottype: number // 羁绊类型
+                skills: array // 技能列表
+            }
+        ]
+    }
+    item: {
+        info: [
+            {
+                id: number
+                count: number
+            }
+        ]
+    }
+}
+
+---------------------------------------------------
+
+协议码: 1103
+描述：随从突破
+请求参数：
+{
+    heroId: number // 随从ID
+}
+返回数据：
+{
+    hero: {
+        info: [
+            {
+                hero_id: number
+                pos: number // 布阵位置
+                level: number // 等级
+                exp: number // 经验
+                star: number // 星级
+                step: number // 突破层级
+                type: number // 类型
+                occupation: number // 职业
+                occupation_lv: number // 职业级别
+                power: number // 战力
+                // 基础属性
+                attr_base_atk: number
+                attr_base_def: number
+                attr_base_hp: number
+                attr_base_dex: number
+                attr_base_critical: number
+                attr_base_sta: number
+                attr_base_acc: number
+                attr_base_eva: number
+                // 突破属性
+                attr_step_atk: number
+                attr_step_def: number
+                attr_step_hp: number
+                attr_step_dex: number
+                attr_step_critical: number
+                attr_step_sta: number
+                attr_step_acc: number
+                attr_step_eva: number
+                // 升星属性
+                attr_evolution_atk: number
+                attr_evolution_def: number
+                attr_evolution_hp: number
+                attr_evolution_dex: number
+                attr_evolution_critical: number
+                attr_evolution_sta: number
+                attr_evolution_acc: number
+                attr_evolution_eva: number
+                lottype: number // 羁绊类型
+                skills: array // 技能列表
+            }
+        ]
+    }
+    item: {
+        info: [
+            {
+                id: number
+                count: number
+            }
+        ]
+    }
+}
+
+---------------------------------------------------
+
+协议码: 1104
+描述：随从升星
+请求参数：
+{
+    heroId: number // 随从ID
+}
+返回数据：
+{
+    hero: {
+        info: [
+            {
+                hero_id: number
+                pos: number // 布阵位置
+                level: number // 等级
+                exp: number // 经验
+                star: number // 星级
+                step: number // 突破层级
+                type: number // 类型
+                occupation: number // 职业
+                occupation_lv: number // 职业级别
+                power: number // 战力
+                // 基础属性
+                attr_base_atk: number
+                attr_base_def: number
+                attr_base_hp: number
+                attr_base_dex: number
+                attr_base_critical: number
+                attr_base_sta: number
+                attr_base_acc: number
+                attr_base_eva: number
+                // 突破属性
+                attr_step_atk: number
+                attr_step_def: number
+                attr_step_hp: number
+                attr_step_dex: number
+                attr_step_critical: number
+                attr_step_sta: number
+                attr_step_acc: number
+                attr_step_eva: number
+                // 升星属性
+                attr_evolution_atk: number
+                attr_evolution_def: number
+                attr_evolution_hp: number
+                attr_evolution_dex: number
+                attr_evolution_critical: number
+                attr_evolution_sta: number
+                attr_evolution_acc: number
+                attr_evolution_eva: number
+                lottype: number // 羁绊类型
+                skills: array // 技能列表
+            }
+        ]
+    }
+    item: {
+        info: [
+            {
+                id: number
+                count: number
+            }
+        ]
+    }
+}
+
+---------------------------------------------------
+
+协议码: 1105
+描述：随从换位
+请求参数：
+{
+    heroId: number // 布阵随从ID
+    pos: number // 布阵位置
+}
+返回数据：
+{
+    hero: {
+        info: [
+            {
+                hero_id: number
+                pos: number // 布阵位置
+                level: number // 等级
+                exp: number // 经验
+                star: number // 星级
+                step: number // 突破层级
+                type: number // 类型
+                occupation: number // 职业
+                occupation_lv: number // 职业级别
+                power: number // 战力
+                // 基础属性
+                attr_base_atk: number
+                attr_base_def: number
+                attr_base_hp: number
+                attr_base_dex: number
+                attr_base_critical: number
+                attr_base_sta: number
+                attr_base_acc: number
+                attr_base_eva: number
+                // 突破属性
+                attr_step_atk: number
+                attr_step_def: number
+                attr_step_hp: number
+                attr_step_dex: number
+                attr_step_critical: number
+                attr_step_sta: number
+                attr_step_acc: number
+                attr_step_eva: number
+                // 升星属性
+                attr_evolution_atk: number
+                attr_evolution_def: number
+                attr_evolution_hp: number
+                attr_evolution_dex: number
+                attr_evolution_critical: number
+                attr_evolution_sta: number
+                attr_evolution_acc: number
+                attr_evolution_eva: number
+                lottype: number // 羁绊类型
+                skills: array // 技能列表
+            }
+        ]
+    }
+}
+
+---------------------------------------------------
+
+协议码: 1106
+描述：随从布阵
+请求参数：
+{
+    embattle: [
+        {
+            id: number // 随从ID
+            pos: number // 位置
+        }
+    ]
+}
+返回数据：
+{
+    hero: {
+        info: [
+        ]
+    }
+}
+
+//=================================================
+// 抽卡
+//=================================================
+
+协议码: 1201
+描述：抽卡
+请求参数：
+{
+    count: number // 抽卡次数（单抽和十连，仅限制1和10）
+}
+返回数据：
+{
+    hero: {
+        info: [
+        ]
+    }
+    item: {
+        info: [
+        ]
+    }
+    drawCard: {
+        info: {
+            count: number // 剩余次数必出（单抽保底）
+            hero: [
+                {
+                    id: number // 随从ID
+                    count: number // 数量（当非碎片值为0）
+                }
+            ]
+        }
+    }
+}
+
+//=================================================
+// 模拟经营
+//=================================================
+
+协议码: 1251
+描述：生产列表
+请求参数：
+{
+}
+返回数据：
+{
+    time: {
+        info: {
+            ctime: datetime // 当前时间
+        }
+    }
+    work: {
+        info: {
+            level: number // 柜台等级
+            data: [
+                {
+                    type: number // 类型（1 织机 2 印染 3 蚕田 4 车床）
+                    id: number // 产物ID
+                    count: number // 产物数量
+                    etime: timestamp // 结束时间
+                }
+            ]
+        }
+    }
+    order: { // 订单
+        info: {
+            refresh_etime: number // 刷新结束时间
+            refresh_free_count: number // 免费次数
+            refresh_count: number // 刷新次数
+            data: [
+                {
+                    id: number // 订单ID
+                    status: number // 订单状态（0 未领 1 已领）
+                }
+            ]
+        }
+    }
+    warehouse: { // 仓库
+        info: {
+            level: number // 仓库等级
+            data: [ // 仓库列表
+                {
+                    id: number // 产物ID
+                    count: number // 产物数量
+                    max_count: number // 当前最大容量
+                }
+            ]
+        }
+    }
+}
+
+---------------------------------------------------
+
+协议码: 1252
+描述：收取产物
+请求参数：
+{
+    type: number 类型
+}
+返回数据：
+{
+    work: {
+        info: {}
+        reward: {
+            type: number
+            id: number
+            count: number
+        }
+    }
+    warehouse: {}
+}
+
+---------------------------------------------------
+
+协议码: 1253
+描述：加速生产
+请求参数：
+{
+    type: number 类型
+}
+返回数据：
+{
+    work: {}
+    player: {}
+}
+
+---------------------------------------------------
+
+协议码: 1254
+描述：升级柜台
+请求参数：
+{
+}
+返回数据：
+{
+    work: {}
+    player: {}
+}
+
+---------------------------------------------------
+
+协议码: 1255
+描述：刷新订单（免费刷新、付费刷新）
+请求参数：
+{
+}
+返回数据：
+{
+    order: {}
+    player: {}
+}
+
+---------------------------------------------------
+
+协议码: 1256
+描述：领取订单报酬
+请求参数：
+{
+    orderId: number // 订单ID
+}
+返回数据：
+{
+    item: {
+        reward: [
+            {
+                id: number // 道具ID（含货币ID等）
+                count: number // 数量
+            }
+        ]
+    }
+    order: {
+        info: {}
+    }
+    player: {}
+    warehouse: {}
+}
+
+---------------------------------------------------
+
+协议码: 1257
+描述：升级仓库
+请求参数：
+{
+}
+返回数据：
+{
+    player: {}
+    warehouse: {}
+}

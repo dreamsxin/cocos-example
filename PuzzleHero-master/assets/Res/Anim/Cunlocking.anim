@@ -1,0 +1,2165 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Cunlocking",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "C2/B": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 89.508,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 34.411
+            },
+            {
+              "frame": 2.5,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 89.508,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": 34.411
+            }
+          ]
+        }
+      },
+      "C2/C": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 106.971,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 34.411
+            },
+            {
+              "frame": 2.5,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 106.971,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": 34.411
+            },
+            {
+              "frame": 5,
+              "value": 34.411
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.5,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": -5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0
+            },
+            {
+              "frame": 3,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "C1/B": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 89.508,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 34.411
+            },
+            {
+              "frame": 2.5,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 89.508,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": 34.411
+            }
+          ]
+        }
+      },
+      "C3/B": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 89.508,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 34.411
+            },
+            {
+              "frame": 2.5,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 89.508,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": 34.411
+            }
+          ]
+        }
+      },
+      "C4/B": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 89.508,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 34.411
+            },
+            {
+              "frame": 2.5,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 89.508,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": 34.411
+            }
+          ]
+        }
+      },
+      "C5/B": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 89.508,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 34.411
+            },
+            {
+              "frame": 2.5,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 89.508,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": 34.411
+            }
+          ]
+        }
+      },
+      "C1/C": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 106.971,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 34.411
+            },
+            {
+              "frame": 2.5,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 106.971,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": 34.411
+            },
+            {
+              "frame": 5,
+              "value": 34.411
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.5,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": -5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0
+            },
+            {
+              "frame": 3,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "C3/C": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 106.971,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 34.411
+            },
+            {
+              "frame": 2.5,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 106.971,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": 34.411
+            },
+            {
+              "frame": 5,
+              "value": 34.411
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.5,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": -5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0
+            },
+            {
+              "frame": 3,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "C4/C": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 106.971,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 34.411
+            },
+            {
+              "frame": 2.5,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 106.971,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": -5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": 34.411
+            },
+            {
+              "frame": 5,
+              "value": 34.411
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.5,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": -5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0
+            },
+            {
+              "frame": 3,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "C5/C": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 2.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              }
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.8,
+                "y": 2.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.5,
+                "y": 1.8
+              },
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.5,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 106.971,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.5,
+              "value": 34.411
+            },
+            {
+              "frame": 2.5,
+              "value": 34.099,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3,
+              "value": 25.924,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 106.971,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 55.121,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 25.691,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 4,
+              "value": 34.411
+            },
+            {
+              "frame": 5,
+              "value": 34.411
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.5,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": -5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 0
+            },
+            {
+              "frame": 3,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 3.3333333333333335,
+              "value": 5,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

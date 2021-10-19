@@ -1,0 +1,62 @@
+
+kuloubing.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: false
+  xy: 568, 6
+  size: 166, 240
+  orig: 166, 240
+  offset: 0, 0
+  index: -1
+L_armor
+  rotate: false
+  xy: 1251, 174
+  size: 79, 72
+  orig: 79, 72
+  offset: 0, 0
+  index: -1
+L_axe
+  rotate: false
+  xy: 1082, 79
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: false
+  xy: 900, 39
+  size: 180, 207
+  orig: 180, 207
+  offset: 0, 0
+  index: -1
+R_armor
+  rotate: false
+  xy: 1251, 112
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+R_axe
+  rotate: false
+  xy: 736, 15
+  size: 162, 231
+  orig: 162, 231
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 6
+  size: 240, 298
+  orig: 240, 298
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 302, 2
+  size: 264, 244
+  orig: 264, 244
+  offset: 0, 0
+  index: -1
