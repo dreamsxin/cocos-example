@@ -1,0 +1,82 @@
+{
+  "assets-sort-type": "name",
+  "collision-matrix": [
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "design-resolution-height": 2560,
+  "design-resolution-width": 1440,
+  "excluded-modules": [
+    "DragonBones",
+    "EditBox",
+    "NodePool",
+    "Native Socket",
+    "PageView",
+    "PageViewIndicator",
+    "ProgressBar",
+    "Spine Skeleton",
+    "TiledMap",
+    "VideoPlayer",
+    "WebView",
+    "3D",
+    "3D Primitive"
+  ],
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "fit-height": true,
+  "fit-width": false,
+  "group-list": [
+    "default",
+    "platform",
+    "ball",
+    "hole",
+    "ground"
+  ],
+  "last-module-event-record-time": 1582739140268,
+  "simulator-orientation": false,
+  "simulator-resolution": {
+    "height": 1280,
+    "width": 720
+  },
+  "use-customize-simulator": true,
+  "use-project-simulator-setting": true,
+  "start-scene": "current"
+}

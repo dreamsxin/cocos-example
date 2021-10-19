@@ -1,0 +1,742 @@
+2021-10-19T03:21:14.163Z - normal: Load ~/.CocosCreator/settings.json
+2021-10-19T03:21:14.291Z - normal: Initializing Asset Database
+2021-10-19T03:21:14.294Z - normal: checking language setting...
+2021-10-19T03:21:14.294Z - normal: Language: zh
+2021-10-19T03:21:14.969Z - success: preview server running at http://localhost:7456
+2021-10-19T03:21:14.978Z - success: protocol editor-framework registered
+2021-10-19T03:21:14.978Z - success: protocol app registered
+2021-10-19T03:21:14.978Z - success: protocol theme registered
+2021-10-19T03:21:14.978Z - success: protocol packages registered
+2021-10-19T03:21:14.978Z - success: protocol uuid registerred
+2021-10-19T03:21:14.978Z - success: protocol db registerred
+2021-10-19T03:21:14.979Z - success: protocol thumbnail registerred
+2021-10-19T03:21:14.979Z - success: protocol unpack registerred
+2021-10-19T03:21:14.979Z - success: protocol disable-commonjs registerred
+2021-10-19T03:21:15.124Z - normal: connected!
+2021-10-19T03:21:15.125Z - normal: Check project D:\workspace\cocos-example\Top-Down-Shooter
+2021-10-19T03:21:15.128Z - normal: Initializing project D:\workspace\cocos-example\Top-Down-Shooter
+2021-10-19T03:21:15.153Z - success: adapters loaded
+2021-10-19T03:21:15.157Z - success: asset-db-debugger loaded
+2021-10-19T03:21:15.230Z - success: fb-audience-network loaded
+2021-10-19T03:21:15.255Z - success: fb-live-stream loaded
+2021-10-19T03:21:15.258Z - success: google-play-instant loaded
+2021-10-19T03:21:15.264Z - success: huawei-runtime loaded
+2021-10-19T03:21:15.266Z - success: jkw-adapter loaded
+2021-10-19T03:21:15.267Z - success: jsb-adapter loaded
+2021-10-19T03:21:15.272Z - success: oppo-runtime loaded
+2021-10-19T03:21:15.277Z - success: package-manager loaded
+2021-10-19T03:21:15.278Z - success: qtt-adapter loaded
+2021-10-19T03:21:15.281Z - success: runtime-dev-tools loaded
+2021-10-19T03:21:15.287Z - success: sdkbox loaded
+2021-10-19T03:21:15.291Z - success: ui-kit-preview-extra loaded
+2021-10-19T03:21:15.294Z - success: ui-kit-preview loaded
+2021-10-19T03:21:15.350Z - success: vivo-runtime loaded
+2021-10-19T03:21:15.356Z - success: alipay-minigame loaded
+2021-10-19T03:21:15.474Z - success: assets loaded
+2021-10-19T03:21:15.477Z - success: baidugame-opendata loaded
+2021-10-19T03:21:15.480Z - success: baidugame loaded
+2021-10-19T03:21:15.483Z - success: builder loaded
+2021-10-19T03:21:15.612Z - success: cocos-services loaded
+2021-10-19T03:21:15.615Z - success: console loaded
+2021-10-19T03:21:15.625Z - success: fb-instant-games loaded
+2021-10-19T03:21:15.627Z - success: game-window loaded
+2021-10-19T03:21:15.628Z - success: google-instant-games loaded
+2021-10-19T03:21:15.631Z - success: hierarchy loaded
+2021-10-19T03:21:15.634Z - success: inspector loaded
+2021-10-19T03:21:15.938Z - success: cpk-publish loaded
+2021-10-19T03:21:15.944Z - success: keystore loaded
+2021-10-19T03:21:15.960Z - success: node-library loaded
+2021-10-19T03:21:15.963Z - success: open-recent-items loaded
+2021-10-19T03:21:15.966Z - success: package-asset loaded
+2021-10-19T03:21:15.967Z - success: preferences loaded
+2021-10-19T03:21:15.969Z - success: project-exporter loaded
+2021-10-19T03:21:15.971Z - success: project-importer loaded
+2021-10-19T03:21:15.972Z - success: project-settings loaded
+2021-10-19T03:21:15.987Z - success: qtt-runtime loaded
+2021-10-19T03:21:15.989Z - success: scene loaded
+2021-10-19T03:21:15.991Z - success: simulator-debugger loaded
+2021-10-19T03:21:15.992Z - success: sprite-editor loaded
+2021-10-19T03:21:15.993Z - success: store loaded
+2021-10-19T03:21:15.996Z - success: timeline loaded
+2021-10-19T03:21:15.999Z - success: wechatgame-opendata loaded
+2021-10-19T03:21:16.003Z - success: wechatgame loaded
+2021-10-19T03:21:16.007Z - success: xiaomi-runtime loaded
+2021-10-19T03:21:16.068Z - success: im-plugin loaded
+2021-10-19T03:21:17.115Z - info: Cocos Service load base data!
+2021-10-19T03:21:17.444Z - normal: Initializing Cocos2d
+2021-10-19T03:21:17.980Z - normal: Initializing engine extends
+2021-10-19T03:21:23.537Z - normal: Loading packages
+2021-10-19T03:21:23.571Z - normal: Watching packages
+2021-10-19T03:21:25.178Z - normal: Run Application
+2021-10-19T03:21:37.602Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2021-10-19T03:21:37.602Z - normal: Simulator: WORKAREA WIDTH 1528.00, HEIGHT 783.00
+2021-10-19T03:21:37.602Z - normal: Simulator: FRAME SCALE = 1.00
+2021-10-19T03:21:37.951Z - normal: Simulator: Ready for GLSL
+2021-10-19T03:21:37.951Z - normal: Simulator: Ready for OpenGL 2.0
+2021-10-19T03:21:37.952Z - normal: Simulator: Project Config:
+2021-10-19T03:21:37.952Z - normal: Simulator:     project dir: D:\CocosCreator_2.2.2\resources\cocos2d-x\simulator\win32\
+2021-10-19T03:21:37.952Z - normal: Simulator:     writable path: $(PROJDIR)\
+2021-10-19T03:21:37.952Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2021-10-19T03:21:37.953Z - normal: Simulator:     frame size: 960 x 640
+2021-10-19T03:21:37.953Z - normal: Simulator:     frame scale: 1.00
+2021-10-19T03:21:37.953Z - normal: Simulator:     show console: NO
+2021-10-19T03:21:37.953Z - normal: Simulator:     write debug log: NO ()
+2021-10-19T03:21:37.954Z - normal: Simulator:     listen: 
+2021-10-19T03:21:37.954Z - normal: Simulator:     debugger: none
+2021-10-19T03:21:37.954Z - normal: Simulator:     add searching path:
+2021-10-19T03:21:37.955Z - normal: Simulator: 
+2021-10-19T03:21:37.955Z - normal: Simulator: 
+2021-10-19T03:21:37.955Z - normal: Simulator: 
+2021-10-19T03:21:37.955Z - normal: Simulator: resetDesignResolution request
+2021-10-19T03:21:37.956Z - normal: Simulator: ------------------------------------------------
+2021-10-19T03:21:37.956Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2021-10-19T03:21:37.956Z - normal: Simulator: ------------------------------------------------
+2021-10-19T03:21:37.956Z - normal: Simulator: D/jswrapper (367): Initializing V8, version: 7.5.288.22
+2021-10-19T03:21:38.906Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2021-10-19T03:21:38.907Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2021-10-19T03:21:38.908Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2021-10-19T03:21:38.946Z - normal: Simulator: D/jswrapper (130): JS: Enable batch GL commands optimization!
+2021-10-19T03:21:38.948Z - normal: Simulator: resetDesignResolution request
+2021-10-19T03:21:38.948Z - normal: Simulator: ------------------------------------------------
+2021-10-19T03:21:38.948Z - normal: Simulator: LOAD Js FILE: main.js
+2021-10-19T03:21:38.949Z - normal: Simulator: ------------------------------------------------
+2021-10-19T03:21:39.190Z - normal: Simulator: iShow!
+2021-10-19T03:21:39.314Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 32, maxFragUniforms: 1024, maxTextureUints: 32, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
+2021-10-19T03:21:39.314Z - normal: Simulator: D/jswrapper (130): JS: Cocos Creator v2.2.2
+2021-10-19T03:21:39.994Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property '1' of undefined, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]shouldCollide@src/cocos2d-jsb.js:14811
+[1]addCollider@src/cocos2d-jsb.js:14911
+[2]onEnable@src/cocos2d-jsb.js:14714
+[3]invokeOnEnable@src/cocos2d-jsb.js:15393
+[4]invoke@src/cocos2d-jsb.js:15305
+[5]activateNode@src/cocos2d-jsb.js:27750
+[6]_activate@src/cocos2d-jsb.js:11627
+[7]runSceneImmediate@src/cocos2d-jsb.js:9413
+[8]anonymous@main.js:54
+[9]anonymous@src/cocos2d-jsb.js:30428
+[10]anonymous@src/cocos2d-jsb.js:24910
+[11]anonymous@src/cocos2d-jsb.js:35171
+[12]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[13]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.007Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_updateCullingMask@src/cocos2d-jsb.js:10211
+[1]_onHierarchyChanged@src/cocos2d-jsb.js:10590
+[2]setParent@src/cocos2d-jsb.js:42597
+[3]insertChild@src/cocos2d-jsb.js:42627
+[4]runSceneImmediate@src/cocos2d-jsb.js:9394
+[5]anonymous@main.js:54
+[6]anonymous@src/cocos2d-jsb.js:30428
+[7]anonymous@src/cocos2d-jsb.js:24910
+[8]anonymous@src/cocos2d-jsb.js:35171
+[9]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[10]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.019Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property '_activeInHierarchy' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]stableRemoveInactive@src/cocos2d-jsb.js:15258
+[1]cancelInactive@src/cocos2d-jsb.js:15294
+[2]activateNode@src/cocos2d-jsb.js:27760
+[3]set@src/cocos2d-jsb.js:42553
+[4]destroy@src/cocos2d-jsb.js:11609
+[5]runSceneImmediate@src/cocos2d-jsb.js:9405
+[6]anonymous@main.js:54
+[7]anonymous@src/cocos2d-jsb.js:30428
+[8]anonymous@src/cocos2d-jsb.js:24910
+[9]anonymous@src/cocos2d-jsb.js:35171
+[10]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[11]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.043Z - normal: Simulator: D/jswrapper (130): JS: [ERROR]: object already destroyed
+2021-10-19T03:21:40.043Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.156Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.261Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.365Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.468Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.568Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.669Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.787Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:40.945Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:41.099Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:41.221Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:41.367Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:41.533Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:41.658Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:41.775Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:41.914Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:42.046Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:42.047Z - error: Simulator: E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:42.218Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:42.402Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:42.611Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:42.815Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:43.000Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:43.175Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:43.361Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:43.541Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:43.674Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:43.793Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:43.940Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:44.069Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:44.186Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:44.186Z - error: Simulator: E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:44.341Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:44.517Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:44.653Z - error: Simulator: E/jswrapper (272): ERROR: Uncaught TypeError: Cannot read property 'length' of null, location: src/cocos2d-jsb.js:0:0
+STACK:
+[0]_activateNodeRecursively@src/cocos2d-jsb.js:27696
+[1]activateNode@src/cocos2d-jsb.js:27747
+[2]_activate@src/cocos2d-jsb.js:11627
+[3]runSceneImmediate@src/cocos2d-jsb.js:9413
+[4]anonymous@main.js:54
+[5]anonymous@src/cocos2d-jsb.js:30428
+[6]anonymous@src/cocos2d-jsb.js:24910
+[7]anonymous@src/cocos2d-jsb.js:35171
+[8]fireTimeout@jsb-adapter/jsb-builtin.js:2038
+[9]tick@jsb-adapter/jsb-builtin.js:2000
+E/jswrapper (562): [ERROR] (c:\fb\cxp_220\cocos\scripting\js-bindings\jswrapper\v8\object.cpp, 562): Invoking function (0DD4AF48) failed!
+    at HTMLElement.print-simulator-log (D:\CocosCreator_2.2.2\resources\app.asar\editor\builtin\scene\panel\messages\scene.js:1:1608)
+    at Object.e._dispatch (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\panel.js:1:1876)
+    at EventEmitter.<anonymous> (D:\CocosCreator_2.2.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:2952)
+    at EventEmitter.emit (events.js:194:13)
+2021-10-19T03:21:44.653Z - normal: Simulator: D/jswrapper (453): ScriptEngine::cleanup begin ...
+2021-10-19T03:21:44.654Z - normal: Simulator: D/jswrapper (592): GC begin ..., (js->native map) size: 145, all objects: 369
+2021-10-19T03:21:44.831Z - normal: Simulator: D/jswrapper (600): GC end ..., (js->native map) size: 49, all objects: 246
+2021-10-19T03:21:44.832Z - normal: Simulator: D/jswrapper (592): GC begin ..., (js->native map) size: 49, all objects: 246
+2021-10-19T03:21:44.850Z - normal: Simulator: D/jswrapper (600): GC end ..., (js->native map) size: 49, all objects: 246
+2021-10-19T03:21:44.874Z - normal: Simulator: D/jswrapper (592): GC begin ..., (js->native map) size: 0, all objects: 0
+2021-10-19T03:21:44.894Z - normal: Simulator: D/jswrapper (600): GC end ..., (js->native map) size: 0, all objects: 0
+2021-10-19T03:21:44.900Z - normal: Simulator: D/jswrapper (514): ScriptEngine::cleanup end ...
+2021-10-19T03:21:46.650Z - info: shutdown preview server

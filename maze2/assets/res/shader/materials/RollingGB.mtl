@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.Material",
+  "_name": "ShaderBG",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "5c422fc9-f35b-4789-8d3d-fda8e78a3156"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      },
+      "props": {
+        "speed": 0.1
+      }
+    }
+  }
+}
